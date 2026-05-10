@@ -1,0 +1,7 @@
+title: Suckling
+description: The custom movie bot for the Return by 9 Discord community.
+theme: minima
+
+header_pages:
+  - COMMANDS.md
+  - CHANGELOG.md
