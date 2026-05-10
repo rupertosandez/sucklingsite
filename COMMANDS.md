@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: default
 title: Commands
 ---
 
 # Suckling Commands
 
-A reference for everything **Suckling** can do. All commands are slash commands, type `/` in any channel where the bot has access to see them in autocomplete.
+A reference for everything **Suckling** can do. All commands are slash commands — type `/` in any channel where the bot has access to see them in autocomplete.
 
 This bot is for the **Return by 9** movie community.
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Suckling
+title: Home
 ---
 
 # Suckling
@@ -9,12 +9,18 @@ title: Suckling
 
 It handles movie lookups, random recommendations, Plex library picks, streaming availability tracking, daily recommendations, and community games like poster guessing and Six Degrees.
 
-## Pages
+<div class="quick-grid">
+  <a class="quick-card" href="{{ '/COMMANDS.html' | relative_url }}">
+    <span>Commands</span>
+    <small>Slash commands, games, Plex tools, tracking, and admin features.</small>
+  </a>
+  <a class="quick-card" href="{{ '/CHANGELOG.html' | relative_url }}">
+    <span>Changelog</span>
+    <small>Recent versions, fixes, and new features.</small>
+  </a>
+</div>
 
-- [Commands](COMMANDS.md)
-- [Changelog](CHANGELOG.md)
-
-## Quick start
+## Quick Start
 
 Type `/` in any Discord channel where Suckling has access to see available slash commands.
 
