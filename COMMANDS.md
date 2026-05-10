@@ -6,9 +6,9 @@ permalink: /commands/
 
 # Suckling Commands
 
-a reference for everything **Suckling** can do. all commands are slash commands, type `/` in any channel where the bot has access to see them in autocomplete.
+A reference for everything **Suckling** can do. All commands are slash commands — type `/` in any channel where the bot has access to see them in autocomplete.
 
-suckling is built for the **Return by 9** movie community~
+Suckling is built for the **Return by 9** movie community.
 
 ---
 

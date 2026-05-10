@@ -14,3 +14,7 @@ Static GitHub Pages minisite for the Return by 9 Discord bot, Suckling.
 ## Font
 
 Headlines use Fraunces from Google Fonts, loaded in `_layouts/default.html`. No licensed font files are included.
+
+## GitHub Pages
+
+In the repo, go to Settings → Pages, then deploy from the `main` branch and `/root` folder.
