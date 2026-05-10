@@ -1,34 +1,37 @@
 ---
 layout: default
 title: Home
+permalink: /
 ---
 
 # Suckling
 
 **Suckling** is the custom movie bot for the **Return by 9** Discord community.
 
-It handles movie lookups, random recommendations, Plex library picks, streaming availability tracking, daily recommendations, and community games like poster guessing and Six Degrees.
+It handles movie lookups, random recommendations, Return by 9 Plex library picks, streaming availability tracking, daily recommendations, and community games like poster guessing and Six Degrees.
 
 <div class="quick-grid">
-  <a class="quick-card" href="{{ '/COMMANDS.html' | relative_url }}">
-    <span>Commands</span>
-    <small>Slash commands, games, Plex tools, tracking, and admin features.</small>
+  <a class="quick-card" href="{{ '/commands/' | relative_url }}">
+    <span>View</span>
+    <strong>Commands</strong>
+    <em>Slash commands, games, tracking, Plex tools, and admin controls.</em>
   </a>
-  <a class="quick-card" href="{{ '/CHANGELOG.html' | relative_url }}">
-    <span>Changelog</span>
-    <small>Recent versions, fixes, and new features.</small>
+  <a class="quick-card" href="{{ '/changelog/' | relative_url }}">
+    <span>Read</span>
+    <strong>Changelog</strong>
+    <em>Release notes, fixes, feature additions, and version history.</em>
   </a>
 </div>
 
-## Quick Start
+## Popular commands
 
-Type `/` in any Discord channel where Suckling has access to see available slash commands.
+| Command | What it does |
+| --- | --- |
+| `/watch` | Look up a movie and where to watch it. |
+| `/roll` | Get a random movie recommendation. |
+| `/rb9` | Pick a random movie from the Return by 9 Plex library. |
+| `/track` | Track a movie until it becomes available digitally. |
+| `/guess` | Start a movie guessing round. |
+| `/six` | Start a Six Degrees of Separation game. |
 
-Popular commands:
-
-- `/watch` — look up a movie and where to watch it
-- `/roll` — get a random movie recommendation
-- `/rb9` — pick a random movie from the Return by 9 Plex library
-- `/track` — track a movie until it becomes available digitally
-- `/guess` — start a movie guessing round
-- `/six` — start a Six Degrees of Separation game
+Type `/` in any Discord channel where Suckling has access to see the full autocomplete list.

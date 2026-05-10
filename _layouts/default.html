@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,700..900,60..100,0..1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
@@ -12,12 +15,15 @@
       <header class="site-header">
         <a class="brand" href="{{ '/' | relative_url }}" aria-label="Suckling home">
           <img src="{{ '/assets/img/suckling-logo.svg' | relative_url }}" alt="Suckling logo">
+          <div>
+            <span class="eyebrow">Return by 9</span>
+            <strong>Suckling</strong>
+          </div>
         </a>
-
         <nav class="site-nav" aria-label="Main navigation">
-          <a href="{{ '/' | relative_url }}">Home</a>
-          <a href="{{ '/COMMANDS.html' | relative_url }}">Commands</a>
-          <a href="{{ '/CHANGELOG.html' | relative_url }}">Changelog</a>
+          <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
+          <a href="{{ '/commands/' | relative_url }}" {% if page.url contains '/commands/' %}aria-current="page"{% endif %}>Commands</a>
+          <a href="{{ '/changelog/' | relative_url }}" {% if page.url contains '/changelog/' %}aria-current="page"{% endif %}>Changelog</a>
         </nav>
       </header>
 
@@ -26,7 +32,8 @@
       </main>
 
       <footer class="site-footer">
-        <span>Suckling · built for Return by 9</span>
+        <span>Suckling · Return by 9</span>
+        <span>Movie bot docs and release notes.</span>
       </footer>
     </div>
   </body>
