@@ -15,7 +15,7 @@ suckling is built for the **Return by 9** movie community~
 ## lookup & discovery
 
 ### `/watch <title> [year]`
-look up a movie. returns a card with the synopsis, director, runtime, and where to watch it (theaters, streaming).
+look up a movie. returns a card with the synopsis, director, runtime, where to watch it (theaters, streaming), and whether or not it's available in the RB9 plex library.
 
 - `title` (required): the movie title to search for
 - `year` (optional): filter by release year if multiple matches exist
