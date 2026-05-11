@@ -4,7 +4,7 @@ title: Commands
 permalink: /commands/
 ---
 
-# Commands
+# commands
 
 a reference for everything **Suckling** can do. all commands are slash commands, type `/` in any channel where the bot has access to see them in autocomplete.
 
