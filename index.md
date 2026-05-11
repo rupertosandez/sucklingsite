@@ -4,11 +4,11 @@ title: Home
 permalink: /
 ---
 
-# Suckling
+## hi friends
 
-**Suckling** is the custom movie bot for the **Return by 9** Discord community.
+**suckling** is the custom movie bot for the **Return by 9** discord community.
 
-It handles movie lookups, random recommendations, Return by 9 Plex library picks, streaming availability tracking, daily recommendations, and community games like poster guessing and Six Degrees.
+it handles movie lookups, random recommendations, RB9 plex library picks, streaming availability tracking, daily recommendations, and community games like poster guessing and six degrees of kevin bacon.
 
 <div class="quick-grid">
   <a class="quick-card" href="{{ '/commands/' | relative_url }}">
