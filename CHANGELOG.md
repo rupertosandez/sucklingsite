@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.2.4] — 2026-05-11
+
+### Changed
+- Renamed `/watch` to `/suck` (lol)
+
+---
+
 ## [1.2.3] — 2026-05-10
 
 ### Changed
