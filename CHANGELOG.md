@@ -11,6 +11,15 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+
+## [1.6.1] - 2026-05-15
+
+### Changed
+
+- Startup update announcement now includes a link to the public changelog page.
+
+---
+
 ## [1.6.0] — 2026-05-15
 
 ### Added
