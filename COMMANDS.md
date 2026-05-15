@@ -84,6 +84,55 @@ a random film + a random backdrop image from it.
 
 ---
 
+## video store
+
+rent a film from the RB9 library. the clock starts when you confirm — you have 48 hours to watch it and `/return` it with a review.
+
+### `/rent`
+rent a random film from the library. you get up to **2 re-rolls** before the bot locks one in:
+
+1. bot shows a film: **[ accept rental ]** **[ re-roll ]**
+2. first reroll: bot shows another film: **[ accept rental ]** **[ re-roll (last one) ]**
+3. second reroll (final): bot picks a third film and locks it in automatically — no choice
+
+films you've rented before are never offered again (all-time exclusion, any status).
+
+> you can also rent a specific film directly from the 📼 button on `/rb9`, `/rb9randomscene`, `/suck`, `/roll`, and the daily recommendation — no rerolls for those since you're choosing intentionally.
+
+---
+
+### `/return <rating> <recommend> [thoughts]`
+return your current rental and post a review to the forum.
+
+- `rating` (required): your score out of 10 (1-10)
+- `recommend` (required): checkbox — would you recommend this to the group?
+- `thoughts` (optional): your review, as brief or long as you like
+
+on return, the forum thread is edited in-place: updated with your rating and review, renamed from "checked out" to "reviewed", and the **recommendation** forum tag is added if you checked yes.
+
+if you return it late, a late fee is calculated: **$1 for every day (or part of a day) overdue**. fees are cosmetic — tracked in the ledger but not collected.
+
+---
+
+### `/myrental`
+shows your current rental status: film, when you checked it out, when it's due (with a live Discord countdown), and a link to the forum thread.
+
+ephemeral — only you see it.
+
+---
+
+### `/latefees`
+leaderboard of accumulated late fees. shows total fees, total rentals, and late return count per person.
+
+---
+
+### `/rentalstats [user]`
+your full rental history and stats: total rentals, on-time vs late, total fees, currently renting (if applicable), and your last 5 returns with ratings.
+
+- `user` (optional): check another member's stats
+
+---
+
 ## tracking
 
 ### `/track <title> [year]`
