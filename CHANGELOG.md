@@ -11,6 +11,14 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.7.0] - 2026-05-16
+
+### Added
+
+- Admin-only `/restart` command that acknowledges the request, shuts down scheduled jobs/shared TMDB resources, and re-execs the bot process with the same Python invocation.
+
+---
+
 ## [1.6.2] - 2026-05-15
 
 ### Changed
