@@ -121,6 +121,13 @@ ephemeral — only you see it.
 
 ---
 
+### `/extend`
+extend your active rental by 24 hours. each rental can be extended once.
+
+the 12-hour reminder DM also includes an **extend 24h** button.
+
+---
+
 ### `/latefees`
 leaderboard of accumulated late fees. shows total fees, total rentals, and late return count per person.
 
