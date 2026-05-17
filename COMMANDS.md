@@ -265,6 +265,9 @@ enable or disable an auto-posting feature without removing the channel setting.
 ### `/checknow`
 manually trigger the streaming check in dry-run mode. doesn't post to discord — just returns a summary of what *would* be announced. useful for verifying detection.
 
+### `/restart`
+restart the bot process. useful after pulling updates or clearing a stuck runtime state.
+
 ### `/checknowlive`
 manually trigger the streaming check **and post** announcements live. use sparingly.
 
