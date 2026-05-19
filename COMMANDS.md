@@ -22,7 +22,7 @@ quick about card for the bot.
 ## lookup & discovery
 
 ### `/suck <title> [year]`
-look up a movie. returns a card with the synopsis, director, runtime, where to watch it (theaters, streaming), and whether or not it's available in the RB9 plex library.
+look up a movie. returns a card with the synopsis, director, runtime, where to watch it (theaters, streaming), and whether or not it's available in the RB9 plex library. cards include **+ watchlist**, and show **rent this** when the film is in rb9.
 
 - `title` (required): the movie title to search for
 - `year` (optional): filter by release year if multiple matches exist
@@ -36,7 +36,7 @@ examples:
 ---
 
 ### `/roll [decade] [runtime]`
-get a random movie recommendation. filters are optional — leave blank for a fully random pick.
+get a random movie recommendation. filters are optional — leave blank for a fully random pick. cards include **+ watchlist**, and show **rent this** when the film is in rb9.
 
 - `decade` (optional): e.g. `1980s`, `2010s`
 - `runtime` (optional): `short` (under 90 min), `medium` (90-120 min), or `long` (over 120 min)
@@ -53,7 +53,7 @@ examples:
 commands that pull from the return by 9 plex library.
 
 ### `/rb9`
-picks a random movie from the library. returns title, summary, runtime, and poster.
+picks a random movie from the library. returns title, summary, runtime, and poster. includes **+ watchlist** and **rent this**.
 
 ### `/rb9stats`
 overall library summary: total movie count, total runtime, year range, oldest film, newest film, most recently added, average rating.
@@ -80,7 +80,7 @@ bar chart breakdown of films per decade in the library.
 top 10 genres in the library by count.
 
 ### `/rb9randomscene`
-a random film + a random backdrop image from it.
+a random film + a random backdrop image from it. includes **+ watchlist** and **rent this**.
 
 ---
 
@@ -97,7 +97,7 @@ rent a random film from the library. you get up to **2 re-rolls** before the bot
 
 films you've rented before are never offered again (all-time exclusion, any status).
 
-> you can also rent a specific film directly from the 📼 button on `/rb9`, `/rb9randomscene`, `/suck`, `/roll`, and the daily recommendation — no rerolls for those since you're choosing intentionally.
+> you can also rent a specific film directly from the **rent this** button on `/rb9`, `/rb9randomscene`, `/suck`, `/roll`, and the daily recommendation — no rerolls for those since you're choosing intentionally.
 
 ---
 
@@ -163,6 +163,54 @@ example: `/untrack conjuring`
 
 ### `/tracked`
 show every movie currently being tracked, plus who added each one.
+
+---
+
+## letterboxd
+
+link your letterboxd account, browse watchlists, and compare recent taste.
+
+### `/lb link <username>`
+connects your letterboxd account. the account needs to be public.
+
+### `/lb unlink`
+removes your linked letterboxd account.
+
+### `/lb profile [user] [username]`
+shows recent diary entries: films watched, ratings, dates, and review snippets.
+
+- `user` (optional): a server member who linked letterboxd
+- `username` (optional): a raw letterboxd username
+- leave both blank to see your own profile
+
+### `/lb watchlist [user] [username]`
+browse a letterboxd watchlist. includes:
+
+- **roll from this** - picks a random film from that watchlist
+- **import all** - adds the watchlist to your personal bot watchlist
+
+### `/lb group`
+shows recent diary activity from linked members.
+
+### `/lb tastecheck [user] [username]`
+compares your linked account against another account and gives a recent taste compatibility readout.
+
+---
+
+## personal watchlist
+
+a private film queue that lives in the bot.
+
+### `/watchlist show`
+shows your watchlist, 10 films per page. includes a remove dropdown and a roll button.
+
+### `/watchlist add <title> [year]`
+adds a film by title. if there are multiple matches, the bot asks you to pick the right one.
+
+### `/watchlist remove <title>`
+removes films from your list by partial title match.
+
+you can also add films with the **+ watchlist** button on movie cards.
 
 ---
 
@@ -248,6 +296,8 @@ the streaming feature only announces films hitting digital for the first time �
 
 - movie titles in `/suck` and `/track` support fuzzy matching, so you don't need exact punctuation or capitalization
 - the dropdown menu that appears for ambiguous titles times out after 60 seconds — just run the command again if it expires
+- film cards can be saved with **+ watchlist**; rb9 films can also be rented with **rent this**
+- your personal `/watchlist show` command is private
 - both games and tracking are server-wide — anyone can add to the tracked list and play
 - leaderboards are separate for `/guess` and `/six` — winning at one doesn't affect the other
 

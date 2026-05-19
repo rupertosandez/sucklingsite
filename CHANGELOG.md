@@ -11,6 +11,20 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.0.0] - 2026-05-18
+
+### added
+
+- added letterboxd linking with `/lb link`, `/lb profile`, `/lb watchlist`, and `/lb group`.
+- added `/lb tastecheck` to compare your recent letterboxd taste against another member or public letterboxd username.
+- added personal bot watchlists with `/watchlist show`, `/watchlist add`, and `/watchlist remove`.
+- movie cards now have a **+ watchlist** button so you can save films from `/suck`, `/roll`, `/rb9`, `/rb9randomscene`, and daily recommendations.
+- films that are in the rb9 library now show a **rent this** button on movie cards.
+
+### changed
+
+- `/watchlist show` displays 10 films per page and includes a roll button for picking from your saved list.
+- `/suck` and `/roll` cards now include the new watchlist/rental buttons when available.
 
 ## [1.9.0] - 2026-05-17
 
