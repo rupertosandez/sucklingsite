@@ -315,6 +315,21 @@ the streaming feature only announces films hitting digital for the first time â€
 
 > these commands require the **manage server** permission and are hidden from regular members.
 
+### `/botstatus`
+admin dashboard for the bot: version, uptime, latency, cache size, configured channels, auto-posting toggles, tracked film count, linked letterboxd count, active rentals, overdue rentals, and setup warnings.
+
+### `/lblinked [page]`
+list linked letterboxd accounts. shows each discord member, their letterboxd profile, and when they linked it. use `page` if the list is long.
+
+### `/setreviews <forum_channel>`
+set the forum channel where rental reviews post. the bot needs create public threads and send messages in threads permissions. auto-detects rental and recommendation forum tags if they exist.
+
+### `/cancelrental @user [reason]`
+cancel a member's active rental with no late fee. edits the forum thread and DMs the member. optionally include a reason.
+
+### `/assignrental @user <title> [year]`
+assign an rb9 library rental to a member. creates the rental, opens the review thread, and DMs them the due date.
+
 ### `/setannouncements <channel>`
 set the channel where streaming announcements post. the bot needs send-message and embed-link permissions in the chosen channel.
 
@@ -343,7 +358,7 @@ manually trigger the streaming check **and post** announcements live. use sparin
 manually trigger today's daily recommendation post.
 
 ### `/lbactivitynow [post]`
-manually check linked letterboxd activity. by default it just reports what it found; set `post:True` to post new entries to the configured channel.
+manually check linked letterboxd activity. by default it reports what it found and how much is recent enough to post; set `post:True` to post entries from the last 60 minutes only.
 
 ### `/cachestats [clear]`
 show the size of the in-memory cache. pass `clear:True` to wipe both the tmdb cache and the random-pick pool (useful if data feels stale).

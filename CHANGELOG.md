@@ -11,6 +11,14 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.2.0] - 2026-05-19
+
+### added
+
+- admins can use `/botstatus` for one quick dashboard with bot health, configured channels, feature toggles, rental counts, linked letterboxd count, and setup warnings.
+- admins can use `/lblinked` to see which members have linked letterboxd accounts.
+- letterboxd activity posting now only posts recent activity from the last 60 minutes, so old unseen watches do not flood the channel.
+
 ## [2.1.0] - 2026-05-19
 
 ### added
