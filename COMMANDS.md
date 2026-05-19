@@ -102,7 +102,7 @@ films you've rented before are never offered again (all-time exclusion, any stat
 ---
 
 ### `/return <rating> <recommend> [thoughts]`
-return your current rental and post a review to the forum.
+return your current rental, post a review to the forum, and roll for a macguffin drop.
 
 - `rating` (required): your score out of 10 (1-10)
 - `recommend` (required): checkbox — would you recommend this to the group?
@@ -140,6 +140,22 @@ your full rental history and stats: total rentals, on-time vs late, total fees, 
 
 ---
 
+## macguffins
+
+macguffins are collectible movie objects. every one is unique, so once someone claims a card, nobody else can pull that same one.
+
+returning a rental can drop a macguffin publicly in the channel.
+
+### `/claimguffin`
+claim your one free starter macguffin.
+
+### `/myguffins`
+view your macguffin collection privately. shows 5 at a time, with a button to open each card.
+
+### `/giftguffin @user <card>`
+gift one of your macguffins to another member. partial names work if the bot can tell which card you mean.
+
+---
 ## tracking
 
 ### `/track <title> [year]`
@@ -329,6 +345,13 @@ cancel a member's active rental with no late fee. edits the forum thread and DMs
 
 ### `/assignrental @user <title> [year]`
 assign an rb9 library rental to a member. creates the rental, opens the review thread, and DMs them the due date.
+
+### `/adminguffins <action> @user [card]`
+view or edit a member's macguffins.
+
+- `view`: shows the member's current collection
+- `add`: adds a macguffin by name or id; if someone else has it, moves it
+- `remove`: removes a macguffin from that member's collection
 
 ### `/setannouncements <channel>`
 set the channel where streaming announcements post. the bot needs send-message and embed-link permissions in the chosen channel.

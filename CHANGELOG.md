@@ -11,6 +11,16 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.3.0] - 2026-05-19
+
+### added
+
+- macguffins are here: collectible movie objects that can drop when members return rentals.
+- `/claimguffin` gives each member one free starter macguffin.
+- `/myguffins` shows your collection privately, with card details.
+- `/giftguffin` lets you give one of your macguffins to another member.
+- admins can use `/adminguffins` to view, add, move, or remove member macguffins.
+
 ## [2.2.0] - 2026-05-19
 
 ### added
