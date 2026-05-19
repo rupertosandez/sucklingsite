@@ -192,8 +192,14 @@ browse a letterboxd watchlist. includes:
 ### `/lb group`
 shows recent diary activity from linked members.
 
-### `/lb tastecheck [user] [username]`
-compares your linked account against another account and gives a recent taste compatibility readout.
+linked accounts may also appear in the server's letterboxd activity channel if admins have enabled it.
+
+### `/lb tastecheck [a_user] [b_user] [a_username] [b_username]`
+compares two letterboxd accounts and gives a recent taste compatibility readout.
+
+- use discord members if they've linked accounts with `/lb link`
+- use raw usernames to compare anyone with public letterboxd accounts
+- pick one target for side a and one target for side b
 
 ---
 
@@ -282,11 +288,13 @@ show the top scorers for `/six`.
 
 ## auto-posting features
 
-the bot automatically posts in two ways (admins configure the channels):
+the bot automatically posts in a few ways (admins configure the channels):
 
 🩸 **daily recommendation** - every day at noon, the bot drops a random pick in the configured channel.
 
 📺 **streaming announcements** - when a movie becomes available digitally for the first time (shudder, netflix, max, etc.), the bot announces it in the configured channel. shudder additions get a special highlight.
+
+**letterboxd activity** - linked members' new diary entries can post to a shared activity channel.
 
 the streaming feature only announces films hitting digital for the first time — not when they move between services or get added to additional ones.
 
@@ -313,10 +321,13 @@ set the channel where streaming announcements post. the bot needs send-message a
 ### `/setdaily <channel>`
 set the channel where the daily recommendation posts (at noon).
 
+### `/setlbactivity <channel>`
+set the channel where new watches from linked letterboxd accounts post. when this is set, the bot starts from the current feeds so older watches do not flood the channel.
+
 ### `/toggle <feature> <enabled>`
 enable or disable an auto-posting feature without removing the channel setting.
 
-- `feature`: `streaming announcements` or `daily recommendation`
+- `feature`: `streaming announcements`, `daily recommendation`, or `letterboxd activity`
 - `enabled`: `True` or `False`
 
 ### `/checknow`
@@ -330,6 +341,9 @@ manually trigger the streaming check **and post** announcements live. use sparin
 
 ### `/dailynow`
 manually trigger today's daily recommendation post.
+
+### `/lbactivitynow [post]`
+manually check linked letterboxd activity. by default it just reports what it found; set `post:True` to post new entries to the configured channel.
 
 ### `/cachestats [clear]`
 show the size of the in-memory cache. pass `clear:True` to wipe both the tmdb cache and the random-pick pool (useful if data feels stale).

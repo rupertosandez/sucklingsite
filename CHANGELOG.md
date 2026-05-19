@@ -11,6 +11,18 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.1.0] - 2026-05-19
+
+### added
+
+- linked letterboxd accounts can now feed a shared activity channel when members log new watches.
+- admins can use `/setlbactivity` to choose the activity channel. the bot starts from the current feeds, so old watches will not flood the channel.
+- admins can use `/lbactivitynow` to check for new letterboxd activity manually.
+
+### changed
+
+- `/lb tastecheck` now compares any two members or public letterboxd usernames, instead of always comparing from your own account.
+
 ## [2.0.0] - 2026-05-18
 
 ### added
