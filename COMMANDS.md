@@ -352,6 +352,7 @@ view or edit a member's macguffins.
 - `view`: shows the member's current collection
 - `add`: adds a macguffin by name or id; if someone else has it, moves it
 - `remove`: removes a macguffin from that member's collection
+- `random`: assigns the member a random unclaimed macguffin
 
 ### `/setannouncements <channel>`
 set the channel where streaming announcements post. the bot needs send-message and embed-link permissions in the chosen channel.

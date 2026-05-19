@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - `/claimguffin` gives each member one free starter macguffin.
 - `/myguffins` shows your collection privately, with card details.
 - `/giftguffin` lets you give one of your macguffins to another member.
-- admins can use `/adminguffins` to view, add, move, or remove member macguffins.
+- admins can use `/adminguffins` to view, add, move, remove, or randomly assign member macguffins.
 
 ## [2.2.0] - 2026-05-19
 
