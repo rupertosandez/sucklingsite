@@ -11,6 +11,20 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.3.2] - 2026-05-20
+
+### added
+
+- `/rent` now lets you choose how you want to rent: roll random, pick a movie yourself, or ask an admin for a recommendation.
+- you can now have up to 3 active rentals at once.
+- `/myrental` shows all of your active rentals when you have more than one.
+
+### changed
+
+- `/return` and `/extend` can now target a specific rental by id or title when you have multiple rentals active.
+- randomly rolled rentals now have better odds for rare/iconic macguffin drops when you return them.
+- watchlist buttons should be less likely to show discord's "interaction failed" message after old or expired clicks.
+
 ## [2.3.1] - 2026-05-20
 
 ### changed

@@ -89,7 +89,15 @@ a random film + a random backdrop image from it. includes **+ watchlist** and **
 rent a film from the RB9 library. the clock starts when you confirm — you have 48 hours to watch it and `/return` it with a review.
 
 ### `/rent`
-rent a random film from the library. you get up to **2 re-rolls** before the bot locks one in:
+start a rental from the library. you can have up to **3 active rentals** at once.
+
+the rental menu has three paths:
+
+- **roll random** - get a random film, with up to **2 re-rolls** before the bot locks one in
+- **pick a movie** - choose a specific rb9 title yourself
+- **ask an admin** - post a recommendation request so an admin can assign a pick
+
+random rolls work like this:
 
 1. bot shows a film: **[ accept rental ]** **[ re-roll ]**
 2. first reroll: bot shows another film: **[ accept rental ]** **[ re-roll (last one) ]**
@@ -97,16 +105,19 @@ rent a random film from the library. you get up to **2 re-rolls** before the bot
 
 films you've rented before are never offered again (all-time exclusion, any status).
 
+randomly rolled rentals have better odds for rare/iconic macguffin drops when returned.
+
 > you can also rent a specific film directly from the **rent this** button on `/rb9`, `/rb9randomscene`, `/suck`, `/roll`, and the daily recommendation — no rerolls for those since you're choosing intentionally.
 
 ---
 
-### `/return <recommend> [rating] [thoughts]`
-return your current rental, post a review to the forum, and roll for a macguffin drop.
+### `/return <recommend> [rating] [thoughts] [rental]`
+return a rental, post a review to the forum, and roll for a macguffin drop.
 
 - `recommend` (required): checkbox — would you recommend this to the group?
 - `rating` (optional): your score out of 10 (1-10)
 - `thoughts` (optional): your review, as brief or long as you like
+- `rental` (optional): rental id or part of the title, needed if you have more than one active rental
 
 on return, the forum thread is edited in-place: updated with your rating if you gave one and your review, renamed from "checked out" to "reviewed", and the **recommendation** forum tag is added if you checked yes.
 
@@ -115,14 +126,16 @@ if you return it late, a late fee is calculated: **$1 for every day (or part of 
 ---
 
 ### `/myrental`
-shows your current rental status: film, when you checked it out, when it's due (with a live Discord countdown), and a link to the forum thread.
+shows your active rentals, due times, and rental ids. if you only have one active rental, it shows the full rental status with the forum thread.
 
 ephemeral — only you see it.
 
 ---
 
-### `/extend`
-extend your active rental by 24 hours. each rental can be extended once.
+### `/extend [rental]`
+extend an active rental by 24 hours. each rental can be extended once.
+
+- `rental` (optional): rental id or part of the title, needed if you have more than one active rental
 
 the 12-hour reminder DM also includes an **extend 24h** button.
 
