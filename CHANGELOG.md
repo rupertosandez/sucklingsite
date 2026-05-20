@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.3.1] - 2026-05-20
+
+### changed
+
+- housekeeping update: the bot was reorganized behind the scenes so future updates are easier to ship.
+- `/return` no longer needs a rating. you can return a rental with just the recommendation checkbox and optional thoughts.
+
 ## [2.3.0] - 2026-05-19
 
 ### added
