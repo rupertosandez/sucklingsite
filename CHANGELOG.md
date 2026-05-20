@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - `/rent` now lets you choose how you want to rent: roll random, pick a movie yourself, or ask an admin for a recommendation.
 - you can now have up to 3 active rentals at once.
 - `/myrental` shows all of your active rentals when you have more than one.
+- admins can use `/setrentalrequests` to choose where rental recommendation requests post.
 
 ### changed
 

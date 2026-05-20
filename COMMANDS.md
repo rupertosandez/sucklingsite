@@ -141,6 +141,13 @@ the 12-hour reminder DM also includes an **extend 24h** button.
 
 ---
 
+### `/setrentalrequests <channel>`
+admin only. choose where **ask an admin** rental recommendation requests post.
+
+- `channel` (required): the text channel for admin recommendation pings
+
+---
+
 ### `/latefees`
 leaderboard of accumulated late fees. shows total fees, total rentals, and late return count per person.
 
