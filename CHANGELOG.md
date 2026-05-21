@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - `/return` and `/extend` can now target a specific rental by id or title when you have multiple rentals active.
 - randomly rolled rentals now have better odds for rare/iconic macguffin drops when you return them.
 - watchlist buttons should be less likely to show discord's "interaction failed" message after old or expired clicks.
+- movie card buttons, like **+ watchlist**, should keep working on newer public posts even after the bot restarts.
 
 ## [2.3.1] - 2026-05-20
 
