@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### changed
 
 - rental title matching is more forgiving now, so punctuation and spacing should matter less when targeting an active rental.
+
 ## [2.3.2] - 2026-05-20
 
 ### added
