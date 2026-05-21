@@ -404,6 +404,11 @@ manually trigger today's daily recommendation post.
 ### `/lbactivitynow [post]`
 manually check linked letterboxd activity. by default it reports what it found and how much is recent enough to post; set `post:True` to post entries from the last 60 minutes only.
 
+### `/plexcleanupnow [post]`
+admin only. run the plex cleanup check manually. by default it only shows a private summary; set `post:True` to post cleanup candidates to the announcement channel.
+
+### `/plexunpopular`
+admin only. show low-watch rb9 titles with lower tmdb scores, useful when reviewing what should stay in the library.
 ### `/cachestats [clear]`
 show the size of the in-memory cache. pass `clear:True` to wipe both the tmdb cache and the random-pick pool (useful if data feels stale).
 

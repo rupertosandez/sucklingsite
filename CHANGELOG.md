@@ -11,6 +11,17 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.4.0] - 2026-05-21
+
+### added
+
+- admins can now run plex cleanup checks to find big, quiet rb9 titles that are easy to stream elsewhere.
+- admins can use `/plexcleanupnow` to preview cleanup candidates or post them to the announcement channel.
+- admins can use `/plexunpopular` to review low-watch titles with lower tmdb scores.
+
+### changed
+
+- rental title matching is more forgiving now, so punctuation and spacing should matter less when targeting an active rental.
 ## [2.3.2] - 2026-05-20
 
 ### added
