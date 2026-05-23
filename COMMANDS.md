@@ -86,7 +86,7 @@ a random film + a random backdrop image from it. includes **+ watchlist** and **
 
 ## video store
 
-rent a film from the RB9 library. the clock starts when you confirm — you have 48 hours to watch it and `/return` it with a review.
+rent a film from the RB9 library. the clock starts when you confirm — you have 5 days to watch it and `/return` it with a review.
 
 ### `/rent`
 start a rental from the library. you can have up to **3 active rentals** at once.
