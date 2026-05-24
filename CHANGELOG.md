@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.4.3] - 2026-05-24
+
+### changed
+
+- letterboxd activity posts are quieter now: if one member has more than 3 new logs at once, suckling rolls them into one compact catch-up post.
+
 ## [2.4.2] - 2026-05-23
 
 ### changed
