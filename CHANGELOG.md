@@ -28,7 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### changed
 
-- rentals now last 5 days instead of 48 hours.
+- rentals now last 5 days.
 
 ## [2.4.1] - 2026-05-21
 
@@ -176,7 +176,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### added
 
 - added the rb9 video store rental system.
-- `/rent` picks a random film from the rb9 library and gives you 48 hours to watch it.
+- `/rent` picks a random film from the rb9 library and gives you 5 days to watch it.
 - `/return` lets you return your rental with a rating, recommendation, and optional thoughts.
 - rental reviews post to the configured discord forum.
 - `/myrental` shows your current rental, due date, and review thread.
