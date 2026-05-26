@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.4.5] - 2026-05-26
+
+### fixed
+
+- letterboxd activity posts should show members' star ratings correctly again.
+
 ## [2.4.4] - 2026-05-24
 
 ### changed
