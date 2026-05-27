@@ -226,7 +226,7 @@ browse a letterboxd watchlist. includes:
 - **import all** - adds the watchlist to your personal bot watchlist
 
 ### `/lb group`
-shows recent diary activity from linked members.
+shows recent diary activity from linked members, grouped by member so it's easier to skim.
 
 linked accounts may also appear in the server's letterboxd activity channel if admins have enabled it.
 

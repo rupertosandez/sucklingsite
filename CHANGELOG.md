@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [unreleased]
+
+### changed
+
+- `/lb group` is easier to read now, with each linked member's recent watches split into its own little block.
+- letterboxd activity posts now point to the discord member the account is linked to.
+
 ## [2.4.5] - 2026-05-26
 
 ### fixed
