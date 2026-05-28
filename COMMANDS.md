@@ -86,10 +86,12 @@ a random film + a random backdrop image from it. includes **+ watchlist** and **
 
 ## video store
 
-rent a film from the RB9 library. the clock starts when you confirm — you have 5 days to watch it and `/return` it with a review.
+rent a film from the RB9 library. the clock starts when you confirm — it's due by 9 pm on the fifth day, and you use `/return` to post your review.
 
 ### `/rent`
 start a rental from the library. you can have up to **3 active rentals** at once.
+
+if you've set `/timezone`, rentals are due at 9 pm in your timezone. otherwise the bot uses the server default timezone.
 
 the rental menu has three paths:
 
@@ -108,6 +110,16 @@ films you've rented before are never offered again (all-time exclusion, any stat
 randomly rolled rentals have better odds for rare/iconic macguffin drops when returned.
 
 > you can also rent a specific film directly from the **rent this** button on `/rb9`, `/rb9randomscene`, `/suck`, `/roll`, and the daily recommendation — no rerolls for those since you're choosing intentionally.
+
+---
+
+### `/timezone [timezone_name] [clear]`
+set your rental timezone so due dates land at 9 pm where you are.
+
+- `timezone_name` (optional): timezone like `America/Los_Angeles`, `America/New_York`, or `Europe/London`
+- `clear` (optional): clear your saved timezone and use the server default
+
+run it with no options to check your current rental timezone.
 
 ---
 

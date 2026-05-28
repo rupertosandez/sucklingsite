@@ -13,7 +13,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [unreleased]
 
+## [2.4.6] - 2026-05-28
+
+### added
+
+- `/timezone` lets you set your rental timezone, so rentals are due at 9 pm where you are.
+
 ### changed
+
+- rentals are now due at 9 pm on the fifth day instead of just counting exactly 5 days from checkout.
+- rb9 library checks should feel quicker after restarts and routine updates, because suckling keeps a smarter local snapshot of the plex library.
 
 - `/lb group` is easier to read now, with each linked member's recent watches split into its own little block.
 - letterboxd activity posts now point to the discord member the account is linked to.
