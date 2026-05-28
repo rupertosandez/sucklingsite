@@ -11,6 +11,16 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.5.0] - 2026-05-28
+
+### added
+
+- achievements are here: earn movie-club badges from rentals, reviews, macguffins, games, watchlists, tracking, and letterboxd linking.
+- watched-movie badges use returned rentals, so `/return` is how suckling knows you watched something from rb9.
+- you can pin up to 3 earned achievements as visible discord badge roles.
+- `/achievements` shows your badge shelf and progress hints, while `/achievementboard` shows recent unlocks and rare badges.
+- admins can set a suckling feed channel where achievement unlocks post.
+
 ## [2.4.6] - 2026-05-28
 
 ### added

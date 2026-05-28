@@ -188,6 +188,36 @@ view your macguffin collection privately. shows 5 at a time, with a button to op
 gift one of your macguffins to another member. partial names work if the bot can tell which card you mean.
 
 ---
+
+## achievements
+
+earn movie-club badges by using suckling. anything about watching movies comes from returned rentals, so `/return` is the official record.
+
+you can earn as many achievements as you want, but only **3** can be pinned as visible discord badge roles at once.
+
+### `/achievements [user]`
+view an achievement shelf.
+
+- leave `user` blank to see your own private shelf, visible badges, recent unlocks, and progress hints
+- choose another member to see their public shelf
+
+### `/achievementdisplay <achievement> [replace]`
+pin an earned achievement as one of your visible badge roles.
+
+- `achievement` is one of your unlocked badges
+- `replace` lets you swap out a visible badge when your 3 slots are full
+
+### `/achievementhide <achievement>`
+hide one visible badge role. the achievement stays unlocked.
+
+### `/achievementclear`
+remove all visible achievement badge roles.
+
+### `/achievementboard`
+community achievement board with newest unlocks, top shelves, and rare badges.
+
+---
+
 ## tracking
 
 ### `/track <title> [year]`
@@ -344,6 +374,8 @@ the bot automatically posts in a few ways (admins configure the channels):
 
 **letterboxd activity** - linked members' new diary entries can post to a shared activity channel.
 
+**suckling feed** - achievement unlocks can post to a shared feed channel.
+
 the streaming feature only announces films hitting digital for the first time — not when they move between services or get added to additional ones.
 
 ---
@@ -395,6 +427,9 @@ set the channel where the daily recommendation posts (at noon).
 ### `/setlbactivity <channel>`
 set the channel where new watches from linked letterboxd accounts post. when this is set, the bot starts from the current feeds so older watches do not flood the channel.
 
+### `/setfeed <channel>`
+set the channel where suckling feed posts go, including achievement unlocks.
+
 ### `/toggle <feature> <enabled>`
 enable or disable an auto-posting feature without removing the channel setting.
 
@@ -421,6 +456,13 @@ admin only. run the plex cleanup check manually. by default it only shows a priv
 
 ### `/plexunpopular`
 admin only. show low-watch rb9 titles with lower tmdb scores, useful when reviewing what should stay in the library.
+
+### `/achievementrescan [user]`
+backfill achievements from existing suckling history. leave `user` blank to rescan everyone.
+
+### `/achievementsyncroles <user>`
+reapply a member's selected visible achievement badge roles. useful if roles were manually changed in discord.
+
 ### `/cachestats [clear]`
 show the size of the in-memory cache. pass `clear:True` to wipe both the tmdb cache and the random-pick pool (useful if data feels stale).
 
