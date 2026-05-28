@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.5.1] - 2026-05-28
+
+### changed
+
+- achievement badge roles now look nicer, with a matching emoji and title case, like `🎬 Poster Child`.
+
 ## [2.5.0] - 2026-05-28
 
 ### added
