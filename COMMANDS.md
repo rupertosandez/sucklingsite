@@ -430,6 +430,12 @@ set the channel where new watches from linked letterboxd accounts post. when thi
 ### `/setfeed <channel>`
 set the channel where suckling feed posts go, including achievement unlocks.
 
+### `/achievementcatalog <channel>`
+post all earnable achievements in the chosen channel, grouped by category.
+
+### `/postfaq <channel> [thread_name]`
+create a suckling faq thread in the chosen channel.
+
 ### `/toggle <feature> <enabled>`
 enable or disable an auto-posting feature without removing the channel setting.
 
@@ -462,6 +468,9 @@ backfill achievements from existing suckling history. leave `user` blank to resc
 
 ### `/achievementsyncroles <user>`
 reapply a member's selected visible achievement badge roles. useful if roles were manually changed in discord.
+
+### `/achievementrefreshfeed [limit]`
+refresh recent achievement feed posts into the current achievement announcement format.
 
 ### `/cachestats [clear]`
 show the size of the in-memory cache. pass `clear:True` to wipe both the tmdb cache and the random-pick pool (useful if data feels stale).

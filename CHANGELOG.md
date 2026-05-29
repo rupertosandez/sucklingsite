@@ -11,6 +11,19 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.5.4] - 2026-05-29
+
+### added
+
+- added a bigger achievement set with more badges for rentals, reviews, games, macguffins, watchlists, tracking, and letterboxd.
+- added an achievement catalog command so admins can post the full earnable badge list in a channel.
+
+### changed
+
+- achievement unlock posts now feel more celebratory, with gold embeds and the badge name featured up top.
+- achievement unlocks are checked more consistently when members use suckling features.
+- admin functionality was expanded.
+
 ## [2.5.3] - 2026-05-28
 
 ### added
