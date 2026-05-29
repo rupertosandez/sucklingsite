@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.5.6] - 2026-05-29
+
+### added
+
+- added rb9 library achievements for watching specific directors, actors, franchises, genres, title themes, and extra-long rentals.
+
 ## [2.5.5] - 2026-05-29
 
 ### fixed
