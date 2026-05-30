@@ -19,6 +19,7 @@
         <nav class="site-nav" aria-label="Main navigation">
           <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
           <a href="{{ '/commands/' | relative_url }}" {% if page.url contains '/commands/' %}aria-current="page"{% endif %}>Commands</a>
+          <a href="{{ '/achievements/' | relative_url }}" {% if page.url contains '/achievements/' %}aria-current="page"{% endif %}>Achievements</a>
           <a href="{{ '/changelog/' | relative_url }}" {% if page.url contains '/changelog/' %}aria-current="page"{% endif %}>Changelog</a>
         </nav>
       </header>

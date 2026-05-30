@@ -16,6 +16,11 @@ it handles movie lookups, random recommendations, RB9 plex library picks, stream
     <strong>Commands</strong>
     <em>Slash commands, games, tracking, Plex tools, and admin controls.</em>
   </a>
+  <a class="quick-card" href="{{ '/achievements/' | relative_url }}">
+    <span>Browse</span>
+    <strong>Achievements</strong>
+    <em>Every earnable badge, grouped by rentals, rb9 library, games, and more.</em>
+  </a>
   <a class="quick-card" href="{{ '/changelog/' | relative_url }}">
     <span>Read</span>
     <strong>Changelog</strong>
@@ -27,7 +32,7 @@ it handles movie lookups, random recommendations, RB9 plex library picks, stream
 
 | Command | What it does |
 | --- | --- |
-| `/watch` | Look up a movie and where to watch it. |
+| `/suck` | Look up a movie and where to watch it. |
 | `/roll` | Get a random movie recommendation. |
 | `/rb9` | Pick a random movie from the Return by 9 Plex library. |
 | `/track` | Track a movie until it becomes available digitally. |

@@ -431,7 +431,9 @@ set the channel where new watches from linked letterboxd accounts post. when thi
 set the channel where suckling feed posts go, including achievement unlocks.
 
 ### `/achievementcatalog <channel>`
-post all earnable achievements in the chosen channel, grouped by category.
+post an achievement catalog embed and website link in the chosen channel.
+
+useful for pinning a public achievement reference without dumping the full badge list into discord.
 
 ### `/postfaq <channel> [thread_name]`
 create a suckling faq thread in the chosen channel.
