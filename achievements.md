@@ -22,6 +22,7 @@ you can unlock as many as you want, then pin up to **3** as visible discord badg
 
 <div class="achievement-catalog" id="achievement-catalog"></div>
 
+<script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
 <script>
 (() => {
   const catalog = document.getElementById("achievement-catalog");
@@ -68,7 +69,7 @@ you can unlock as many as you want, then pin up to **3** as visible discord badg
   function achievementCard(item) {
     return `
       <article class="achievement-card">
-        <div class="achievement-card__icon" aria-hidden="true">${escapeHtml(item.emoji || "🏆")}</div>
+        <div class="achievement-card__icon" aria-hidden="true">${escapeHtml(item.emoji || "\u{1F3C6}")}</div>
         <div>
           <h3>${escapeHtml(item.title_name || item.name)}</h3>
           <p>${escapeHtml(item.hint || item.description)}</p>
@@ -110,6 +111,12 @@ you can unlock as many as you want, then pin up to **3** as visible discord badg
         </section>
       `;
     }).join("");
+    if (window.twemoji) {
+      window.twemoji.parse(catalog, {
+        folder: "svg",
+        ext: ".svg",
+      });
+    }
   }
 
   categories.addEventListener("click", (event) => {
