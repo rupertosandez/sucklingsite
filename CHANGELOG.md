@@ -11,6 +11,18 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.5.9] - 2026-06-01
+
+### changed
+
+- embeds across the bot are cleaner and more consistent: titles, field labels, and footers are properly formatted throughout.
+- rental return modal labels and the return flow are tidier.
+- the recommend field on rental reviews now shows 👍 or 👎 instead of "yes" / "no".
+- rental status only surfaces the overdue notice when you're actually overdue.
+- achievement unlock posts are a bit cleaner — less repetition, same info.
+- achievement board's "top shelves" section is now called "top collectors".
+- a few embeds had redundant or low-value info trimmed: `/rb9stats` no longer duplicates oldest/newest (those have their own commands), `/rb9totalruntime` drops the raw minute count, and the macguffin card no longer repeats the card name.
+
 ## [2.5.8] - 2026-05-30
 
 ### added

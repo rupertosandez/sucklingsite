@@ -56,7 +56,7 @@ commands that pull from the return by 9 plex library.
 picks a random movie from the library. returns title, summary, runtime, and poster. includes **+ watchlist** and **rent this**.
 
 ### `/rb9stats`
-overall library summary: total movie count, total runtime, year range, oldest film, newest film, most recently added, average rating.
+overall library summary: total movie count, total runtime, year range, average rating, and most recently added film.
 
 ### `/rb9biggest`
 the longest film in the library by runtime.
@@ -214,7 +214,7 @@ hide one visible badge role. the achievement stays unlocked.
 remove all visible achievement badge roles.
 
 ### `/achievementboard`
-community achievement board with newest unlocks, top shelves, and rare badges.
+community achievement board with newest unlocks, top collectors, and rarest badges.
 
 ---
 
