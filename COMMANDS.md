@@ -123,13 +123,10 @@ run it with no options to check your current rental timezone.
 
 ---
 
-### `/return <recommend> [rating] [thoughts] [rental]`
-return a rental, post a review to the forum, and roll for a macguffin drop.
+### `/return`
+start the private return flow.
 
-- `recommend` (required): checkbox — would you recommend this to the group?
-- `rating` (optional): your score out of 10 (1-10)
-- `thoughts` (optional): your review, as brief or long as you like
-- `rental` (optional): rental id or part of the title, needed if you have more than one active rental
+choose the rental, pick **watched it** or **didn't watch**, then fill out the popup.
 
 on return, the forum thread is edited in-place: updated with your rating if you gave one and your review, renamed from "checked out" to "reviewed", and the **recommendation** forum tag is added if you checked yes.
 
