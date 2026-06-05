@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.6.1] - 2026-06-05
+
+### fixed
+
+- rental threads now get the **review** forum tag when someone returns a rental with written thoughts.
+- `/setreviews` now looks for the forum's **review** tag along with the rental and recommendation tags.
+
 ## [2.6.0] - 2026-06-05
 
 ### added
