@@ -11,6 +11,16 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.6.0] - 2026-06-05
+
+### added
+
+- admins can now use `/plexrefresh` when rb9 has a new or changed title and suckling does not see it yet.
+
+### fixed
+
+- rb9 title matching now understands `&` and `and` as the same thing, so titles like **Peter & The Wolf** show as rentable when they are in the library.
+
 ## [2.5.9] - 2026-06-01
 
 ### changed

@@ -459,6 +459,9 @@ manually check linked letterboxd activity. by default it reports what it found a
 ### `/plexcleanupnow [post]`
 admin only. run the plex cleanup check manually. by default it only shows a private summary; set `post:True` to post cleanup candidates to the announcement channel.
 
+### `/plexrefresh`
+admin only. refresh the rb9 plex library cache when new or changed titles are not showing up yet.
+
 ### `/plexunpopular`
 admin only. show low-watch rb9 titles with lower tmdb scores, useful when reviewing what should stay in the library.
 
