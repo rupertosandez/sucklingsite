@@ -173,6 +173,8 @@ your full rental history and stats: total rentals, on-time vs late, total fees, 
 
 macguffins are collectible movie objects. every one is unique, so once someone claims a card, nobody else can pull that same one.
 
+some macguffins belong to sets. complete a set to unlock rare achievement titles.
+
 returning a rental can drop a macguffin publicly in the channel.
 
 ### `/claimguffin`
@@ -452,6 +454,9 @@ manually trigger the streaming check **and post** announcements live. use sparin
 
 ### `/dailynow`
 manually trigger today's daily recommendation post.
+
+### `/postupdate`
+post the current bot update announcement, including the latest changelog notes.
 
 ### `/lbactivitynow [post]`
 manually check linked letterboxd activity. by default it reports what it found and how much is recent enough to post; set `post:True` to post entries from the last 60 minutes only.

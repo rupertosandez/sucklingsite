@@ -11,6 +11,15 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.7.0] - 2026-06-06
+
+### added
+
+- added **42 new macguffins** to find, trade, and show off.
+- added **macguffin sets**. complete a set to unlock rare achievement titles.
+- macguffin cards now show which set an item belongs to.
+- update posts now include the latest changelog notes, so new releases are easier to skim in discord.
+
 ## [2.6.1] - 2026-06-05
 
 ### fixed
