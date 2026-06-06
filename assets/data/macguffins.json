@@ -1,0 +1,3277 @@
+{
+    "macguffins":  [
+                       {
+                           "id":  "one-ring",
+                           "name":  "the one ring",
+                           "emoji":  "💍",
+                           "rarity":  "iconic",
+                           "source":  "The Lord of the Rings: The Fellowship of the Ring (2001)",
+                           "flavor":  "one ring to rule them all. extremely light for something that corrupts absolutely.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "lightsaber",
+                           "name":  "a lightsaber",
+                           "emoji":  "⚔️",
+                           "rarity":  "iconic",
+                           "source":  "Star Wars (1977)",
+                           "flavor":  "makes a very satisfying noise. should not be pointed at anyone you consider family.",
+                           "sets":  [
+                                        {
+                                            "id":  "scifi",
+                                            "label":  "SciFi",
+                                            "emoji":  "🛸",
+                                            "achievement_name":  "technomancer"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "freddys-glove",
+                           "name":  "freddy krueger\u0027s bladed glove",
+                           "emoji":  "🖐️",
+                           "rarity":  "iconic",
+                           "source":  "A Nightmare on Elm Street (1984)",
+                           "flavor":  "handmade, with love. do not wear to sleep.",
+                           "sets":  [
+                                        {
+                                            "id":  "slashers",
+                                            "label":  "Slashers",
+                                            "emoji":  "🔪",
+                                            "achievement_name":  "survivor"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "pennywises-balloon",
+                           "name":  "pennywise\u0027s red balloon",
+                           "emoji":  "🎈",
+                           "rarity":  "iconic",
+                           "source":  "It (2017)",
+                           "flavor":  "they all float down here. do not follow it into the sewer drain.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "elder-wand",
+                           "name":  "the elder wand",
+                           "emoji":  "🪄",
+                           "rarity":  "iconic",
+                           "source":  "Harry Potter and the Deathly Hallows Part 2 (2011)",
+                           "flavor":  "the most powerful wand ever made. previous owners have had a rough go of it.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "holy-grail",
+                           "name":  "the holy grail",
+                           "emoji":  "🏆",
+                           "rarity":  "iconic",
+                           "source":  "Indiana Jones and the Last Crusade (1989)",
+                           "flavor":  "choose wisely. it\u0027s not the one with all the jewels.",
+                           "sets":  [
+                                        {
+                                            "id":  "indy",
+                                            "label":  "Indy",
+                                            "emoji":  "🏺",
+                                            "achievement_name":  "archaeologist"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "delorean",
+                           "name":  "the delorean",
+                           "emoji":  "🚗",
+                           "rarity":  "iconic",
+                           "source":  "Back to the Future (1985)",
+                           "flavor":  "needs 1.21 gigawatts and a very long road. the doors go up, not out.",
+                           "sets":  [
+                                        {
+                                            "id":  "bttf",
+                                            "label":  "BTTF",
+                                            "emoji":  "⚡",
+                                            "achievement_name":  "gigawatt"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "lament-configuration",
+                           "name":  "the lament configuration",
+                           "emoji":  "🧩",
+                           "rarity":  "iconic",
+                           "source":  "Hellraiser (1987)",
+                           "flavor":  "a puzzle box that opens doors to dimensions of experience beyond imagination. do not solve it.",
+                           "sets":  [
+                                        {
+                                            "id":  "cursed",
+                                            "label":  "Cursed",
+                                            "emoji":  "🔮",
+                                            "achievement_name":  "hexed"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "necronomicon",
+                           "name":  "the necronomicon ex-mortis",
+                           "emoji":  "📕",
+                           "rarity":  "iconic",
+                           "source":  "Evil Dead (1981)",
+                           "flavor":  "bound in human flesh, inked in blood. not available at your local library.",
+                           "sets":  [
+                                        {
+                                            "id":  "cursed",
+                                            "label":  "Cursed",
+                                            "emoji":  "🔮",
+                                            "achievement_name":  "hexed"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "aladdins-lamp",
+                           "name":  "aladdin\u0027s magic lamp",
+                           "emoji":  "🪔",
+                           "rarity":  "iconic",
+                           "source":  "Aladdin (1992)",
+                           "flavor":  "three wishes. no wishing for more wishes. phenomenal cosmic power, itty bitty living space.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "jasons-mask",
+                           "name":  "jason\u0027s hockey mask",
+                           "emoji":  "🏒",
+                           "rarity":  "iconic",
+                           "source":  "Friday the 13th Part III (1982)",
+                           "flavor":  "not for hockey. never actually used for hockey. found near a lake.",
+                           "sets":  [
+                                        {
+                                            "id":  "slashers",
+                                            "label":  "Slashers",
+                                            "emoji":  "🔪",
+                                            "achievement_name":  "survivor"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "myers-mask",
+                           "name":  "michael myers\u0027 mask",
+                           "emoji":  "😶",
+                           "rarity":  "iconic",
+                           "source":  "Halloween (1978)",
+                           "flavor":  "a william shatner mask, spray-painted white. whoever made it had no idea what they started.",
+                           "sets":  [
+                                        {
+                                            "id":  "slashers",
+                                            "label":  "Slashers",
+                                            "emoji":  "🔪",
+                                            "achievement_name":  "survivor"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "ghostface-mask",
+                           "name":  "ghostface\u0027s mask",
+                           "emoji":  "👻",
+                           "rarity":  "iconic",
+                           "source":  "Scream (1996)",
+                           "flavor":  "what\u0027s your favorite scary movie? answer carefully.",
+                           "sets":  [
+                                        {
+                                            "id":  "slashers",
+                                            "label":  "Slashers",
+                                            "emoji":  "🔪",
+                                            "achievement_name":  "survivor"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "leatherfaces-chainsaw",
+                           "name":  "leatherface\u0027s chainsaw",
+                           "emoji":  "🪚",
+                           "rarity":  "iconic",
+                           "source":  "The Texas Chain Saw Massacre (1974)",
+                           "flavor":  "well-used. do not ask what it has been used on.",
+                           "sets":  [
+                                        {
+                                            "id":  "slashers",
+                                            "label":  "Slashers",
+                                            "emoji":  "🔪",
+                                            "achievement_name":  "survivor"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "chucky",
+                           "name":  "chucky",
+                           "emoji":  "🪆",
+                           "rarity":  "iconic",
+                           "source":  "Child\u0027s Play (1988)",
+                           "flavor":  "hi, i\u0027m chucky. wanna play? the correct answer is no.",
+                           "sets":  [
+                                        {
+                                            "id":  "slashers",
+                                            "label":  "Slashers",
+                                            "emoji":  "🔪",
+                                            "achievement_name":  "survivor"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "golden-ticket",
+                           "name":  "a golden ticket",
+                           "emoji":  "🎫",
+                           "rarity":  "iconic",
+                           "source":  "Willy Wonka \u0026 the Chocolate Factory (1971)",
+                           "flavor":  "pure imagination. comes with a factory tour you may not survive.",
+                           "sets":  [
+                                        {
+                                            "id":  "wonka",
+                                            "label":  "Wonka",
+                                            "emoji":  "🍬",
+                                            "achievement_name":  "dreamer"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "indys-fedora",
+                           "name":  "indy\u0027s fedora",
+                           "emoji":  "🎩",
+                           "rarity":  "iconic",
+                           "source":  "Raiders of the Lost Ark (1981)",
+                           "flavor":  "it belongs in a museum. (it does not belong in a museum.)",
+                           "sets":  [
+                                        {
+                                            "id":  "indy",
+                                            "label":  "Indy",
+                                            "emoji":  "🏺",
+                                            "achievement_name":  "archaeologist"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "cobbs-top",
+                           "name":  "cobb\u0027s spinning top",
+                           "emoji":  "🌀",
+                           "rarity":  "iconic",
+                           "source":  "Inception (2010)",
+                           "flavor":  "does it wobble? does it stop? nobody knows. not even the director.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "proton-pack",
+                           "name":  "a proton pack",
+                           "emoji":  "🎒",
+                           "rarity":  "iconic",
+                           "source":  "Ghostbusters (1984)",
+                           "flavor":  "don\u0027t cross the streams. positively charged. extremely heavy. worth it.",
+                           "sets":  [
+                                        {
+                                            "id":  "ghostbusters",
+                                            "label":  "Ghostbusters",
+                                            "emoji":  "👻",
+                                            "achievement_name":  "buster"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "ruby-slippers",
+                           "name":  "the ruby slippers",
+                           "emoji":  "👠",
+                           "rarity":  "iconic",
+                           "source":  "The Wizard of Oz (1939)",
+                           "flavor":  "there\u0027s no place like home. size 5B. clicking required.",
+                           "sets":  [
+                                        {
+                                            "id":  "oz",
+                                            "label":  "Oz",
+                                            "emoji":  "👠",
+                                            "achievement_name":  "homebound"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "flux-capacitor",
+                           "name":  "the flux capacitor",
+                           "emoji":  "⚡",
+                           "rarity":  "iconic",
+                           "source":  "Back to the Future (1985)",
+                           "flavor":  "1.21 gigawatts. the thing that makes time travel possible - apparently doc came up with it after hitting his head on a toilet.",
+                           "sets":  [
+                                        {
+                                            "id":  "bttf",
+                                            "label":  "BTTF",
+                                            "emoji":  "⚡",
+                                            "achievement_name":  "gigawatt"
+                                        },
+                                        {
+                                            "id":  "scifi",
+                                            "label":  "SciFi",
+                                            "emoji":  "🛸",
+                                            "achievement_name":  "technomancer"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "briefcase",
+                           "name":  "the briefcase",
+                           "emoji":  "💼",
+                           "rarity":  "iconic",
+                           "source":  "Pulp Fiction (1994)",
+                           "flavor":  "nobody knows what\u0027s inside. the glow is warm and golden. some things are better left unopened.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "the-suckling",
+                           "name":  "the suckling",
+                           "emoji":  "🍼",
+                           "rarity":  "iconic",
+                           "source":  "The Suckling (1990)",
+                           "flavor":  "a toxic-waste mutant with family issues and a very specific grudge. the rb9 mascot nobody asked for and everyone deserves.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "annabelle",
+                           "name":  "annabelle the doll",
+                           "emoji":  "🎎",
+                           "rarity":  "rare",
+                           "source":  "The Conjuring (2013)",
+                           "flavor":  "allegedly just a vessel. does not move on its own. probably.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "redrum-axe",
+                           "name":  "the redrum door axe",
+                           "emoji":  "🪓",
+                           "rarity":  "rare",
+                           "source":  "The Shining (1980)",
+                           "flavor":  "here\u0027s johnny. the door did not survive.",
+                           "sets":  [
+                                        {
+                                            "id":  "shining",
+                                            "label":  "Shining",
+                                            "emoji":  "🪓",
+                                            "achievement_name":  "caretaker"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "facehugger",
+                           "name":  "a xenomorph facehugger (preserved)",
+                           "emoji":  "🤢",
+                           "rarity":  "rare",
+                           "source":  "Alien (1979)",
+                           "flavor":  "hermetically sealed for your protection. do not open. do not even look at it too long.",
+                           "sets":  [
+                                        {
+                                            "id":  "alien",
+                                            "label":  "Alien",
+                                            "emoji":  "👽",
+                                            "achievement_name":  "nostromo"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "the-ring-tape",
+                           "name":  "the vhs tape",
+                           "emoji":  "📼",
+                           "rarity":  "rare",
+                           "source":  "The Ring (2002)",
+                           "flavor":  "you will receive a phone call after viewing. do not view.",
+                           "sets":  [
+                                        {
+                                            "id":  "cursed",
+                                            "label":  "Cursed",
+                                            "emoji":  "🔮",
+                                            "achievement_name":  "hexed"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "babadook-book",
+                           "name":  "the babadook pop-up book",
+                           "emoji":  "📚",
+                           "rarity":  "rare",
+                           "source":  "The Babadook (2014)",
+                           "flavor":  "dook dook dook. once you\u0027ve read it, you can\u0027t make it go away. the pop-ups are surprisingly well-crafted.",
+                           "sets":  [
+                                        {
+                                            "id":  "cursed",
+                                            "label":  "Cursed",
+                                            "emoji":  "🔮",
+                                            "achievement_name":  "hexed"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "handbook-recently-deceased",
+                           "name":  "handbook for the recently deceased",
+                           "emoji":  "📖",
+                           "rarity":  "rare",
+                           "source":  "Beetlejuice (1988)",
+                           "flavor":  "practical guide for the newly dead. the print is very small and the advice is worse.",
+                           "sets":  [
+                                        {
+                                            "id":  "beetlejuice",
+                                            "label":  "Beetlejuice",
+                                            "emoji":  "🧵",
+                                            "achievement_name":  "bioexorcist"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "ashs-chainsaw-hand",
+                           "name":  "ash\u0027s chainsaw hand",
+                           "emoji":  "🔩",
+                           "rarity":  "rare",
+                           "source":  "Evil Dead II (1987)",
+                           "flavor":  "groovy. self-attaching. requires no hand underneath.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "red-swingline",
+                           "name":  "a red swingline stapler",
+                           "emoji":  "📎",
+                           "rarity":  "rare",
+                           "source":  "Office Space (1999)",
+                           "flavor":  "not the standard model. do not move it. do not touch it. he will burn the building down.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "wilson",
+                           "name":  "wilson the volleyball",
+                           "emoji":  "🏐",
+                           "rarity":  "rare",
+                           "source":  "Cast Away (2000)",
+                           "flavor":  "a companion, a confidant, a best friend. handle with extreme care.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "the-dudes-rug",
+                           "name":  "the dude\u0027s rug",
+                           "emoji":  "🟫",
+                           "rarity":  "rare",
+                           "source":  "The Big Lebowski (1998)",
+                           "flavor":  "it really tied the room together. the fact that it doesn\u0027t anymore is a genuine tragedy.",
+                           "sets":  [
+                                        {
+                                            "id":  "lebowski",
+                                            "label":  "Lebowski",
+                                            "emoji":  "🥛",
+                                            "achievement_name":  "dude"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "leg-lamp",
+                           "name":  "a leg lamp",
+                           "emoji":  "💡",
+                           "rarity":  "rare",
+                           "source":  "A Christmas Story (1983)",
+                           "flavor":  "a major award. fra-gi-le. must be italian.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "tiny-stonehenge",
+                           "name":  "the stonehenge model",
+                           "emoji":  "🪨",
+                           "rarity":  "rare",
+                           "source":  "This Is Spinal Tap (1984)",
+                           "flavor":  "eighteen inches. the brief called for eighteen feet. this happens.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "everlasting-gobstopper",
+                           "name":  "an everlasting gobstopper",
+                           "emoji":  "🍬",
+                           "rarity":  "rare",
+                           "source":  "Willy Wonka \u0026 the Chocolate Factory (1971)",
+                           "flavor":  "never gets any smaller. the flavor changes. do not bite.",
+                           "sets":  [
+                                        {
+                                            "id":  "wonka",
+                                            "label":  "Wonka",
+                                            "emoji":  "🍬",
+                                            "achievement_name":  "dreamer"
+                                        },
+                                        {
+                                            "id":  "food",
+                                            "label":  "Food",
+                                            "emoji":  "🍿",
+                                            "achievement_name":  "snacklord"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "self-lacing-nikes",
+                           "name":  "self-lacing nikes",
+                           "emoji":  "👟",
+                           "rarity":  "rare",
+                           "source":  "Back to the Future Part II (1989)",
+                           "flavor":  "auto-laces on command. arrived several years late but here they are.",
+                           "sets":  [
+                                        {
+                                            "id":  "bttf",
+                                            "label":  "BTTF",
+                                            "emoji":  "⚡",
+                                            "achievement_name":  "gigawatt"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "buzz-lightyear",
+                           "name":  "buzz lightyear",
+                           "emoji":  "🚀",
+                           "rarity":  "rare",
+                           "source":  "Toy Story (1995)",
+                           "flavor":  "to infinity and beyond. not a flying toy. he falls with style.",
+                           "sets":  [
+                                        {
+                                            "id":  "toystory",
+                                            "label":  "Toybox",
+                                            "emoji":  "🚀",
+                                            "achievement_name":  "star command"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "burn-book",
+                           "name":  "the burn book",
+                           "emoji":  "📓",
+                           "rarity":  "rare",
+                           "source":  "Mean Girls (2004)",
+                           "flavor":  "contains secrets. do not let it fall into the wrong hands. all hands are the wrong hands.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "golden-idol",
+                           "name":  "the golden idol",
+                           "emoji":  "🏺",
+                           "rarity":  "rare",
+                           "source":  "Raiders of the Lost Ark (1981)",
+                           "flavor":  "weighs exactly as much as a bag of sand, allegedly. this has never once worked out.",
+                           "sets":  [
+                                        {
+                                            "id":  "indy",
+                                            "label":  "Indy",
+                                            "emoji":  "🏺",
+                                            "achievement_name":  "archaeologist"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "black-pearl-bottle",
+                           "name":  "the black pearl in a bottle",
+                           "emoji":  "⛵",
+                           "rarity":  "rare",
+                           "source":  "Pirates of the Caribbean: The Curse of the Black Pearl (2003)",
+                           "flavor":  "why is the rum gone. and why is the ship inside this bottle.",
+                           "sets":  [
+                                        {
+                                            "id":  "pirates",
+                                            "label":  "Pirates",
+                                            "emoji":  "☠️",
+                                            "achievement_name":  "swashbuckler"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "krabby-patty-formula",
+                           "name":  "the krabby patty secret formula",
+                           "emoji":  "🍔",
+                           "rarity":  "rare",
+                           "source":  "SpongeBob SquarePants (TV)",
+                           "flavor":  "the most guarded secret in bikini bottom. nobody has read it. everyone wants it.",
+                           "sets":  [
+                                        {
+                                            "id":  "spongebob",
+                                            "label":  "SpongeBob",
+                                            "emoji":  "🐚",
+                                            "achievement_name":  "conch"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "slurm-can",
+                           "name":  "fry\u0027s can of slurm",
+                           "emoji":  "🥤",
+                           "rarity":  "rare",
+                           "source":  "Futurama (TV)",
+                           "flavor":  "highly addictive. the secret ingredient is best not investigated.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "omnitrix",
+                           "name":  "the omnitrix",
+                           "emoji":  "⌚",
+                           "rarity":  "rare",
+                           "source":  "Ben 10 (TV)",
+                           "flavor":  "aliens inside a watch. attaches permanently. the timeout always happens at the worst possible moment.",
+                           "sets":  [
+                                        {
+                                            "id":  "scifi",
+                                            "label":  "SciFi",
+                                            "emoji":  "🛸",
+                                            "achievement_name":  "technomancer"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "magic-conch",
+                           "name":  "the magic conch shell",
+                           "emoji":  "🐚",
+                           "rarity":  "rare",
+                           "source":  "SpongeBob SquarePants (TV)",
+                           "flavor":  "all you have to do is ask. the answer is usually nothing. the answer is always correct.",
+                           "sets":  [
+                                        {
+                                            "id":  "spongebob",
+                                            "label":  "SpongeBob",
+                                            "emoji":  "🐚",
+                                            "achievement_name":  "conch"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "frank-costume",
+                           "name":  "frank the bunny costume",
+                           "emoji":  "🐰",
+                           "rarity":  "rare",
+                           "source":  "Donnie Darko (2001)",
+                           "flavor":  "28 days, 6 hours, 42 minutes, 12 seconds. that is when the world will end. dress accordingly.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "pale-man-eyeballs",
+                           "name":  "the pale man\u0027s eyeballs",
+                           "emoji":  "👁️",
+                           "rarity":  "rare",
+                           "source":  "Pan\u0027s Labyrinth (2006)",
+                           "flavor":  "placed in the hands to see. do not place them in your hands.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "sevens-box",
+                           "name":  "se7en\u0027s box",
+                           "emoji":  "📦",
+                           "rarity":  "rare",
+                           "source":  "Se7en (1995)",
+                           "flavor":  "what\u0027s in the box. you don\u0027t want to know what\u0027s in the box.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "poison-apple",
+                           "name":  "the poison apple",
+                           "emoji":  "🍎",
+                           "rarity":  "rare",
+                           "source":  "Snow White and the Seven Dwarfs (1937)",
+                           "flavor":  "one bite is all it takes. looks perfectly fine. smells perfectly fine. do not eat it.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "witchs-broomstick",
+                           "name":  "the wicked witch\u0027s broomstick",
+                           "emoji":  "🧹",
+                           "rarity":  "rare",
+                           "source":  "The Wizard of Oz (1939)",
+                           "flavor":  "flies without a license. previously owned. the previous owner did not survive the acquisition.",
+                           "sets":  [
+                                        {
+                                            "id":  "oz",
+                                            "label":  "Oz",
+                                            "emoji":  "👠",
+                                            "achievement_name":  "homebound"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "room-237-key",
+                           "name":  "the room 237 key",
+                           "emoji":  "🗝️",
+                           "rarity":  "rare",
+                           "source":  "The Shining (1980)",
+                           "flavor":  "wendy, i\u0027m home. do not use this key.",
+                           "sets":  [
+                                        {
+                                            "id":  "shining",
+                                            "label":  "Shining",
+                                            "emoji":  "🪓",
+                                            "achievement_name":  "caretaker"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "regans-pea-soup",
+                           "name":  "regan\u0027s pea soup bowl",
+                           "emoji":  "🥣",
+                           "rarity":  "common",
+                           "source":  "The Exorcist (1973)",
+                           "flavor":  "the head spins, the soup flies. do not eat the contents.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "overlook-typewriter",
+                           "name":  "the overlook typewriter",
+                           "emoji":  "⌨️",
+                           "rarity":  "common",
+                           "source":  "The Shining (1980)",
+                           "flavor":  "all work and no play makes jack a dull boy. the ribbon needs replacing.",
+                           "sets":  [
+                                        {
+                                            "id":  "shining",
+                                            "label":  "Shining",
+                                            "emoji":  "🪓",
+                                            "achievement_name":  "caretaker"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "black-lodge-coffee",
+                           "name":  "a black lodge coffee cup",
+                           "emoji":  "☕",
+                           "rarity":  "common",
+                           "source":  "Twin Peaks: Fire Walk with Me (1992)",
+                           "flavor":  "damn fine coffee. consumed in a place that does not follow normal rules of space or time.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "sams-burlap-mask",
+                           "name":  "sam\u0027s burlap sack mask",
+                           "emoji":  "🎃",
+                           "rarity":  "common",
+                           "source":  "Trick \u0027r Treat (2007)",
+                           "flavor":  "homemade. do not remove the mask. sam is very particular about the mask.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "carries-prom-dress",
+                           "name":  "carrie\u0027s prom dress",
+                           "emoji":  "👗",
+                           "rarity":  "common",
+                           "source":  "Carrie (1976)",
+                           "flavor":  "they\u0027re all gonna laugh at you. they did. it did not go well for them.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "chestburster-jar",
+                           "name":  "a chestburster (in a jar)",
+                           "emoji":  "🫙",
+                           "rarity":  "common",
+                           "source":  "Alien (1979)",
+                           "flavor":  "hermetically sealed. pre-emergence. do not shake.",
+                           "sets":  [
+                                        {
+                                            "id":  "alien",
+                                            "label":  "Alien",
+                                            "emoji":  "👽",
+                                            "achievement_name":  "nostromo"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "they-live-sunglasses",
+                           "name":  "a pair of sunglasses",
+                           "emoji":  "🕶️",
+                           "rarity":  "common",
+                           "source":  "They Live (1988)",
+                           "flavor":  "obey. consume. marry and reproduce. put them on and see the world as it really is.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "ss-georgie",
+                           "name":  "the s.s. georgie",
+                           "emoji":  "🚢",
+                           "rarity":  "common",
+                           "source":  "It (2017)",
+                           "flavor":  "a paper boat. sailed once, not recovered. do not follow it into the storm drain.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "tiffany-doll",
+                           "name":  "tiffany the bride doll",
+                           "emoji":  "💍",
+                           "rarity":  "common",
+                           "source":  "Bride of Chucky (1998)",
+                           "flavor":  "she came back. she always comes back.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "gizmo",
+                           "name":  "gizmo the mogwai",
+                           "emoji":  "🐱",
+                           "rarity":  "common",
+                           "source":  "Gremlins (1984)",
+                           "flavor":  "bright light, bright light. no water. no food after midnight. these are not suggestions.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "dont-feed-sign",
+                           "name":  "a do not feed after midnight sign",
+                           "emoji":  "🚫",
+                           "rarity":  "common",
+                           "source":  "Gremlins (1984)",
+                           "flavor":  "the most important sign in any kitchen. nobody followed the rules. look how that turned out.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "sams-lollipop",
+                           "name":  "sam\u0027s lollipop",
+                           "emoji":  "🍭",
+                           "rarity":  "common",
+                           "source":  "Trick \u0027r Treat (2007)",
+                           "flavor":  "candy is just candy until sam gives it to you.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "beetlejuice-jacket",
+                           "name":  "beetlejuice\u0027s striped suit jacket",
+                           "emoji":  "🧥",
+                           "rarity":  "common",
+                           "source":  "Beetlejuice (1988)",
+                           "flavor":  "black and white stripes. say his name three times to see if it fits. do not say his name three times.",
+                           "sets":  [
+                                        {
+                                            "id":  "beetlejuice",
+                                            "label":  "Beetlejuice",
+                                            "emoji":  "🧵",
+                                            "achievement_name":  "bioexorcist"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "get-out-teacup",
+                           "name":  "a get out teacup and spoon",
+                           "emoji":  "🫖",
+                           "rarity":  "common",
+                           "source":  "Get Out (2017)",
+                           "flavor":  "the stirring puts you somewhere else. do not follow the sound.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "cornetto",
+                           "name":  "a cornetto",
+                           "emoji":  "🍦",
+                           "rarity":  "common",
+                           "source":  "Shaun of the Dead (2004)",
+                           "flavor":  "everything\u0027s going to be fine. there\u0027s a cornetto involved.",
+                           "sets":  [
+                                        {
+                                            "id":  "food",
+                                            "label":  "Food",
+                                            "emoji":  "🍿",
+                                            "achievement_name":  "snacklord"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "shauns-cricket-bat",
+                           "name":  "shaun\u0027s bloody cricket bat",
+                           "emoji":  "🏏",
+                           "rarity":  "common",
+                           "source":  "Shaun of the Dead (2004)",
+                           "flavor":  "used on exactly the kind of things a cricket bat should not be used on.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "boomstick",
+                           "name":  "the boomstick",
+                           "emoji":  "💥",
+                           "rarity":  "common",
+                           "source":  "Army of Darkness (1992)",
+                           "flavor":  "this is my boomstick. shop smart, shop s-mart.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "silver-bullet",
+                           "name":  "wolfman\u0027s silver bullet",
+                           "emoji":  "🔫",
+                           "rarity":  "common",
+                           "source":  "The Wolf Man (1941)",
+                           "flavor":  "the only thing that works. one shot, one chance. keep it somewhere you\u0027ll remember.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "holy-water-vial",
+                           "name":  "a vial of holy water",
+                           "emoji":  "💧",
+                           "rarity":  "common",
+                           "source":  "The Exorcist (1973)",
+                           "flavor":  "blessed by a priest. useful in a number of situations you\u0027d rather not be in.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "wooden-stake",
+                           "name":  "a wooden stake",
+                           "emoji":  "🪵",
+                           "rarity":  "common",
+                           "source":  "Dracula (1931)",
+                           "flavor":  "hand-sharpened. single use. do not show up without a plan.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "suspiria-shoes",
+                           "name":  "a pair of red ballet shoes",
+                           "emoji":  "🩰",
+                           "rarity":  "common",
+                           "source":  "Suspiria (1977)",
+                           "flavor":  "the color is deliberate. the dance does not end well.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "jazz-flute",
+                           "name":  "ron burgundy\u0027s jazz flute",
+                           "emoji":  "🎷",
+                           "rarity":  "common",
+                           "source":  "Anchorman: The Legend of Ron Burgundy (2004)",
+                           "flavor":  "i\u0027m kind of a big deal. the solo is real and it is committed.",
+                           "sets":  [
+                                        {
+                                            "id":  "anchorman",
+                                            "label":  "Anchorman",
+                                            "emoji":  "📰",
+                                            "achievement_name":  "newsman"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "sex-panther",
+                           "name":  "a bottle of sex panther cologne",
+                           "emoji":  "🐆",
+                           "rarity":  "common",
+                           "source":  "Anchorman: The Legend of Ron Burgundy (2004)",
+                           "flavor":  "60% of the time, it works every time. made with actual bits of panther.",
+                           "sets":  [
+                                        {
+                                            "id":  "anchorman",
+                                            "label":  "Anchorman",
+                                            "emoji":  "📰",
+                                            "achievement_name":  "newsman"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "coconut-halves",
+                           "name":  "a pair of coconut halves",
+                           "emoji":  "🥥",
+                           "rarity":  "common",
+                           "source":  "Monty Python and the Holy Grail (1975)",
+                           "flavor":  "clip clop clip clop. the horse budget did not survive pre-production.",
+                           "sets":  [
+                                        {
+                                            "id":  "python",
+                                            "label":  "Python",
+                                            "emoji":  "🏆",
+                                            "achievement_name":  "grailseeker"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "sloths-baby-ruth",
+                           "name":  "sloth\u0027s baby ruth",
+                           "emoji":  "🍫",
+                           "rarity":  "common",
+                           "source":  "The Goonies (1985)",
+                           "flavor":  "hey you guys. the bar has been through things. handle with care.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "buddy-spaghetti",
+                           "name":  "buddy the elf\u0027s syrup spaghetti",
+                           "emoji":  "🍝",
+                           "rarity":  "common",
+                           "source":  "Elf (2003)",
+                           "flavor":  "the four food groups: candy, candy canes, candy corns, and syrup. this is all four at once.",
+                           "sets":  [
+                                        {
+                                            "id":  "food",
+                                            "label":  "Food",
+                                            "emoji":  "🍿",
+                                            "achievement_name":  "snacklord"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "reeses-pieces",
+                           "name":  "a bag of reese\u0027s pieces",
+                           "emoji":  "🍬",
+                           "rarity":  "common",
+                           "source":  "E.T. the Extra-Terrestrial (1982)",
+                           "flavor":  "made first contact possible. the most important candy in cinema history.",
+                           "sets":  [
+                                        {
+                                            "id":  "food",
+                                            "label":  "Food",
+                                            "emoji":  "🍿",
+                                            "achievement_name":  "snacklord"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "box-of-chocolates",
+                           "name":  "forrest gump\u0027s box of chocolates",
+                           "emoji":  "🍫",
+                           "rarity":  "common",
+                           "source":  "Forrest Gump (1994)",
+                           "flavor":  "life is like a box of chocolates. you never know what you\u0027re gonna get. some flavors are not great.",
+                           "sets":  [
+                                        {
+                                            "id":  "food",
+                                            "label":  "Food",
+                                            "emoji":  "🍿",
+                                            "achievement_name":  "snacklord"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "royale-with-cheese",
+                           "name":  "a royale with cheese",
+                           "emoji":  "🍔",
+                           "rarity":  "common",
+                           "source":  "Pulp Fiction (1994)",
+                           "flavor":  "what do they call a quarter pounder with cheese in paris? this. they call it this.",
+                           "sets":  [
+                                        {
+                                            "id":  "food",
+                                            "label":  "Food",
+                                            "emoji":  "🍿",
+                                            "achievement_name":  "snacklord"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "glass-slipper",
+                           "name":  "a glass slipper",
+                           "emoji":  "👡",
+                           "rarity":  "common",
+                           "source":  "Cinderella (1950)",
+                           "flavor":  "fits exactly one person in the entire kingdom. impractical. effective.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "forky",
+                           "name":  "forky",
+                           "emoji":  "🍴",
+                           "rarity":  "common",
+                           "source":  "Toy Story 4 (2019)",
+                           "flavor":  "i am not a toy. i am trash. made from a spork and pipe cleaners. deeply confused about existence.",
+                           "sets":  [
+                                        {
+                                            "id":  "toystory",
+                                            "label":  "Toybox",
+                                            "emoji":  "🚀",
+                                            "achievement_name":  "star command"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "mr-potato-head",
+                           "name":  "mr. potato head",
+                           "emoji":  "🥔",
+                           "rarity":  "common",
+                           "source":  "Toy Story (1995)",
+                           "flavor":  "all parts detachable. comes with several sets of eyes. there is no actual potato involved.",
+                           "sets":  [
+                                        {
+                                            "id":  "toystory",
+                                            "label":  "Toybox",
+                                            "emoji":  "🚀",
+                                            "achievement_name":  "star command"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "lembas-bread",
+                           "name":  "a loaf of lembas bread",
+                           "emoji":  "🍞",
+                           "rarity":  "common",
+                           "source":  "The Lord of the Rings: The Fellowship of the Ring (2001)",
+                           "flavor":  "one small bite will fill the stomach of a grown man. most people eat the whole loaf anyway.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "hitchhikers-towel",
+                           "name":  "a hitchhiker\u0027s towel",
+                           "emoji":  "🏖️",
+                           "rarity":  "common",
+                           "source":  "The Hitchhiker\u0027s Guide to the Galaxy (2005)",
+                           "flavor":  "the most massively useful thing an interstellar hitchhiker can have. don\u0027t panic.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "babel-fish",
+                           "name":  "a babel fish",
+                           "emoji":  "🐟",
+                           "rarity":  "common",
+                           "source":  "The Hitchhiker\u0027s Guide to the Galaxy (2005)",
+                           "flavor":  "insert into ear to understand any language in the universe. small, yellow, leech-like, and profoundly consequential.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "stay-puft-figurine",
+                           "name":  "a stay puft marshmallow man figurine",
+                           "emoji":  "🤍",
+                           "rarity":  "common",
+                           "source":  "Ghostbusters (1984)",
+                           "flavor":  "the most harmless thing ray could think of. this did not work out.",
+                           "sets":  [
+                                        {
+                                            "id":  "ghostbusters",
+                                            "label":  "Ghostbusters",
+                                            "emoji":  "👻",
+                                            "achievement_name":  "buster"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "hoverboard",
+                           "name":  "marty\u0027s hoverboard",
+                           "emoji":  "🛹",
+                           "rarity":  "common",
+                           "source":  "Back to the Future Part II (1989)",
+                           "flavor":  "does not work on water. unless you have power. this one does not have power.",
+                           "sets":  [
+                                        {
+                                            "id":  "bttf",
+                                            "label":  "BTTF",
+                                            "emoji":  "⚡",
+                                            "achievement_name":  "gigawatt"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "orange-life-vest",
+                           "name":  "the orange life vest",
+                           "emoji":  "🧡",
+                           "rarity":  "common",
+                           "source":  "Back to the Future (1985)",
+                           "flavor":  "worn once, briefly, in 1955. the future\u0027s fashion sense has not aged well.",
+                           "sets":  [
+                                        {
+                                            "id":  "bttf",
+                                            "label":  "BTTF",
+                                            "emoji":  "⚡",
+                                            "achievement_name":  "gigawatt"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "shark-tooth-necklace",
+                           "name":  "the shark tooth necklace",
+                           "emoji":  "🦷",
+                           "rarity":  "common",
+                           "source":  "Jaws (1975)",
+                           "flavor":  "you\u0027re gonna need a bigger boat. the tooth came off something that definitely required one.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "rosebud",
+                           "name":  "the sled named rosebud",
+                           "emoji":  "🛷",
+                           "rarity":  "common",
+                           "source":  "Citizen Kane (1941)",
+                           "flavor":  "the meaning of a man\u0027s entire life, reduced to one word. it was the sled.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "dorothy-basket",
+                           "name":  "dorothy\u0027s picnic basket",
+                           "emoji":  "🧺",
+                           "rarity":  "common",
+                           "source":  "The Wizard of Oz (1939)",
+                           "flavor":  "toto was in here at some point. carried through a tornado. still functional.",
+                           "sets":  [
+                                        {
+                                            "id":  "oz",
+                                            "label":  "Oz",
+                                            "emoji":  "👠",
+                                            "achievement_name":  "homebound"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "mary-poppins-umbrella",
+                           "name":  "mary poppins\u0027 umbrella",
+                           "emoji":  "☂️",
+                           "rarity":  "common",
+                           "source":  "Mary Poppins (1964)",
+                           "flavor":  "practically perfect in every way. the parrot handle has opinions.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "mary-poppins-bag",
+                           "name":  "mary poppins\u0027 carpet bag",
+                           "emoji":  "👜",
+                           "rarity":  "common",
+                           "source":  "Mary Poppins (1964)",
+                           "flavor":  "contains a coat rack, a lamp, a hat stand, and a large mirror. bigger on the inside.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "black-knight-helmet",
+                           "name":  "the black knight\u0027s helmet",
+                           "emoji":  "⚔️",
+                           "rarity":  "common",
+                           "source":  "Monty Python and the Holy Grail (1975)",
+                           "flavor":  "\u0027tis but a scratch. comes with the confidence of someone who has clearly lost.",
+                           "sets":  [
+                                        {
+                                            "id":  "python",
+                                            "label":  "Python",
+                                            "emoji":  "🏆",
+                                            "achievement_name":  "grailseeker"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "moon-boots",
+                           "name":  "napoleon dynamite\u0027s moon boots",
+                           "emoji":  "👢",
+                           "rarity":  "common",
+                           "source":  "Napoleon Dynamite (2004)",
+                           "flavor":  "skills. you need skills. the boots arrived before the skills did.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "vote-pedro-shirt",
+                           "name":  "the vote for pedro shirt",
+                           "emoji":  "👕",
+                           "rarity":  "common",
+                           "source":  "Napoleon Dynamite (2004)",
+                           "flavor":  "vote for pedro. pedro offers you his protection.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "burgundy-scotch",
+                           "name":  "ron burgundy\u0027s scotch glass",
+                           "emoji":  "🥃",
+                           "rarity":  "common",
+                           "source":  "Anchorman: The Legend of Ron Burgundy (2004)",
+                           "flavor":  "scotchy scotch scotch. i love scotch. it\u0027s so good.",
+                           "sets":  [
+                                        {
+                                            "id":  "anchorman",
+                                            "label":  "Anchorman",
+                                            "emoji":  "📰",
+                                            "achievement_name":  "newsman"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "sex-panther-display",
+                           "name":  "the sex panther display box",
+                           "emoji":  "🖼️",
+                           "rarity":  "common",
+                           "source":  "Anchorman: The Legend of Ron Burgundy (2004)",
+                           "flavor":  "a fine display case for a fine cologne. the velvet lining still carries the scent.",
+                           "sets":  [
+                                        {
+                                            "id":  "anchorman",
+                                            "label":  "Anchorman",
+                                            "emoji":  "📰",
+                                            "achievement_name":  "newsman"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "orange-tux",
+                           "name":  "lloyd christmas\u0027 orange tuxedo",
+                           "emoji":  "🤵",
+                           "rarity":  "common",
+                           "source":  "Dumb and Dumber (1994)",
+                           "flavor":  "the most confident fashion choice in cinema. wore it to a black tie event. not invited back.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "blue-tux",
+                           "name":  "harry dunne\u0027s blue tuxedo",
+                           "emoji":  "🎩",
+                           "rarity":  "common",
+                           "source":  "Dumb and Dumber (1994)",
+                           "flavor":  "the matching counterpart to the orange. these two belong together.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "waynes-cap",
+                           "name":  "wayne\u0027s world cap",
+                           "emoji":  "🧢",
+                           "rarity":  "common",
+                           "source":  "Wayne\u0027s World (1992)",
+                           "flavor":  "not worthy. excellent.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "garths-drumsticks",
+                           "name":  "garth\u0027s drumsticks",
+                           "emoji":  "🥁",
+                           "rarity":  "common",
+                           "source":  "Wayne\u0027s World (1992)",
+                           "flavor":  "party on, garth. he plays fife in the marching band and also these.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "dudes-white-russian",
+                           "name":  "the dude\u0027s white russian",
+                           "emoji":  "🥛",
+                           "rarity":  "common",
+                           "source":  "The Big Lebowski (1998)",
+                           "flavor":  "kahlua, vodka, cream. the dude abides. this is a beverage.",
+                           "sets":  [
+                                        {
+                                            "id":  "lebowski",
+                                            "label":  "Lebowski",
+                                            "emoji":  "🥛",
+                                            "achievement_name":  "dude"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "bowling-ball-bag",
+                           "name":  "a bowling ball bag",
+                           "emoji":  "🎳",
+                           "rarity":  "common",
+                           "source":  "The Big Lebowski (1998)",
+                           "flavor":  "contains a bowling ball. unless it doesn\u0027t. that\u0027s kind of the whole thing.",
+                           "sets":  [
+                                        {
+                                            "id":  "lebowski",
+                                            "label":  "Lebowski",
+                                            "emoji":  "🥛",
+                                            "achievement_name":  "dude"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "ferris-vest",
+                           "name":  "ferris bueller\u0027s vest",
+                           "emoji":  "🧣",
+                           "rarity":  "common",
+                           "source":  "Ferris Bueller\u0027s Day Off (1986)",
+                           "flavor":  "life moves pretty fast. if you don\u0027t stop and look around once in a while, you could miss it. also this vest.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "camerons-jersey",
+                           "name":  "cameron\u0027s red wings jersey",
+                           "emoji":  "🏒",
+                           "rarity":  "common",
+                           "source":  "Ferris Bueller\u0027s Day Off (1986)",
+                           "flavor":  "cameron is so uptight. but the jersey is genuinely cool.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "zissou-beanie",
+                           "name":  "the zissou red beanie",
+                           "emoji":  "🎿",
+                           "rarity":  "common",
+                           "source":  "The Life Aquatic with Steve Zissou (2004)",
+                           "flavor":  "team zissou. the jaguar shark took someone he loved. the beanie remained.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "pageant-crown",
+                           "name":  "the little miss sunshine pageant crown",
+                           "emoji":  "👑",
+                           "rarity":  "common",
+                           "source":  "Little Miss Sunshine (2006)",
+                           "flavor":  "olive just wanted to be in the pageant. she was in the pageant. it was memorable.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "wall-e-plant-boot",
+                           "name":  "wall-e\u0027s plant boot",
+                           "emoji":  "🌱",
+                           "rarity":  "common",
+                           "source":  "WALL-E (2008)",
+                           "flavor":  "found growing in an old boot. the last living plant on earth, kept alive by a very small robot.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "carls-pin",
+                           "name":  "carl\u0027s grape soda pin",
+                           "emoji":  "📌",
+                           "rarity":  "common",
+                           "source":  "Up (2009)",
+                           "flavor":  "adventure is out there. this pin meant everything to two people and now it means everything to you.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "pizza-planet-cup",
+                           "name":  "a pizza planet cup",
+                           "emoji":  "🍕",
+                           "rarity":  "common",
+                           "source":  "Toy Story (1995)",
+                           "flavor":  "a collector\u0027s item from pizza planet. buzz lightyear may have been found nearby.",
+                           "sets":  [
+                                        {
+                                            "id":  "toystory",
+                                            "label":  "Toybox",
+                                            "emoji":  "🚀",
+                                            "achievement_name":  "star command"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "andys-cowboy-hat",
+                           "name":  "andy\u0027s cowboy hat",
+                           "emoji":  "🤠",
+                           "rarity":  "common",
+                           "source":  "Toy Story (1995)",
+                           "flavor":  "reach for the sky. woody wore it first. andy wore it once and then left it in a box for years.",
+                           "sets":  [
+                                        {
+                                            "id":  "toystory",
+                                            "label":  "Toybox",
+                                            "emoji":  "🚀",
+                                            "achievement_name":  "star command"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "barbie-pink-hat",
+                           "name":  "barbie\u0027s pink cowboy hat",
+                           "emoji":  "🩷",
+                           "rarity":  "common",
+                           "source":  "Barbie (2023)",
+                           "flavor":  "you are kenough. the hat is also kenough.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "ken-sign",
+                           "name":  "ken\u0027s mojo dojo casa house sign",
+                           "emoji":  "🏠",
+                           "rarity":  "common",
+                           "source":  "Barbie (2023)",
+                           "flavor":  "it\u0027s a mojo dojo. it\u0027s also a casa. it\u0027s a house. the name covers all the bases.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "orange-mocha-frappuccino",
+                           "name":  "an orange mocha frappuccino cup",
+                           "emoji":  "🧋",
+                           "rarity":  "common",
+                           "source":  "Zoolander (2001)",
+                           "flavor":  "orange mocha frappuccino! a beverage that launched a thousand bad decisions.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "homers-donut",
+                           "name":  "homer\u0027s emergency donut",
+                           "emoji":  "🍩",
+                           "rarity":  "common",
+                           "source":  "The Simpsons Movie (2007)",
+                           "flavor":  "mmm, forbidden donut. kept for emergencies. every emergency has required it.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "duff-beer",
+                           "name":  "a can of duff beer",
+                           "emoji":  "🍺",
+                           "rarity":  "common",
+                           "source":  "The Simpsons (TV)",
+                           "flavor":  "can\u0027t get enough of that wonderful duff.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "barts-slingshot",
+                           "name":  "bart\u0027s slingshot",
+                           "emoji":  "🎯",
+                           "rarity":  "common",
+                           "source":  "The Simpsons (TV)",
+                           "flavor":  "eat my shorts. responsible for a number of broken windows.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "cheesy-poofs",
+                           "name":  "cartman\u0027s bag of cheesy poofs",
+                           "emoji":  "🧀",
+                           "rarity":  "common",
+                           "source":  "South Park (TV)",
+                           "flavor":  "oh my god. cheesy poofs.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "kenny-hood",
+                           "name":  "kenny\u0027s orange hood",
+                           "emoji":  "🧡",
+                           "rarity":  "common",
+                           "source":  "South Park (TV)",
+                           "flavor":  "he dies a lot. the hood always comes back.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "benders-can",
+                           "name":  "bender\u0027s empty beer can",
+                           "emoji":  "🥫",
+                           "rarity":  "common",
+                           "source":  "Futurama (TV)",
+                           "flavor":  "bite my shiny metal can. empty. has been empty for some time.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "spongebob-ripped-pants",
+                           "name":  "spongebob\u0027s ripped pants",
+                           "emoji":  "👖",
+                           "rarity":  "common",
+                           "source":  "SpongeBob SquarePants (TV)",
+                           "flavor":  "he ripped his pants. everyone thought it was funny. then they thought it was less funny.",
+                           "sets":  [
+                                        {
+                                            "id":  "spongebob",
+                                            "label":  "SpongeBob",
+                                            "emoji":  "🐚",
+                                            "achievement_name":  "conch"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "patricks-wallet",
+                           "name":  "patrick\u0027s wallet",
+                           "emoji":  "👛",
+                           "rarity":  "common",
+                           "source":  "SpongeBob SquarePants (TV)",
+                           "flavor":  "mayo is not an instrument. the wallet contents remain unclear.",
+                           "sets":  [
+                                        {
+                                            "id":  "spongebob",
+                                            "label":  "SpongeBob",
+                                            "emoji":  "🐚",
+                                            "achievement_name":  "conch"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "arnolds-banana-costume",
+                           "name":  "arnold\u0027s banana costume",
+                           "emoji":  "🍌",
+                           "rarity":  "common",
+                           "source":  "Hey Arnold! (TV)",
+                           "flavor":  "head downtown with your best strawberry friend.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "tommy-screwdriver",
+                           "name":  "tommy pickles\u0027 screwdriver",
+                           "emoji":  "🔧",
+                           "rarity":  "common",
+                           "source":  "Rugrats (TV)",
+                           "flavor":  "a baby with a screwdriver. everything is an adventure. the adults are not aware.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "propane-tank",
+                           "name":  "hank hill\u0027s propane tank",
+                           "emoji":  "🔥",
+                           "rarity":  "common",
+                           "source":  "King of the Hill (TV)",
+                           "flavor":  "i sell propane and propane accessories. this is propane. it is a quality product.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "baby-driver-mask",
+                           "name":  "a halloween mask (heist edition)",
+                           "emoji":  "👺",
+                           "rarity":  "common",
+                           "source":  "Baby Driver (2017)",
+                           "flavor":  "a cheap halloween store copy. worn once during a heist. the original is considerably more famous.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "billy-puppet",
+                           "name":  "billy the puppet",
+                           "emoji":  "🤡",
+                           "rarity":  "common",
+                           "source":  "Saw (2004)",
+                           "flavor":  "i want to play a game. the tricycle is not included.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "kitten-mittens",
+                           "name":  "kitten mittens",
+                           "emoji":  "🐾",
+                           "rarity":  "iconic",
+                           "source":  "It\u0027s Always Sunny in Philadelphia (TV)",
+                           "flavor":  "is your cat making too much noise all the time? finally, a solution nobody asked for.",
+                           "sets":  [
+                                        {
+                                            "id":  "paddys",
+                                            "label":  "Paddy\u0027s",
+                                            "emoji":  "☀️",
+                                            "achievement_name":  "dayman"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "rum-ham",
+                           "name":  "rum ham",
+                           "emoji":  "🍖",
+                           "rarity":  "rare",
+                           "source":  "It\u0027s Always Sunny in Philadelphia (TV)",
+                           "flavor":  "ham soaked in rum. lost at sea, found in the heart. frank would like it back immediately.",
+                           "sets":  [
+                                        {
+                                            "id":  "paddys",
+                                            "label":  "Paddy\u0027s",
+                                            "emoji":  "☀️",
+                                            "achievement_name":  "dayman"
+                                        },
+                                        {
+                                            "id":  "food",
+                                            "label":  "Food",
+                                            "emoji":  "🍿",
+                                            "achievement_name":  "snacklord"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "green-man-suit",
+                           "name":  "the green man suit",
+                           "emoji":  "🟢",
+                           "rarity":  "rare",
+                           "source":  "It\u0027s Always Sunny in Philadelphia (TV)",
+                           "flavor":  "full-body confidence in a color that refuses to be ignored. do not wear to court.",
+                           "sets":  [
+                                        {
+                                            "id":  "paddys",
+                                            "label":  "Paddy\u0027s",
+                                            "emoji":  "☀️",
+                                            "achievement_name":  "dayman"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "the-duster",
+                           "name":  "mac\u0027s duster",
+                           "emoji":  "🧥",
+                           "rarity":  "common",
+                           "source":  "It\u0027s Always Sunny in Philadelphia (TV)",
+                           "flavor":  "not a costume. not for sale. dramatically less intimidating than intended.",
+                           "sets":  [
+                                        {
+                                            "id":  "paddys",
+                                            "label":  "Paddy\u0027s",
+                                            "emoji":  "☀️",
+                                            "achievement_name":  "dayman"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "fight-milk",
+                           "name":  "a can of fight milk",
+                           "emoji":  "🥫",
+                           "rarity":  "rare",
+                           "source":  "It\u0027s Always Sunny in Philadelphia (TV)",
+                           "flavor":  "for bodyguards, by bodyguards. packed with crowtein and questionable life choices.",
+                           "sets":  [
+                                        {
+                                            "id":  "paddys",
+                                            "label":  "Paddy\u0027s",
+                                            "emoji":  "☀️",
+                                            "achievement_name":  "dayman"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "dennis-system-binder",
+                           "name":  "the D.E.N.N.I.S. system binder",
+                           "emoji":  "📒",
+                           "rarity":  "rare",
+                           "source":  "It\u0027s Always Sunny in Philadelphia (TV)",
+                           "flavor":  "a laminated roadmap to being the worst person in the room. please do not follow it.",
+                           "sets":  [
+                                        {
+                                            "id":  "paddys",
+                                            "label":  "Paddy\u0027s",
+                                            "emoji":  "☀️",
+                                            "achievement_name":  "dayman"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "archer-gorgonite",
+                           "name":  "archer the gorgonite action figure",
+                           "emoji":  "🧸",
+                           "rarity":  "rare",
+                           "source":  "Small Soldiers (1998)",
+                           "flavor":  "leader of the gorgonites. small enough for a shelf, noble enough for a war room.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "baxter-the-dog",
+                           "name":  "baxter the dog",
+                           "emoji":  "🐶",
+                           "rarity":  "common",
+                           "source":  "Anchorman: The Legend of Ron Burgundy (2004)",
+                           "flavor":  "a tiny gentleman with excellent judgment. knows more languages than expected.",
+                           "sets":  [
+                                        {
+                                            "id":  "anchorman",
+                                            "label":  "Anchorman",
+                                            "emoji":  "📰",
+                                            "achievement_name":  "newsman"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "skull-of-argall",
+                           "name":  "the skull of argall",
+                           "emoji":  "💀",
+                           "rarity":  "rare",
+                           "source":  "Invincible (TV)",
+                           "flavor":  "ancient, ominous, and probably not something you should keep on your desk.",
+                           "sets":  [
+                                        {
+                                            "id":  "invincible",
+                                            "label":  "Invincible",
+                                            "emoji":  "💪",
+                                            "achievement_name":  "viltrumite"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "bag-of-blue-meth",
+                           "name":  "a bag of blue meth",
+                           "emoji":  "🧊",
+                           "rarity":  "common",
+                           "source":  "Breaking Bad (TV)",
+                           "flavor":  "suspiciously blue. chemistry this recognizable usually comes with consequences.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "bone-tomahawk",
+                           "name":  "the bone tomahawk",
+                           "emoji":  "🪓",
+                           "rarity":  "common",
+                           "source":  "Bone Tomahawk (2015)",
+                           "flavor":  "primitive, brutal, and best admired from a very respectful distance.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "noisy-cricket",
+                           "name":  "the noisy cricket",
+                           "emoji":  "🔫",
+                           "rarity":  "rare",
+                           "source":  "Men in Black (1997)",
+                           "flavor":  "tiny alien hardware with deeply unfair recoil. aim carefully and brace everything.",
+                           "sets":  [
+                                        {
+                                            "id":  "scifi",
+                                            "label":  "SciFi",
+                                            "emoji":  "🛸",
+                                            "achievement_name":  "technomancer"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "warp-ring",
+                           "name":  "a warp ring",
+                           "emoji":  "🟡",
+                           "rarity":  "common",
+                           "source":  "Sonic the Hedgehog (2020)",
+                           "flavor":  "throw it, jump through it, hope you thought about the destination first.",
+                           "sets":  [
+                                        {
+                                            "id":  "scifi",
+                                            "label":  "SciFi",
+                                            "emoji":  "🛸",
+                                            "achievement_name":  "technomancer"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "sonics-quill",
+                           "name":  "one of sonic\u0027s quills",
+                           "emoji":  "🪶",
+                           "rarity":  "rare",
+                           "source":  "Sonic the Hedgehog (2020)",
+                           "flavor":  "still buzzing with speed. handle gently unless you enjoy blown fuses.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "whale-penis-bone",
+                           "name":  "a whale penis bone",
+                           "emoji":  "🦴",
+                           "rarity":  "common",
+                           "source":  "Tusk (2014)",
+                           "flavor":  "technically a display piece. emotionally, a warning sign.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "tecca-chair",
+                           "name":  "a brand new tecca chair",
+                           "emoji":  "🪑",
+                           "rarity":  "rare",
+                           "source":  "The Chair Company (TV)",
+                           "flavor":  "fresh out of the box and already carrying suspicious corporate energy.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "truffonis-sloppy-steaks",
+                           "name":  "sloppy steaks from truffoni\u0027s",
+                           "emoji":  "🥩",
+                           "rarity":  "rare",
+                           "source":  "I Think You Should Leave with Tim Robinson (TV)",
+                           "flavor":  "a big rare cut of meat with water dumped all over it. they can\u0027t stop you from ordering steak.",
+                           "sets":  [
+                                        {
+                                            "id":  "food",
+                                            "label":  "Food",
+                                            "emoji":  "🍿",
+                                            "achievement_name":  "snacklord"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "ratbat",
+                           "name":  "ratbat",
+                           "emoji":  "🏏",
+                           "rarity":  "common",
+                           "source":  "It\u0027s Always Sunny in Philadelphia (TV)",
+                           "flavor":  "for basement problems, sewer problems, and every other problem the gang should not solve themselves.",
+                           "sets":  [
+                                        {
+                                            "id":  "paddys",
+                                            "label":  "Paddy\u0027s",
+                                            "emoji":  "☀️",
+                                            "achievement_name":  "dayman"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "wolf-cola",
+                           "name":  "a can of wolf cola",
+                           "emoji":  "🥤",
+                           "rarity":  "common",
+                           "source":  "It\u0027s Always Sunny in Philadelphia (TV)",
+                           "flavor":  "the official soft drink of poor decisions. goes down smooth in all the wrong markets.",
+                           "sets":  [
+                                        {
+                                            "id":  "paddys",
+                                            "label":  "Paddy\u0027s",
+                                            "emoji":  "☀️",
+                                            "achievement_name":  "dayman"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "holy-hand-grenade",
+                           "name":  "the holy hand grenade",
+                           "emoji":  "💣",
+                           "rarity":  "iconic",
+                           "source":  "Monty Python and the Holy Grail (1975)",
+                           "flavor":  "first shalt thou count to three. not two, unless thou then proceed to three.",
+                           "sets":  [
+                                        {
+                                            "id":  "python",
+                                            "label":  "Python",
+                                            "emoji":  "🏆",
+                                            "achievement_name":  "grailseeker"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "swedish-penis-pump",
+                           "name":  "a swedish-made penis enlargement pump",
+                           "emoji":  "🧰",
+                           "rarity":  "rare",
+                           "source":  "Austin Powers: International Man of Mystery (1997)",
+                           "flavor":  "that sort of thing is not anyone\u0027s bag, baby. came with a warranty and several denials.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "batarang",
+                           "name":  "a batarang",
+                           "emoji":  "🦇",
+                           "rarity":  "rare",
+                           "source":  "Batman (1989)",
+                           "flavor":  "shaped like a bat, thrown like a warning, somehow always comes back dramatically.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "husk-of-corn",
+                           "name":  "a husk of corn",
+                           "emoji":  "🌽",
+                           "rarity":  "common",
+                           "source":  "Interstellar (2014)",
+                           "flavor":  "dry, dusty, and extremely important to the future of humanity. probably.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "midsommar-pube-pie",
+                           "name":  "a slice of pie with a pube in it",
+                           "emoji":  "🥧",
+                           "rarity":  "rare",
+                           "source":  "Midsommar (2019)",
+                           "flavor":  "homemade, ceremonial, and deeply not okay. do not ask about the ingredients.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "donald",
+                           "name":  "a Donald",
+                           "emoji":  "🕴️",
+                           "rarity":  "common",
+                           "source":  "Invincible (TV)",
+                           "flavor":  "loyal, professional, and somehow still reporting for duty after everything.",
+                           "sets":  [
+                                        {
+                                            "id":  "invincible",
+                                            "label":  "Invincible",
+                                            "emoji":  "💪",
+                                            "achievement_name":  "viltrumite"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "cecils-pocket-teleporter",
+                           "name":  "cecil\u0027s pocket teleporter",
+                           "emoji":  "📟",
+                           "rarity":  "rare",
+                           "source":  "Invincible (TV)",
+                           "flavor":  "instant escape, eye-watering invoice. one use costs more than the gross economic output of lichtenstein.",
+                           "sets":  [
+                                        {
+                                            "id":  "invincible",
+                                            "label":  "Invincible",
+                                            "emoji":  "💪",
+                                            "achievement_name":  "viltrumite"
+                                        },
+                                        {
+                                            "id":  "scifi",
+                                            "label":  "SciFi",
+                                            "emoji":  "🛸",
+                                            "achievement_name":  "technomancer"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "meeseeks-box",
+                           "name":  "a meeseeks box",
+                           "emoji":  "🟦",
+                           "rarity":  "rare",
+                           "source":  "Rick and Morty (TV)",
+                           "flavor":  "press the button, make a request, regret the wording. existence is pain.",
+                           "sets":  [
+                                        {
+                                            "id":  "scifi",
+                                            "label":  "SciFi",
+                                            "emoji":  "🛸",
+                                            "achievement_name":  "technomancer"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "demonic-embalmed-hand",
+                           "name":  "a demonic embalmed hand",
+                           "emoji":  "✋",
+                           "rarity":  "rare",
+                           "source":  "Talk to Me (2022)",
+                           "flavor":  "light the candle, hold the hand, say the words. maybe stop before the party gets weird.",
+                           "sets":  [
+                                        {
+                                            "id":  "cursed",
+                                            "label":  "Cursed",
+                                            "emoji":  "🔮",
+                                            "achievement_name":  "hexed"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "paimon-crown",
+                           "name":  "a handmade paimon crown",
+                           "emoji":  "👑",
+                           "rarity":  "rare",
+                           "source":  "Hereditary (2018)",
+                           "flavor":  "tiny, handmade, and carrying the worst possible family legacy.",
+                           "sets":  [
+                                        {
+                                            "id":  "cursed",
+                                            "label":  "Cursed",
+                                            "emoji":  "🔮",
+                                            "achievement_name":  "hexed"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "blood-test-kit",
+                           "name":  "a blood test kit",
+                           "emoji":  "🩸",
+                           "rarity":  "rare",
+                           "source":  "The Thing (1982)",
+                           "flavor":  "heat the wire and watch closely. paranoia is just procedure out here.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "friendship-bracelet",
+                           "name":  "a friendship bracelet",
+                           "emoji":  "📿",
+                           "rarity":  "common",
+                           "source":  "Jennifer\u0027s Body (2009)",
+                           "flavor":  "cute, handmade, and carrying more history than either friend wants to admit.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "cursed-coat-button",
+                           "name":  "a cursed coat button",
+                           "emoji":  "🧿",
+                           "rarity":  "common",
+                           "source":  "Drag Me to Hell (2009)",
+                           "flavor":  "small enough to lose, cursed enough to ruin your entire week.",
+                           "sets":  [
+                                        {
+                                            "id":  "cursed",
+                                            "label":  "Cursed",
+                                            "emoji":  "🔮",
+                                            "achievement_name":  "hexed"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "dusty-blair-witch-camera",
+                           "name":  "a dusty camera with low battery and full footage",
+                           "emoji":  "📹",
+                           "rarity":  "common",
+                           "source":  "The Blair Witch Project (1999)",
+                           "flavor":  "found in the woods. low battery, full tape, absolutely no comforting answers.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "awesome-mix-vol-2",
+                           "name":  "Awesome Mix Vol. 2",
+                           "emoji":  "📼",
+                           "rarity":  "rare",
+                           "source":  "Guardians of the Galaxy Vol. 2 (2017)",
+                           "flavor":  "the tape still works. the feelings also still work. no skipping, especially not side b.",
+                           "sets":  [
+                                        {
+                                            "id":  "marvel",
+                                            "label":  "Marvel",
+                                            "emoji":  "🔴",
+                                            "achievement_name":  "excelsior"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "blind-mans-cane",
+                           "name":  "Blind Man\u0027s Cane",
+                           "emoji":  "🮯",
+                           "rarity":  "common",
+                           "source":  "Daredevil (TV)",
+                           "flavor":  "collapsible, discreet, and mostly there so everyone keeps underestimating the wrong guy.",
+                           "sets":  [
+                                        {
+                                            "id":  "marvel",
+                                            "label":  "Marvel",
+                                            "emoji":  "🔴",
+                                            "achievement_name":  "excelsior"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "kimoyo-beads",
+                           "name":  "Kimoyo Beads",
+                           "emoji":  "📿",
+                           "rarity":  "rare",
+                           "source":  "Black Panther (2018)",
+                           "flavor":  "tiny wakandan tech doing the work of a phone, a doctor, and a miracle.",
+                           "sets":  [
+                                        {
+                                            "id":  "marvel",
+                                            "label":  "Marvel",
+                                            "emoji":  "🔴",
+                                            "achievement_name":  "excelsior"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "sling-ring",
+                           "name":  "Sling Ring",
+                           "emoji":  "💍",
+                           "rarity":  "iconic",
+                           "source":  "Doctor Strange (2016)",
+                           "flavor":  "opens doors to anywhere, assuming you can stop making nervous circles with your hand.",
+                           "sets":  [
+                                        {
+                                            "id":  "marvel",
+                                            "label":  "Marvel",
+                                            "emoji":  "🔴",
+                                            "achievement_name":  "excelsior"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "orange-slices",
+                           "name":  "Orange Slices",
+                           "emoji":  "🍊",
+                           "rarity":  "common",
+                           "source":  "Captain America: Civil War (2016)",
+                           "flavor":  "post-fight refreshments for tiny heroes and exhausted adults.",
+                           "sets":  [
+                                        {
+                                            "id":  "marvel",
+                                            "label":  "Marvel",
+                                            "emoji":  "🔴",
+                                            "achievement_name":  "excelsior"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "class-protector-umbrella",
+                           "name":  "Class Protector Umbrella",
+                           "emoji":  "☂️",
+                           "rarity":  "rare",
+                           "source":  "Buffy the Vampire Slayer (TV)",
+                           "flavor":  "proof that sometimes the whole school knows exactly who saved them.",
+                           "sets":  [
+                                        {
+                                            "id":  "whedon",
+                                            "label":  "Whedon",
+                                            "emoji":  "🧥",
+                                            "achievement_name":  "browncoat"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "toy-dinosaurs",
+                           "name":  "Toy Dinosaurs",
+                           "emoji":  "🦖",
+                           "rarity":  "common",
+                           "source":  "Firefly (TV)",
+                           "flavor":  "curse your sudden but inevitable betrayal. kept on the console for tactical morale.",
+                           "sets":  [
+                                        {
+                                            "id":  "whedon",
+                                            "label":  "Whedon",
+                                            "emoji":  "🧥",
+                                            "achievement_name":  "browncoat"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "mr-pointy",
+                           "name":  "Mr. Pointy",
+                           "emoji":  "🩵",
+                           "rarity":  "rare",
+                           "source":  "Buffy the Vampire Slayer (TV)",
+                           "flavor":  "hand-carved, sentimental, and extremely effective against bad dates with fangs.",
+                           "sets":  [
+                                        {
+                                            "id":  "whedon",
+                                            "label":  "Whedon",
+                                            "emoji":  "🧥",
+                                            "achievement_name":  "browncoat"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "fruity-oaty-bar",
+                           "name":  "Fruity Oaty Bar",
+                           "emoji":  "🍫",
+                           "rarity":  "common",
+                           "source":  "Serenity (2005)",
+                           "flavor":  "a cheerful little snack ad with a deeply inconvenient trigger phrase baked in.",
+                           "sets":  [
+                                        {
+                                            "id":  "whedon",
+                                            "label":  "Whedon",
+                                            "emoji":  "🧥",
+                                            "achievement_name":  "browncoat"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "freeze-ray",
+                           "name":  "Freeze Ray",
+                           "emoji":  "🥶",
+                           "rarity":  "iconic",
+                           "source":  "Dr. Horrible\u0027s Sing-Along Blog (2008)",
+                           "flavor":  "stops time, sort of. mostly useful for awkward feelings and questionable plans.",
+                           "sets":  [
+                                        {
+                                            "id":  "whedon",
+                                            "label":  "Whedon",
+                                            "emoji":  "🧥",
+                                            "achievement_name":  "browncoat"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "jar-of-dirt",
+                           "name":  "Jar of Dirt",
+                           "emoji":  "🫙",
+                           "rarity":  "common",
+                           "source":  "Pirates of the Caribbean: Dead Man\u0027s Chest (2006)",
+                           "flavor":  "he\u0027s got a jar of dirt. guess what\u0027s inside it. do not drop it while celebrating.",
+                           "sets":  [
+                                        {
+                                            "id":  "pirates",
+                                            "label":  "Pirates",
+                                            "emoji":  "☠️",
+                                            "achievement_name":  "swashbuckler"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "compass-that-doesnt-point-north",
+                           "name":  "Compass That Doesn\u0027t Point North",
+                           "emoji":  "🧭",
+                           "rarity":  "rare",
+                           "source":  "Pirates of the Caribbean: The Curse of the Black Pearl (2003)",
+                           "flavor":  "points to what you want most, which is usually trouble.",
+                           "sets":  [
+                                        {
+                                            "id":  "pirates",
+                                            "label":  "Pirates",
+                                            "emoji":  "☠️",
+                                            "achievement_name":  "swashbuckler"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "tannis-root-charm",
+                           "name":  "Tannis Root Charm",
+                           "emoji":  "🌿",
+                           "rarity":  "rare",
+                           "source":  "Rosemary\u0027s Baby (1968)",
+                           "flavor":  "smells awful, looks worse, and came from neighbors who are much too friendly.",
+                           "sets":  [
+                                        {
+                                            "id":  "cursed",
+                                            "label":  "Cursed",
+                                            "emoji":  "🔮",
+                                            "achievement_name":  "hexed"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "protomolecule-sample",
+                           "name":  "Protomolecule Sample",
+                           "emoji":  "🧪",
+                           "rarity":  "rare",
+                           "source":  "The Expanse (TV)",
+                           "flavor":  "glowing blue alien weirdness in a sealed tube. the seal is doing a lot of work here.",
+                           "sets":  [
+                                        {
+                                            "id":  "scifi",
+                                            "label":  "SciFi",
+                                            "emoji":  "🛸",
+                                            "achievement_name":  "technomancer"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "truffle-pig",
+                           "name":  "Truffle Pig",
+                           "emoji":  "🐖",
+                           "rarity":  "rare",
+                           "source":  "Pig (2021)",
+                           "flavor":  "beloved, irreplaceable, and worth burning the entire underworld down to find.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "wonder-bread-firesuit",
+                           "name":  "Wonder Bread Firesuit",
+                           "emoji":  "🍞",
+                           "rarity":  "common",
+                           "source":  "Talladega Nights: The Ballad of Ricky Bobby (2006)",
+                           "flavor":  "if you\u0027re not first, you\u0027re last. flame-resistant, sponsor-heavy, and deeply american.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "single-perfect-tear",
+                           "name":  "Single Perfect Tear",
+                           "emoji":  "💧",
+                           "rarity":  "common",
+                           "source":  "Cry-Baby (1990)",
+                           "flavor":  "one dramatic tear from the baddest boy in baltimore. handle with sincerity.",
+                           "sets":  [
+
+                                    ]
+                       },
+                       {
+                           "id":  "airway-briefcase",
+                           "name":  "Airway Briefcase",
+                           "emoji":  "💼",
+                           "rarity":  "rare",
+                           "source":  "No Country for Old Men (2007)",
+                           "flavor":  "money in the case. transponder in the money. mistake already made.",
+                           "sets":  [
+                                        {
+                                            "id":  "coen",
+                                            "label":  "Coen",
+                                            "emoji":  "🪙",
+                                            "achievement_name":  "mensch"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "cattle-bolt",
+                           "name":  "Cattle Bolt",
+                           "emoji":  "🪛",
+                           "rarity":  "iconic",
+                           "source":  "No Country for Old Men (2007)",
+                           "flavor":  "call it. just call it.",
+                           "sets":  [
+                                        {
+                                            "id":  "coen",
+                                            "label":  "Coen",
+                                            "emoji":  "🪙",
+                                            "achievement_name":  "mensch"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "hula-hoop",
+                           "name":  "Hula Hoop",
+                           "emoji":  "⭕",
+                           "rarity":  "common",
+                           "source":  "The Hudsucker Proxy (1994)",
+                           "flavor":  "you know, for kids.",
+                           "sets":  [
+                                        {
+                                            "id":  "coen",
+                                            "label":  "Coen",
+                                            "emoji":  "🪙",
+                                            "achievement_name":  "mensch"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "woodchipper-hat",
+                           "name":  "Woodchipper Hat",
+                           "emoji":  "🧢",
+                           "rarity":  "rare",
+                           "source":  "Fargo (1996)",
+                           "flavor":  "good hat. cold morning. bad errand.",
+                           "sets":  [
+                                        {
+                                            "id":  "coen",
+                                            "label":  "Coen",
+                                            "emoji":  "🪙",
+                                            "achievement_name":  "mensch"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "barton-fink-wallpaper",
+                           "name":  "Barton Fink Wallpaper",
+                           "emoji":  "🧱",
+                           "rarity":  "common",
+                           "source":  "Barton Fink (1991)",
+                           "flavor":  "peeling quietly in a room where the heat will not break.",
+                           "sets":  [
+                                        {
+                                            "id":  "coen",
+                                            "label":  "Coen",
+                                            "emoji":  "🪙",
+                                            "achievement_name":  "mensch"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "fogbound-gold",
+                           "name":  "Fogbound Gold",
+                           "emoji":  "🪙",
+                           "rarity":  "rare",
+                           "source":  "The Fog (1980)",
+                           "flavor":  "stolen gold. old blood. the fog comes back for both.",
+                           "sets":  [
+                                        {
+                                            "id":  "carpenter",
+                                            "label":  "Carpenter",
+                                            "emoji":  "🥽",
+                                            "achievement_name":  "plissken"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "chess-wizard",
+                           "name":  "Chess Wizard",
+                           "emoji":  "♟️",
+                           "rarity":  "common",
+                           "source":  "The Thing (1982)",
+                           "flavor":  "the computer cheats. macready cheats back.",
+                           "sets":  [
+                                        {
+                                            "id":  "carpenter",
+                                            "label":  "Carpenter",
+                                            "emoji":  "🥽",
+                                            "achievement_name":  "plissken"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "snakes-eyepatch",
+                           "name":  "Snake\u0027s Eyepatch",
+                           "emoji":  "🥽",
+                           "rarity":  "iconic",
+                           "source":  "Escape from New York (1981)",
+                           "flavor":  "name\u0027s plissken. heard he was dead.",
+                           "sets":  [
+                                        {
+                                            "id":  "carpenter",
+                                            "label":  "Carpenter",
+                                            "emoji":  "🥽",
+                                            "achievement_name":  "plissken"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "nadas-shotgun",
+                           "name":  "Nada\u0027s Shotgun",
+                           "emoji":  "🔫",
+                           "rarity":  "rare",
+                           "source":  "They Live (1988)",
+                           "flavor":  "put on the glasses. pick up the gun. keep moving.",
+                           "sets":  [
+                                        {
+                                            "id":  "carpenter",
+                                            "label":  "Carpenter",
+                                            "emoji":  "🥽",
+                                            "achievement_name":  "plissken"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "christines-key",
+                           "name":  "Christine\u0027s Key",
+                           "emoji":  "🗡️",
+                           "rarity":  "rare",
+                           "source":  "Christine (1983)",
+                           "flavor":  "turn the key. let her idle. she remembers everything.",
+                           "sets":  [
+                                        {
+                                            "id":  "carpenter",
+                                            "label":  "Carpenter",
+                                            "emoji":  "🥽",
+                                            "achievement_name":  "plissken"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "blue-key",
+                           "name":  "Blue Key",
+                           "emoji":  "🔑",
+                           "rarity":  "rare",
+                           "source":  "Mulholland Drive (2001)",
+                           "flavor":  "the key is blue. the box is blue. after that, things become difficult.",
+                           "sets":  [
+                                        {
+                                            "id":  "lynch",
+                                            "label":  "Lynch",
+                                            "emoji":  "🌹",
+                                            "achievement_name":  "blue rose"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "log-ladys-log",
+                           "name":  "Log Lady\u0027s Log",
+                           "emoji":  "🪵",
+                           "rarity":  "iconic",
+                           "source":  "Twin Peaks (TV)",
+                           "flavor":  "the log has seen things. margaret listens. maybe you should too.",
+                           "sets":  [
+                                        {
+                                            "id":  "lynch",
+                                            "label":  "Lynch",
+                                            "emoji":  "🌹",
+                                            "achievement_name":  "blue rose"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "eraserhead-baby-blanket",
+                           "name":  "Eraserhead Baby Blanket",
+                           "emoji":  "🪆",
+                           "rarity":  "rare",
+                           "source":  "Eraserhead (1977)",
+                           "flavor":  "swaddled tight. the room hums. no one is sleeping.",
+                           "sets":  [
+                                        {
+                                            "id":  "lynch",
+                                            "label":  "Lynch",
+                                            "emoji":  "🌹",
+                                            "achievement_name":  "blue rose"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "club-silencio-microphone",
+                           "name":  "Club Silencio Microphone",
+                           "emoji":  "🎤",
+                           "rarity":  "common",
+                           "source":  "Mulholland Drive (2001)",
+                           "flavor":  "no hay banda. there is no band. and still, you hear it.",
+                           "sets":  [
+                                        {
+                                            "id":  "lynch",
+                                            "label":  "Lynch",
+                                            "emoji":  "🌹",
+                                            "achievement_name":  "blue rose"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "red-room-curtain",
+                           "name":  "Red Room Curtain",
+                           "emoji":  "🎭",
+                           "rarity":  "iconic",
+                           "source":  "Twin Peaks: Fire Walk with Me (1992)",
+                           "flavor":  "red velvet. no wind. something moves behind it anyway.",
+                           "sets":  [
+                                        {
+                                            "id":  "lynch",
+                                            "label":  "Lynch",
+                                            "emoji":  "🌹",
+                                            "achievement_name":  "blue rose"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "stomach-vcr",
+                           "name":  "Stomach VCR",
+                           "emoji":  "📼",
+                           "rarity":  "iconic",
+                           "source":  "Videodrome (1983)",
+                           "flavor":  "a soft opening in the abdomen. insert the cassette and observe the signal.",
+                           "sets":  [
+                                        {
+                                            "id":  "cronenberg",
+                                            "label":  "Cronenberg",
+                                            "emoji":  "📺",
+                                            "achievement_name":  "new flesh"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "brundlefly-telepod-part",
+                           "name":  "Brundlefly Telepod Part",
+                           "emoji":  "🧬",
+                           "rarity":  "rare",
+                           "source":  "The Fly (1986)",
+                           "flavor":  "component recovered from telepod two. sterilization incomplete.",
+                           "sets":  [
+                                        {
+                                            "id":  "cronenberg",
+                                            "label":  "Cronenberg",
+                                            "emoji":  "📺",
+                                            "achievement_name":  "new flesh"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "mugwump-typewriter",
+                           "name":  "Mugwump Typewriter",
+                           "emoji":  "⌨️",
+                           "rarity":  "iconic",
+                           "source":  "Naked Lunch (1991)",
+                           "flavor":  "chitin keys. wet advice. the report is due.",
+                           "sets":  [
+                                        {
+                                            "id":  "cronenberg",
+                                            "label":  "Cronenberg",
+                                            "emoji":  "📺",
+                                            "achievement_name":  "new flesh"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "scanners-headband",
+                           "name":  "Scanners Headband",
+                           "emoji":  "🧠",
+                           "rarity":  "common",
+                           "source":  "Scanners (1981)",
+                           "flavor":  "pressure builds quickly. meetings should be kept short.",
+                           "sets":  [
+                                        {
+                                            "id":  "cronenberg",
+                                            "label":  "Cronenberg",
+                                            "emoji":  "📺",
+                                            "achievement_name":  "new flesh"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "gamepod",
+                           "name":  "GamePod",
+                           "emoji":  "🎮",
+                           "rarity":  "rare",
+                           "source":  "eXistenZ (1999)",
+                           "flavor":  "warm to the touch. accepts a bio-port connection. do not share hardware.",
+                           "sets":  [
+                                        {
+                                            "id":  "cronenberg",
+                                            "label":  "Cronenberg",
+                                            "emoji":  "📺",
+                                            "achievement_name":  "new flesh"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "hattori-hanzo-sword",
+                           "name":  "Hattori Hanzo Sword",
+                           "emoji":  "🗡️",
+                           "rarity":  "iconic",
+                           "source":  "Kill Bill: Vol. 1 (2003)",
+                           "flavor":  "if you\u0027re looking for revenge, accept no substitutes.",
+                           "sets":  [
+                                        {
+                                            "id":  "tarantino",
+                                            "label":  "Tarantino",
+                                            "emoji":  "🗡️",
+                                            "achievement_name":  "vega"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "big-kahuna-burger",
+                           "name":  "Big Kahuna Burger",
+                           "emoji":  "🍔",
+                           "rarity":  "common",
+                           "source":  "Pulp Fiction (1994)",
+                           "flavor":  "that is a tasty burger. mind if anyone has a bite?",
+                           "sets":  [
+                                        {
+                                            "id":  "tarantino",
+                                            "label":  "Tarantino",
+                                            "emoji":  "🗡️",
+                                            "achievement_name":  "vega"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "red-apple-cigarettes",
+                           "name":  "Red Apple Cigarettes",
+                           "emoji":  "🚬",
+                           "rarity":  "common",
+                           "source":  "Pulp Fiction (1994)",
+                           "flavor":  "goes down smooth. everybody in town seems to know the brand.",
+                           "sets":  [
+                                        {
+                                            "id":  "tarantino",
+                                            "label":  "Tarantino",
+                                            "emoji":  "🗡️",
+                                            "achievement_name":  "vega"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "brides-yellow-suit",
+                           "name":  "Bride\u0027s Yellow Suit",
+                           "emoji":  "🥋",
+                           "rarity":  "rare",
+                           "source":  "Kill Bill: Vol. 1 (2003)",
+                           "flavor":  "bright yellow. blood shows up real nice on it.",
+                           "sets":  [
+                                        {
+                                            "id":  "tarantino",
+                                            "label":  "Tarantino",
+                                            "emoji":  "🗡️",
+                                            "achievement_name":  "vega"
+                                        }
+                                    ]
+                       },
+                       {
+                           "id":  "inglourious-pipe",
+                           "name":  "Inglourious Pipe",
+                           "emoji":  "💨",
+                           "rarity":  "rare",
+                           "source":  "Inglourious Basterds (2009)",
+                           "flavor":  "enormous, theatrical, and best used while making someone nervous.",
+                           "sets":  [
+                                        {
+                                            "id":  "tarantino",
+                                            "label":  "Tarantino",
+                                            "emoji":  "🗡️",
+                                            "achievement_name":  "vega"
+                                        }
+                                    ]
+                       }
+                   ],
+    "sets":  [
+                 {
+                     "id":  "paddys",
+                     "label":  "Paddy\u0027s",
+                     "achievement_id":  "set-paddys-dayman",
+                     "achievement_name":  "dayman",
+                     "description":  "completed the Paddy\u0027s MacGuffin set.",
+                     "hint":  "complete the Paddy\u0027s MacGuffin set.",
+                     "emoji":  "☀️",
+                     "macguffin_ids":  [
+                                           "kitten-mittens",
+                                           "rum-ham",
+                                           "green-man-suit",
+                                           "the-duster",
+                                           "fight-milk",
+                                           "dennis-system-binder",
+                                           "ratbat",
+                                           "wolf-cola"
+                                       ]
+                 },
+                 {
+                     "id":  "anchorman",
+                     "label":  "Anchorman",
+                     "achievement_id":  "set-anchorman-newsman",
+                     "achievement_name":  "newsman",
+                     "description":  "completed the Anchorman MacGuffin set.",
+                     "hint":  "complete the Anchorman MacGuffin set.",
+                     "emoji":  "📰",
+                     "macguffin_ids":  [
+                                           "jazz-flute",
+                                           "sex-panther",
+                                           "burgundy-scotch",
+                                           "sex-panther-display",
+                                           "baxter-the-dog"
+                                       ]
+                 },
+                 {
+                     "id":  "bttf",
+                     "label":  "BTTF",
+                     "achievement_id":  "set-bttf-gigawatt",
+                     "achievement_name":  "gigawatt",
+                     "description":  "completed the Back to the Future MacGuffin set.",
+                     "hint":  "complete the Back to the Future MacGuffin set.",
+                     "emoji":  "⚡",
+                     "macguffin_ids":  [
+                                           "delorean",
+                                           "flux-capacitor",
+                                           "orange-life-vest",
+                                           "self-lacing-nikes",
+                                           "hoverboard"
+                                       ]
+                 },
+                 {
+                     "id":  "spongebob",
+                     "label":  "SpongeBob",
+                     "achievement_id":  "set-spongebob-conch",
+                     "achievement_name":  "conch",
+                     "description":  "completed the SpongeBob MacGuffin set.",
+                     "hint":  "complete the SpongeBob MacGuffin set.",
+                     "emoji":  "🐚",
+                     "macguffin_ids":  [
+                                           "krabby-patty-formula",
+                                           "magic-conch",
+                                           "spongebob-ripped-pants",
+                                           "patricks-wallet"
+                                       ]
+                 },
+                 {
+                     "id":  "toystory",
+                     "label":  "Toybox",
+                     "achievement_id":  "set-toystory-star-command",
+                     "achievement_name":  "star command",
+                     "description":  "completed the Toy Story MacGuffin set.",
+                     "hint":  "complete the Toy Story MacGuffin set.",
+                     "emoji":  "🚀",
+                     "macguffin_ids":  [
+                                           "buzz-lightyear",
+                                           "mr-potato-head",
+                                           "pizza-planet-cup",
+                                           "andys-cowboy-hat",
+                                           "forky"
+                                       ]
+                 },
+                 {
+                     "id":  "shining",
+                     "label":  "Shining",
+                     "achievement_id":  "set-shining-caretaker",
+                     "achievement_name":  "caretaker",
+                     "description":  "completed the Shining MacGuffin set.",
+                     "hint":  "complete the Shining MacGuffin set.",
+                     "emoji":  "🪓",
+                     "macguffin_ids":  [
+                                           "redrum-axe",
+                                           "room-237-key",
+                                           "overlook-typewriter"
+                                       ]
+                 },
+                 {
+                     "id":  "oz",
+                     "label":  "Oz",
+                     "achievement_id":  "set-oz-homebound",
+                     "achievement_name":  "homebound",
+                     "description":  "completed the Wizard of Oz MacGuffin set.",
+                     "hint":  "complete the Wizard of Oz MacGuffin set.",
+                     "emoji":  "👠",
+                     "macguffin_ids":  [
+                                           "ruby-slippers",
+                                           "witchs-broomstick",
+                                           "dorothy-basket"
+                                       ]
+                 },
+                 {
+                     "id":  "python",
+                     "label":  "Python",
+                     "achievement_id":  "set-python-grailseeker",
+                     "achievement_name":  "grailseeker",
+                     "description":  "completed the Monty Python MacGuffin set.",
+                     "hint":  "complete the Monty Python MacGuffin set.",
+                     "emoji":  "🏆",
+                     "macguffin_ids":  [
+                                           "holy-hand-grenade",
+                                           "coconut-halves",
+                                           "black-knight-helmet"
+                                       ]
+                 },
+                 {
+                     "id":  "lebowski",
+                     "label":  "Lebowski",
+                     "achievement_id":  "set-lebowski-dude",
+                     "achievement_name":  "dude",
+                     "description":  "completed the Big Lebowski MacGuffin set.",
+                     "hint":  "complete the Big Lebowski MacGuffin set.",
+                     "emoji":  "🥛",
+                     "macguffin_ids":  [
+                                           "the-dudes-rug",
+                                           "dudes-white-russian",
+                                           "bowling-ball-bag"
+                                       ]
+                 },
+                 {
+                     "id":  "invincible",
+                     "label":  "Invincible",
+                     "achievement_id":  "set-invincible-viltrumite",
+                     "achievement_name":  "viltrumite",
+                     "description":  "completed the Invincible MacGuffin set.",
+                     "hint":  "complete the Invincible MacGuffin set.",
+                     "emoji":  "💪",
+                     "macguffin_ids":  [
+                                           "skull-of-argall",
+                                           "donald",
+                                           "cecils-pocket-teleporter"
+                                       ]
+                 },
+                 {
+                     "id":  "wonka",
+                     "label":  "Wonka",
+                     "achievement_id":  "set-wonka-dreamer",
+                     "achievement_name":  "dreamer",
+                     "description":  "completed the Wonka MacGuffin set.",
+                     "hint":  "complete the Wonka MacGuffin set.",
+                     "emoji":  "🍬",
+                     "macguffin_ids":  [
+                                           "golden-ticket",
+                                           "everlasting-gobstopper"
+                                       ]
+                 },
+                 {
+                     "id":  "indy",
+                     "label":  "Indy",
+                     "achievement_id":  "set-indy-archaeologist",
+                     "achievement_name":  "archaeologist",
+                     "description":  "completed the Indiana Jones MacGuffin set.",
+                     "hint":  "complete the Indiana Jones MacGuffin set.",
+                     "emoji":  "🏺",
+                     "macguffin_ids":  [
+                                           "holy-grail",
+                                           "indys-fedora",
+                                           "golden-idol"
+                                       ]
+                 },
+                 {
+                     "id":  "ghostbusters",
+                     "label":  "Ghostbusters",
+                     "achievement_id":  "set-ghostbusters-buster",
+                     "achievement_name":  "buster",
+                     "description":  "completed the Ghostbusters MacGuffin set.",
+                     "hint":  "complete the Ghostbusters MacGuffin set.",
+                     "emoji":  "👻",
+                     "macguffin_ids":  [
+                                           "proton-pack",
+                                           "stay-puft-figurine"
+                                       ]
+                 },
+                 {
+                     "id":  "beetlejuice",
+                     "label":  "Beetlejuice",
+                     "achievement_id":  "set-beetlejuice-bioexorcist",
+                     "achievement_name":  "bioexorcist",
+                     "description":  "completed the Beetlejuice MacGuffin set.",
+                     "hint":  "complete the Beetlejuice MacGuffin set.",
+                     "emoji":  "🧵",
+                     "macguffin_ids":  [
+                                           "handbook-recently-deceased",
+                                           "beetlejuice-jacket"
+                                       ]
+                 },
+                 {
+                     "id":  "alien",
+                     "label":  "Alien",
+                     "achievement_id":  "set-alien-nostromo",
+                     "achievement_name":  "nostromo",
+                     "description":  "completed the Alien MacGuffin set.",
+                     "hint":  "complete the Alien MacGuffin set.",
+                     "emoji":  "👽",
+                     "macguffin_ids":  [
+                                           "facehugger",
+                                           "chestburster-jar"
+                                       ]
+                 },
+                 {
+                     "id":  "slashers",
+                     "label":  "Slashers",
+                     "achievement_id":  "set-slashers-survivor",
+                     "achievement_name":  "survivor",
+                     "description":  "completed the Slashers MacGuffin set.",
+                     "hint":  "complete the Slashers MacGuffin set.",
+                     "emoji":  "🔪",
+                     "macguffin_ids":  [
+                                           "freddys-glove",
+                                           "jasons-mask",
+                                           "myers-mask",
+                                           "ghostface-mask",
+                                           "leatherfaces-chainsaw",
+                                           "chucky"
+                                       ]
+                 },
+                 {
+                     "id":  "cursed",
+                     "label":  "Cursed",
+                     "achievement_id":  "set-cursed-hexed",
+                     "achievement_name":  "hexed",
+                     "description":  "completed the Cursed MacGuffin set.",
+                     "hint":  "complete the Cursed MacGuffin set.",
+                     "emoji":  "🔮",
+                     "macguffin_ids":  [
+                                           "lament-configuration",
+                                           "necronomicon",
+                                           "the-ring-tape",
+                                           "babadook-book",
+                                           "demonic-embalmed-hand",
+                                           "paimon-crown",
+                                           "cursed-coat-button",
+                                           "tannis-root-charm"
+                                       ]
+                 },
+                 {
+                     "id":  "food",
+                     "label":  "Food",
+                     "achievement_id":  "set-food-snacklord",
+                     "achievement_name":  "snacklord",
+                     "description":  "completed the Food MacGuffin set.",
+                     "hint":  "complete the Food MacGuffin set.",
+                     "emoji":  "🍿",
+                     "macguffin_ids":  [
+                                           "royale-with-cheese",
+                                           "cornetto",
+                                           "reeses-pieces",
+                                           "box-of-chocolates",
+                                           "buddy-spaghetti",
+                                           "everlasting-gobstopper",
+                                           "rum-ham",
+                                           "truffonis-sloppy-steaks"
+                                       ]
+                 },
+                 {
+                     "id":  "scifi",
+                     "label":  "SciFi",
+                     "achievement_id":  "set-scifi-technomancer",
+                     "achievement_name":  "technomancer",
+                     "description":  "completed the SciFi MacGuffin set.",
+                     "hint":  "complete the SciFi MacGuffin set.",
+                     "emoji":  "🛸",
+                     "macguffin_ids":  [
+                                           "lightsaber",
+                                           "flux-capacitor",
+                                           "omnitrix",
+                                           "noisy-cricket",
+                                           "warp-ring",
+                                           "cecils-pocket-teleporter",
+                                           "meeseeks-box",
+                                           "protomolecule-sample"
+                                       ]
+                 },
+                 {
+                     "id":  "marvel",
+                     "label":  "Marvel",
+                     "achievement_id":  "set-marvel-excelsior",
+                     "achievement_name":  "excelsior",
+                     "description":  "completed the Marvel MacGuffin set.",
+                     "hint":  "complete the Marvel MacGuffin set.",
+                     "emoji":  "🔴",
+                     "macguffin_ids":  [
+                                           "awesome-mix-vol-2",
+                                           "blind-mans-cane",
+                                           "kimoyo-beads",
+                                           "sling-ring",
+                                           "orange-slices"
+                                       ]
+                 },
+                 {
+                     "id":  "whedon",
+                     "label":  "Whedon",
+                     "achievement_id":  "set-whedon-browncoat",
+                     "achievement_name":  "browncoat",
+                     "description":  "completed the Whedon MacGuffin set.",
+                     "hint":  "complete the Whedon MacGuffin set.",
+                     "emoji":  "🧥",
+                     "macguffin_ids":  [
+                                           "class-protector-umbrella",
+                                           "toy-dinosaurs",
+                                           "mr-pointy",
+                                           "fruity-oaty-bar",
+                                           "freeze-ray"
+                                       ]
+                 },
+                 {
+                     "id":  "pirates",
+                     "label":  "Pirates",
+                     "achievement_id":  "set-pirates-swashbuckler",
+                     "achievement_name":  "swashbuckler",
+                     "description":  "completed the Pirates MacGuffin set.",
+                     "hint":  "complete the Pirates MacGuffin set.",
+                     "emoji":  "☠️",
+                     "macguffin_ids":  [
+                                           "black-pearl-bottle",
+                                           "jar-of-dirt",
+                                           "compass-that-doesnt-point-north"
+                                       ]
+                 },
+                 {
+                     "id":  "coen",
+                     "label":  "Coen",
+                     "achievement_id":  "set-coen-mensch",
+                     "achievement_name":  "mensch",
+                     "description":  "completed the Coen MacGuffin set.",
+                     "hint":  "complete the Coen MacGuffin set.",
+                     "emoji":  "🪙",
+                     "macguffin_ids":  [
+                                           "airway-briefcase",
+                                           "cattle-bolt",
+                                           "hula-hoop",
+                                           "woodchipper-hat",
+                                           "barton-fink-wallpaper"
+                                       ]
+                 },
+                 {
+                     "id":  "carpenter",
+                     "label":  "Carpenter",
+                     "achievement_id":  "set-carpenter-plissken",
+                     "achievement_name":  "plissken",
+                     "description":  "completed the Carpenter MacGuffin set.",
+                     "hint":  "complete the Carpenter MacGuffin set.",
+                     "emoji":  "🥽",
+                     "macguffin_ids":  [
+                                           "fogbound-gold",
+                                           "chess-wizard",
+                                           "snakes-eyepatch",
+                                           "nadas-shotgun",
+                                           "christines-key"
+                                       ]
+                 },
+                 {
+                     "id":  "lynch",
+                     "label":  "Lynch",
+                     "achievement_id":  "set-lynch-blue-rose",
+                     "achievement_name":  "blue rose",
+                     "description":  "completed the Lynch MacGuffin set.",
+                     "hint":  "complete the Lynch MacGuffin set.",
+                     "emoji":  "🌹",
+                     "macguffin_ids":  [
+                                           "blue-key",
+                                           "log-ladys-log",
+                                           "eraserhead-baby-blanket",
+                                           "club-silencio-microphone",
+                                           "red-room-curtain"
+                                       ]
+                 },
+                 {
+                     "id":  "cronenberg",
+                     "label":  "Cronenberg",
+                     "achievement_id":  "set-cronenberg-new-flesh",
+                     "achievement_name":  "new flesh",
+                     "description":  "completed the Cronenberg MacGuffin set.",
+                     "hint":  "complete the Cronenberg MacGuffin set.",
+                     "emoji":  "📺",
+                     "macguffin_ids":  [
+                                           "stomach-vcr",
+                                           "brundlefly-telepod-part",
+                                           "mugwump-typewriter",
+                                           "scanners-headband",
+                                           "gamepod"
+                                       ]
+                 },
+                 {
+                     "id":  "tarantino",
+                     "label":  "Tarantino",
+                     "achievement_id":  "set-tarantino-vega",
+                     "achievement_name":  "vega",
+                     "description":  "completed the Tarantino MacGuffin set.",
+                     "hint":  "complete the Tarantino MacGuffin set.",
+                     "emoji":  "🗡️",
+                     "macguffin_ids":  [
+                                           "hattori-hanzo-sword",
+                                           "big-kahuna-burger",
+                                           "red-apple-cigarettes",
+                                           "brides-yellow-suit",
+                                           "inglourious-pipe"
+                                       ]
+                 }
+             ]
+}

@@ -21,6 +21,11 @@ it handles movie lookups, random recommendations, RB9 plex library picks, stream
     <strong>Achievements</strong>
     <em>Every earnable badge, grouped by rentals, rb9 library, games, and more.</em>
   </a>
+  <a class="quick-card" href="{{ '/macguffins/' | relative_url }}">
+    <span>Collect</span>
+    <strong>MacGuffins</strong>
+    <em>All available collectible movie objects, including the sets they belong to.</em>
+  </a>
   <a class="quick-card" href="{{ '/changelog/' | relative_url }}">
     <span>Read</span>
     <strong>Changelog</strong>

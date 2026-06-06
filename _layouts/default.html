@@ -20,6 +20,7 @@
           <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
           <a href="{{ '/commands/' | relative_url }}" {% if page.url contains '/commands/' %}aria-current="page"{% endif %}>Commands</a>
           <a href="{{ '/achievements/' | relative_url }}" {% if page.url contains '/achievements/' %}aria-current="page"{% endif %}>Achievements</a>
+          <a href="{{ '/macguffins/' | relative_url }}" {% if page.url contains '/macguffins/' %}aria-current="page"{% endif %}>MacGuffins</a>
           <a href="{{ '/changelog/' | relative_url }}" {% if page.url contains '/changelog/' %}aria-current="page"{% endif %}>Changelog</a>
         </nav>
       </header>
@@ -30,7 +31,7 @@
 
       <footer class="site-footer">
         <span>Suckling · Return by 9</span>
-        <span>Movie bot docs and release notes.</span>
+        <span>Movie bot docs, catalogs, and release notes.</span>
       </footer>
     </div>
   </body>

@@ -401,6 +401,69 @@ td { color: var(--muted); }
   color: var(--muted);
 }
 
+.macguffin-grid {
+  grid-template-columns: 1fr;
+}
+
+.macguffin-card {
+  grid-template-columns: 48px minmax(0, 1fr);
+  min-height: 0;
+}
+
+.macguffin-card__icon {
+  width: 48px;
+  height: 48px;
+}
+
+.macguffin-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.macguffin-rarity,
+.macguffin-set-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.045);
+  font-size: .78rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.macguffin-rarity {
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.macguffin-rarity--iconic { color: #ffd36e; }
+.macguffin-rarity--rare { color: #9cc5ff; }
+.macguffin-rarity--common { color: #d5d5d5; }
+
+.macguffin-source {
+  color: var(--faint);
+  font-size: .92rem;
+  font-weight: 700;
+}
+
+.macguffin-card__sets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 12px;
+}
+
+.macguffin-set-pill--empty {
+  color: var(--faint);
+  border-style: dashed;
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
