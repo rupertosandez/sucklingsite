@@ -426,6 +426,7 @@ td { color: var(--muted); }
 .macguffin-set-pill {
   display: inline-flex;
   align-items: center;
+  gap: 6px;
   min-height: 26px;
   padding: 4px 8px;
   border: 1px solid var(--border);
@@ -445,6 +446,13 @@ td { color: var(--muted); }
 .macguffin-rarity--iconic { color: #ffd36e; }
 .macguffin-rarity--rare { color: #9cc5ff; }
 .macguffin-rarity--common { color: #d5d5d5; }
+
+.macguffin-set-pill .emoji {
+  display: block;
+  flex: 0 0 auto;
+  width: 1rem;
+  height: 1rem;
+}
 
 .macguffin-source {
   color: var(--faint);
