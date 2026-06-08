@@ -8,6 +8,8 @@ permalink: /achievements/
 
 movie-club badges you can earn by using **suckling**. anything about watching movies uses returned rb9 rentals as the record, so `/return` is how those badges count.
 
+macguffin sets have achievement titles too. collect every card in a set and the matching badge unlocks.
+
 you can unlock as many as you want, then pin up to **3** as visible discord badge roles with `/achievementdisplay`.
 
 <div class="catalog-toolbar" aria-label="achievement catalog tools">
