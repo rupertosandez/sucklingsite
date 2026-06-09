@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.7.2] - 2026-06-09
+
+### fixed
+
+- game wins now save properly again for `/guess`, `/play`, and `/six`.
+
 ## [2.7.1] - 2026-06-07
 
 ### changed
