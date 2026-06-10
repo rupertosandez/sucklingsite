@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.7.3] - 2026-06-10
+
+### fixed
+
+- game rounds should now reveal the answer normally when someone gets it right, even if score or achievement updates need a retry.
+
 ## [2.7.2] - 2026-06-09
 
 ### fixed
