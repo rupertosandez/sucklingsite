@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.7.4] - 2026-06-10
+
+### fixed
+
+- `/guess` now reveals the answer right away when someone gets it, even if score or achievement updates are slow.
+
 ## [2.7.3] - 2026-06-10
 
 ### fixed
