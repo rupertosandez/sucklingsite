@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.7.5] - 2026-06-16
+
+### fixed
+
+- achievement rescans should no longer make suckling go quiet or miss other bot activity while badges are being checked.
+
 ## [2.7.4] - 2026-06-10
 
 ### fixed
