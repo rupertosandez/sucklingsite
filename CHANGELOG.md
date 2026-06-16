@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.7.6] - 2026-06-16
+
+### changed
+
+- suckling now talks to its database a lot more efficiently, so the bot stays snappy and shouldn't go quiet or miss scheduled posts when lots is happening at once.
+
 ## [2.7.5] - 2026-06-16
 
 ### fixed
