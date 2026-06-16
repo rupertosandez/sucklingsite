@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.7.7] - 2026-06-16
+
+### changed
+
+- the rest of suckling's commands now talk to the database off to the side too, so an individual command won't make the bot freeze up or go quiet.
+- update announcements are written in plain language now instead of repeating the developer changelog.
+
 ## [2.7.6] - 2026-06-16
 
 ### changed
