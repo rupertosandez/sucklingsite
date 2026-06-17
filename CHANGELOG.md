@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.8.0] - 2026-06-16
+
+### added
+
+- `/rent`: once you've used both re-rolls, you now get to pick your favorite from all the films you were shown instead of having the last one locked in for you. a dropdown switches the preview and an accept button locks in your pick.
+
 ## [2.7.7] - 2026-06-16
 
 ### changed
