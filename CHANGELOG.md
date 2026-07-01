@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### changed
 
-- under-the-hood database tidy-up so movie searches and lists stay consistent no matter how you type them.
+- behind-the-scenes tidy-up. searching for a movie works the same no matter how you type it.
 
 ## [2.9.1] - 2026-07-01
 
