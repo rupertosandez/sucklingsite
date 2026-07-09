@@ -11,6 +11,18 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.10.0] - 2026-07-09
+
+### added
+
+- `/guffinhistory <card>` - see a macguffin's ownership trail, who's held it and when it moved.
+- weekly community recap - every sunday, a rundown posts to the feed channel: top renters, new macguffin pulls, achievement unlocks, and the current game leaders.
+
+### changed
+
+- `/myrental` now shows full detail for every active rental, not just when you have one.
+- `/achievements` more clearly separates pinned badges, other earned badges, and what's next.
+
 ## [2.9.1.2] - 2026-07-09
 
 ### changed

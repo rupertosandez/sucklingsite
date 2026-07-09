@@ -135,7 +135,7 @@ if you return it late, a late fee is calculated: **$1 for every day (or part of 
 ---
 
 ### `/myrental`
-shows your active rentals, due times, and rental ids. if you only have one active rental, it shows the full rental status with the forum thread.
+shows your active rentals, due times, rental ids, and forum thread links. flags anything overdue.
 
 ephemeral — only you see it.
 
@@ -185,6 +185,9 @@ view your macguffin collection privately. shows 5 at a time, with a button to op
 
 ### `/giftguffin @user <card>`
 gift one of your macguffins to another member. partial names work if the bot can tell which card you mean.
+
+### `/guffinhistory <card>`
+see a macguffin's ownership history - who's held it and when it moved. works on any card, even ones you don't own. history only tracks moves going forward, so older cards may show a shorter trail than their real age.
 
 ---
 
@@ -375,6 +378,8 @@ the bot automatically posts in a few ways (admins configure the channels):
 
 **suckling feed** - achievement unlocks can post to a shared feed channel.
 
+📅 **weekly recap** - every sunday at 11am, a rundown of the week posts to the feed channel: top renters, new macguffin pulls, new achievement unlocks, and the current `/guess` and `/six` leaders.
+
 the streaming feature only announces films hitting digital for the first time — not when they move between services or get added to additional ones.
 
 ---
@@ -427,7 +432,7 @@ set the channel where the daily recommendation posts (at noon).
 set the channel where new watches from linked letterboxd accounts post. when this is set, the bot starts from the current feeds so older watches do not flood the channel.
 
 ### `/setfeed <channel>`
-set the channel where suckling feed posts go, including achievement unlocks.
+set the channel where suckling feed posts go, including achievement unlocks and the weekly recap.
 
 ### `/achievementcatalog <channel>`
 post an achievement catalog embed and website link in the chosen channel.
@@ -440,8 +445,11 @@ create a suckling faq thread in the chosen channel.
 ### `/toggle <feature> <enabled>`
 enable or disable an auto-posting feature without removing the channel setting.
 
-- `feature`: `streaming announcements`, `daily recommendation`, or `letterboxd activity`
+- `feature`: `streaming announcements`, `daily recommendation`, `letterboxd activity`, or `weekly recap`
 - `enabled`: `True` or `False`
+
+### `/recapnow`
+manually trigger the weekly recap post to the feed channel.
 
 ### `/checknow`
 manually trigger the streaming check in dry-run mode. doesn't post to discord — just returns a summary of what *would* be announced. useful for verifying detection.
