@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.10.3] - 2026-07-10
+
+### fixed
+
+- commands should feel quicker across the board now, especially `/suck`, `/rent`, and `/return`.
+
 ## [2.10.2] - 2026-07-10
 
 ### fixed
