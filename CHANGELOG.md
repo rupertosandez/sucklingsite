@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.10.2] - 2026-07-10
+
+### fixed
+
+- guessing games (`/play` and `/six`) took forever to register a win - fixed. the winner gets announced right away now instead of waiting on the achievement check behind the scenes.
+
 ## [2.10.1] - 2026-07-10
 
 ### fixed
