@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.10.3.2] - 2026-07-13
+
+### changed
+
+- synced plex collections behind the scenes - powers a new "curation" section on the portal.
+
 ## [2.10.3.1] - 2026-07-11
 
 ### changed
