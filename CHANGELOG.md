@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.12.1] - 2026-07-14
+
+### fixed
+
+- rolling polish: when your rerolls run out you now pick your favorite of the three tapes you were shown, same as discord. posters and buttons on the new pages got tidied up too.
+
 ## [2.12.0] - 2026-07-14
 
 ### added
