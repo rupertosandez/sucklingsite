@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.11.0] - 2026-07-14
+
+### added
+
+- you can rent from the portal now: hit rent on any film page and the clerk takes it from there. your discord thread, due dates, and macguffin odds all work exactly like renting in discord. rolling a random tape still lives in discord for now.
+
 ## [2.10.4.1] - 2026-07-14
 
 ### added
