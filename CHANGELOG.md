@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.10.4] - 2026-07-14
+
+### changed
+
+- macguffin drops on returns are no longer a sure thing - each watched return now has a 50% chance to drop one. random rolls still get better rarity odds when one does drop.
+
 ## [2.10.3.3] - 2026-07-14
 
 ### fixed
