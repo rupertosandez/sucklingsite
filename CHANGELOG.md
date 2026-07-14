@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.12.0] - 2026-07-14
+
+### added
+
+- returns and random rolls on the portal: return a tape (with your review) from your profile, or let the clerk pull a random one at /rentals/roll - two rerolls, better macguffin odds, same game as discord.
+
 ## [2.11.0] - 2026-07-14
 
 ### added
