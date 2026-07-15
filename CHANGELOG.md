@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.13.0] - 2026-07-15
+
+### added
+
+- your watchlist works on the portal now: add or drop films from any film page, tend the list from your profile, and see your watchlisted films flagged in watch together rooms.
+- film pages for anything: search "films not in library" and any film gets its own page, journal included. watchlist those too.
+
 ## [2.12.1.1] - 2026-07-14
 
 ### fixed
