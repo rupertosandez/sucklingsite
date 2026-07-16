@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.14.0] - 2026-07-16
+
+### added
+
+- Member collections: build your own collections on the portal from any films you like, show them on your profile, and submit them for review. Approved collections are added to Plex and appear on the Curation page with your name on them.
+
 ## [2.13.1] - 2026-07-16
 
 ### fixed
