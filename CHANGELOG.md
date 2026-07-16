@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### fixed
 
-- the "request it" link on films not in the library points at the right place again.
+- The "request it" link on films not in the library points at the right place again.
 
 ## [2.13.0] - 2026-07-15
 
