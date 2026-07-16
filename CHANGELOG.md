@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.13.1] - 2026-07-16
+
+### fixed
+
+- the "request it" link on films not in the library points at the right place again.
+
 ## [2.13.0] - 2026-07-15
 
 ### added
