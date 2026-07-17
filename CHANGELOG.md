@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.14.1] - 2026-07-16
+
+### fixed
+
+- Member avatars on the portal stay up to date automatically, even for members who never sign in there.
+
 ## [2.14.0] - 2026-07-16
 
 ### added
