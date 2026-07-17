@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.15.0] - 2026-07-16
+
+### changed
+
+- New MacGuffins can now appear in the pool at any time. Happy hunting.
+
 ## [2.14.1] - 2026-07-16
 
 ### fixed
