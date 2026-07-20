@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.16.0] - 2026-07-19
+
+### Added
+
+- The bot now reports its status to the portal once a minute, so admins can see
+  at a glance that everything is running and get notified quickly if it is not.
+
 ## [2.15.0] - 2026-07-16
 
 ### changed
