@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "total": 126,
+  "total": 131,
   "categories": [
     "rentals",
     "rb9 library",
@@ -1329,6 +1329,66 @@
       "category": "macguffins",
       "threshold": 1,
       "emoji": "🗡️",
+      "hidden": false
+    },
+    {
+      "id": "set-jurassic-clever-girl",
+      "name": "clever girl",
+      "title_name": "Clever Girl",
+      "display_name": "🦖 Clever Girl",
+      "description": "completed the Jurassic Park MacGuffin set.",
+      "hint": "complete the Jurassic Park MacGuffin set.",
+      "category": "macguffins",
+      "threshold": 1,
+      "emoji": "🦖",
+      "hidden": false
+    },
+    {
+      "id": "set-princessbride-as-you-wish",
+      "name": "as you wish",
+      "title_name": "As You Wish",
+      "display_name": "🏰 As You Wish",
+      "description": "completed the Princess Bride MacGuffin set.",
+      "hint": "complete the Princess Bride MacGuffin set.",
+      "category": "macguffins",
+      "threshold": 1,
+      "emoji": "🏰",
+      "hidden": false
+    },
+    {
+      "id": "set-kubrick-star-child",
+      "name": "star child",
+      "title_name": "Star Child",
+      "display_name": "🌠 Star Child",
+      "description": "completed the Kubrick MacGuffin set.",
+      "hint": "complete the Kubrick MacGuffin set.",
+      "category": "macguffins",
+      "threshold": 1,
+      "emoji": "🌠",
+      "hidden": false
+    },
+    {
+      "id": "set-goonies-never-say-die",
+      "name": "never say die",
+      "title_name": "Never Say Die",
+      "display_name": "🏴‍☠️ Never Say Die",
+      "description": "completed the Goonies MacGuffin set.",
+      "hint": "complete the Goonies MacGuffin set.",
+      "category": "macguffins",
+      "threshold": 1,
+      "emoji": "🏴‍☠️",
+      "hidden": false
+    },
+    {
+      "id": "set-matrix-the-one",
+      "name": "the one",
+      "title_name": "The One",
+      "display_name": "💊 The One",
+      "description": "completed the Matrix MacGuffin set.",
+      "hint": "complete the Matrix MacGuffin set.",
+      "category": "macguffins",
+      "threshold": 1,
+      "emoji": "💊",
       "hidden": false
     },
     {

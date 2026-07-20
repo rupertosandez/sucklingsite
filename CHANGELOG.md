@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.17.0] - 2026-07-19
+
+### Added
+
+- A large batch of new MacGuffins has joined the drop pool. No spoilers.
+- Five new MacGuffin sets, each with its own achievement to earn.
+
 ## [2.16.0] - 2026-07-19
 
 ### Added
