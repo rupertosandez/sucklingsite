@@ -855,24 +855,24 @@
       "id": "hallyu",
       "name": "hallyu",
       "title_name": "Hallyu",
-      "display_name": "🇰🇷 Hallyu",
+      "display_name": "🦑 Hallyu",
       "description": "returned 5 South Korean rentals.",
       "hint": "return 5 rb9 movies from South Korea.",
       "category": "rb9 library",
       "threshold": 5,
-      "emoji": "🇰🇷",
+      "emoji": "🦑",
       "hidden": false
     },
     {
       "id": "tokyo-drifter",
       "name": "tokyo drifter",
       "title_name": "Tokyo Drifter",
-      "display_name": "🇯🇵 Tokyo Drifter",
+      "display_name": "⛩️ Tokyo Drifter",
       "description": "returned 5 Japanese rentals.",
       "hint": "return 5 rb9 movies from Japan.",
       "category": "rb9 library",
       "threshold": 5,
-      "emoji": "🇯🇵",
+      "emoji": "⛩️",
       "hidden": false
     },
     {
