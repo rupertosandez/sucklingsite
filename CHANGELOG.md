@@ -11,6 +11,18 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.18.0] - 2026-07-22
+
+### Added
+
+- 25 new achievement badges across rentals, directors, actors, franchises,
+  genres, games, and MacGuffin gifting. Happy hunting.
+
+### Changed
+
+- Some badges have new names that work better as display titles. Progress and
+  unlocks are untouched, only the names changed.
+
 ## [2.17.0] - 2026-07-19
 
 ### Added
