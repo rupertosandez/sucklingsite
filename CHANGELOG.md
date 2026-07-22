@@ -4,7 +4,7 @@ title: Changelog
 permalink: /changelog/
 ---
 
-# changelog
+# Changelog
 
 All notable changes to **Suckling** will be documented here.
 
@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Fixed
 
-- Two badges swapped their flag emoji for ones that display properly on
+- Replaced the flag emoji on two badges with emoji that display correctly on
   Windows.
 
 ## [2.18.0] - 2026-07-22
@@ -23,691 +23,797 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 
 - 25 new achievement badges across rentals, directors, actors, franchises,
-  genres, games, and MacGuffin gifting. Happy hunting.
+  genres, games, and MacGuffin gifting.
 
 ### Changed
 
-- Some badges have new names that work better as display titles. Progress and
-  unlocks are untouched, only the names changed.
+- Renamed some badges so they work better as display titles. Progress and
+  unlocks are unaffected; only the names changed.
 
 ## [2.17.0] - 2026-07-19
 
 ### Added
 
-- A large batch of new MacGuffins has joined the drop pool. No spoilers.
-- Five new MacGuffin sets, each with its own achievement to earn.
+- A new batch of MacGuffins in the drop pool.
+- Five new MacGuffin sets, each with its own achievement.
 
 ## [2.16.0] - 2026-07-19
 
 ### Added
 
-- The bot now reports its status to the portal once a minute, so admins can see
-  at a glance that everything is running and get notified quickly if it is not.
+- The bot now reports its status to the portal once a minute, so admins can
+  see that it is running and are notified quickly if it is not.
 
 ## [2.15.0] - 2026-07-16
 
-### changed
+### Changed
 
-- New MacGuffins can now appear in the pool at any time. Happy hunting.
+- New MacGuffins can now be added to the drop pool at any time.
 
 ## [2.14.1] - 2026-07-16
 
-### fixed
+### Fixed
 
-- Member avatars on the portal stay up to date automatically, even for members who never sign in there.
+- Member avatars on the portal now stay up to date automatically, including
+  for members who never sign in to the portal.
 
 ## [2.14.0] - 2026-07-16
 
-### added
+### Added
 
-- Member collections: build your own collections on the portal from any films you like, show them on your profile, and submit them for review. Approved collections are added to Plex and appear on the Curation page with your name on them.
+- Member collections: members can build collections of films on the portal,
+  show them on their profile, and submit them for review. Approved collections
+  are added to Plex and appear on the Curation page credited to the member.
 
 ## [2.13.1] - 2026-07-16
 
-### fixed
+### Fixed
 
-- The "request it" link on films not in the library points at the right place again.
+- The "request it" link on films not in the library points to the correct
+  destination again.
 
 ## [2.13.0] - 2026-07-15
 
-### added
+### Added
 
-- your watchlist works on the portal now: add or drop films from any film page, tend the list from your profile, and see your watchlisted films flagged in watch together rooms.
-- film pages for anything: search "films not in library" and any film gets its own page, journal included. watchlist those too.
+- Watchlists on the portal: films can be added or removed from any film page,
+  managed from the member profile, and are flagged in watch together rooms.
+- Film pages for films outside the library: searching films not in the
+  library creates a full film page, including the journal and watchlist
+  support.
 
 ## [2.12.1.1] - 2026-07-14
 
-### fixed
+### Fixed
 
-- portal rental requests get picked up near-instantly now instead of within a few seconds. nothing to click.
+- Portal rental requests are now picked up near-instantly instead of within a
+  few seconds.
 
 ## [2.12.1] - 2026-07-14
 
-### fixed
+### Fixed
 
-- rolling polish: when your rerolls run out you now pick your favorite of the three tapes you were shown, same as discord. posters and buttons on the new pages got tidied up too.
+- When rerolls run out on a portal rental roll, the member now picks their
+  preferred film from the three shown, matching the Discord behavior.
+- Poster and button layout cleanup on the new portal pages.
 
 ## [2.12.0] - 2026-07-14
 
-### added
+### Added
 
-- returns and random rolls on the portal: return a tape (with your review) from your profile, or let the clerk pull a random one at /rentals/roll - two rerolls, better macguffin odds, same game as discord.
+- Returns and random rolls on the portal: rentals can be returned with a
+  review from the member profile, and random rentals can be rolled at
+  /rentals/roll with two rerolls and the same MacGuffin odds as Discord.
 
 ## [2.11.0] - 2026-07-14
 
-### added
+### Added
 
-- you can rent from the portal now: hit rent on any film page and the clerk takes it from there. your discord thread, due dates, and macguffin odds all work exactly like renting in discord. rolling a random tape still lives in discord for now.
+- Renting from the portal: the rent button on any film page starts a rental
+  with the same Discord thread, due dates, and MacGuffin odds as renting in
+  Discord. Random rolls remained Discord-only in this release.
 
 ## [2.10.4.1] - 2026-07-14
 
-### added
+### Added
 
-- quiet plumbing behind the counter: the clerk is learning to take rental requests from the portal. nothing to click yet.
+- Backend groundwork for accepting rental requests from the portal. No
+  member-facing changes.
 
 ## [2.10.4] - 2026-07-14
 
-### changed
+### Changed
 
-- macguffin drops on returns are no longer a sure thing - each watched return now has a 50% chance to drop one. random rolls still get better rarity odds when one does drop.
+- MacGuffin drops on returns are no longer guaranteed. Each watched return
+  now has a 50% chance to drop one. Random rolls keep improved rarity odds
+  when a drop occurs.
 
 ## [2.10.3.3] - 2026-07-14
 
-### fixed
+### Fixed
 
-- collection posters weren't showing up on the portal's curation page - fixed.
+- Collection posters now display on the portal's Curation page.
 
 ## [2.10.3.2] - 2026-07-13
 
-### changed
+### Changed
 
-- synced plex collections behind the scenes - powers a new "curation" section on the portal.
+- Plex collections are now synced to the portal, powering the Curation
+  section.
 
 ## [2.10.3.1] - 2026-07-11
 
-### changed
+### Changed
 
-- quick pit stop under the hood so future updates land cleaner. nothing to click, nothing you'll notice.
+- Internal maintenance to improve future update deployment. No member-facing
+  changes.
 
 ## [2.10.3] - 2026-07-10
 
-### fixed
+### Fixed
 
-- commands should feel quicker across the board now, especially `/suck`, `/rent`, and `/return`.
+- Improved command response times across the board, especially `/suck`,
+  `/rent`, and `/return`.
 
 ## [2.10.2] - 2026-07-10
 
-### fixed
+### Fixed
 
-- guessing games (`/play` and `/six`) took forever to register a win - fixed. the winner gets announced right away now instead of waiting on the achievement check behind the scenes.
+- Wins in `/play` and `/six` are now announced immediately instead of waiting
+  on the background achievement check.
 
 ## [2.10.1] - 2026-07-10
 
-### fixed
+### Fixed
 
-- `/achievementboard` was erroring out every time - fixed.
-- `/achievements` got a cleanup - a progress bar up top, less clutter, and a link to your full badge shelf on the site.
+- `/achievementboard` no longer errors.
+- `/achievements` layout cleanup: a progress bar at the top, less clutter,
+  and a link to the member's full badge page on the site.
 
 ## [2.10.0] - 2026-07-09
 
-### added
+### Added
 
-- `/guffinhistory <card>` - see a macguffin's ownership trail, who's held it and when it moved.
-- weekly community recap - every sunday, a rundown posts to the feed channel: top renters, new macguffin pulls, achievement unlocks, and the current game leaders.
+- `/guffinhistory <card>` shows a MacGuffin's ownership history.
+- Weekly community recap: every Sunday, a summary posts to the feed channel
+  with top renters, new MacGuffin pulls, achievement unlocks, and current
+  game leaders.
 
-### changed
+### Changed
 
-- `/myrental` now shows full detail for every active rental, not just when you have one.
-- `/achievements` more clearly separates pinned badges, other earned badges, and what's next.
+- `/myrental` now shows full detail for every active rental.
+- `/achievements` now separates pinned badges, other earned badges, and
+  upcoming badges more clearly.
 
 ## [2.9.1.2] - 2026-07-09
 
-### changed
+### Changed
 
-- another quiet one under the hood. nothing to click, nothing you'll notice.
+- Internal maintenance. No member-facing changes.
 
 ## [2.9.1.1] - 2026-07-01
 
-### changed
+### Changed
 
-- behind-the-scenes tidy-up. searching for a movie works the same no matter how you type it.
+- Movie search now handles capitalization consistently.
+- Internal cleanup.
 
 ## [2.9.1] - 2026-07-01
 
-### changed
+### Changed
 
-- general cleanup and optimization pass under the hood.
+- General internal cleanup and optimization.
 
 ## [2.9.0] - 2026-06-18
 
-### added
+### Added
 
-- `/track` now alerts you the moment a tracked movie shows up to rent or buy on a digital store (apple tv, google play, amazon video, etc.), not just when it lands on a subscription service. rent/buy and subscription are announced separately, so you still get the dedicated subscription ping (including the shudder alert) when the movie later starts streaming.
+- `/track` now sends an alert when a tracked movie becomes available to rent
+  or buy on a digital store (Apple TV, Google Play, Amazon Video, etc.), in
+  addition to subscription streaming alerts. Rent/buy and subscription
+  availability are announced separately, so the dedicated subscription alert
+  (including the Shudder alert) still fires when the movie later starts
+  streaming.
 
-### changed
+### Changed
 
-- the `/track` confirmation now tells you if a movie is already available to rent or buy, in addition to whether it's already streaming.
+- The `/track` confirmation now notes whether a movie is already available to
+  rent or buy, in addition to whether it is already streaming.
 
 ## [2.8.0] - 2026-06-16
 
-### added
+### Added
 
-- `/rent`: once you've used both re-rolls, you now get to pick your favorite from all the films you were shown instead of having the last one locked in for you. a dropdown switches the preview and an accept button locks in your pick.
+- `/rent`: after both rerolls are used, the member now picks their preferred
+  film from all films shown, instead of the last one being locked in. A
+  dropdown switches the preview and an accept button confirms the pick.
 
 ## [2.7.7] - 2026-06-16
 
-### changed
+### Changed
 
-- the rest of suckling's commands now talk to the database off to the side too, so an individual command won't make the bot freeze up or go quiet.
-- update announcements are written in plain language now instead of repeating the developer changelog.
+- All remaining commands now run database work off the main loop, so
+  individual commands no longer make the bot unresponsive.
+- Update announcements are now written in plain language instead of
+  repeating the developer changelog.
 
 ## [2.7.6] - 2026-06-16
 
-### changed
+### Changed
 
-- suckling now talks to its database a lot more efficiently, so the bot stays snappy and shouldn't go quiet or miss scheduled posts when lots is happening at once.
+- Database access is more efficient, so the bot stays responsive and no
+  longer misses scheduled posts under load.
 
 ## [2.7.5] - 2026-06-16
 
-### fixed
+### Fixed
 
-- achievement rescans should no longer make suckling go quiet or miss other bot activity while badges are being checked.
+- Achievement rescans no longer make the bot unresponsive or block other bot
+  activity while badges are checked.
 
 ## [2.7.4] - 2026-06-10
 
-### fixed
+### Fixed
 
-- `/guess` now reveals the answer right away when someone gets it, even if score or achievement updates are slow.
+- `/guess` now reveals the answer immediately when someone guesses
+  correctly, even if score or achievement updates are slow.
 
 ## [2.7.3] - 2026-06-10
 
-### fixed
+### Fixed
 
-- game rounds should now reveal the answer normally when someone gets it right, even if score or achievement updates need a retry.
+- Game rounds now reveal the answer normally when someone guesses correctly,
+  even if score or achievement updates need a retry.
 
 ## [2.7.2] - 2026-06-09
 
-### fixed
+### Fixed
 
-- game wins now save properly again for `/guess`, `/play`, and `/six`.
+- Game wins are recorded correctly again for `/guess`, `/play`, and `/six`.
 
 ## [2.7.1] - 2026-06-07
 
-### changed
+### Changed
 
-- the web dashboard can now stay synced with suckling activity as members earn achievements, collect macguffins, use rentals, and update watchlists.
+- The web dashboard now stays synced with bot activity as members earn
+  achievements, collect MacGuffins, use rentals, and update watchlists.
 
 ## [2.7.0] - 2026-06-06
 
-### added
+### Added
 
-- added **42 new macguffins** to find, trade, and show off.
-- added **macguffin sets**. complete a set to unlock rare achievement titles.
-- macguffin cards now show which set an item belongs to.
-- update posts now include the latest changelog notes, so new releases are easier to skim in discord.
+- 42 new MacGuffins.
+- MacGuffin sets: completing a set unlocks a set achievement.
+- MacGuffin cards now show which set an item belongs to.
+- Update posts now include the latest changelog notes.
 
 ## [2.6.1] - 2026-06-05
 
-### fixed
+### Fixed
 
-- rental threads now get the **review** forum tag when someone returns a rental with written thoughts.
-- `/setreviews` now looks for the forum's **review** tag along with the rental and recommendation tags.
+- Rental threads now receive the review forum tag when a rental is returned
+  with written thoughts.
+- `/setreviews` now looks for the forum's review tag along with the rental
+  and recommendation tags.
 
 ## [2.6.0] - 2026-06-05
 
-### added
+### Added
 
-- admins can now use `/plexrefresh` when rb9 has a new or changed title and suckling does not see it yet.
+- `/plexrefresh` lets admins refresh the library snapshot when RB9 has a new
+  or changed title the bot does not see yet.
 
-### fixed
+### Fixed
 
-- rb9 title matching now understands `&` and `and` as the same thing, so titles like **Peter & The Wolf** show as rentable when they are in the library.
+- RB9 title matching now treats `&` and `and` as equivalent, so titles like
+  **Peter & The Wolf** show as rentable when they are in the library.
 
 ## [2.5.9] - 2026-06-01
 
-### changed
+### Changed
 
-- embeds across the bot are cleaner and more consistent: titles, field labels, and footers are properly formatted throughout.
-- rental return modal labels and the return flow are tidier.
-- the recommend field on rental reviews now shows 👍 or 👎 instead of "yes" / "no".
-- rental status only surfaces the overdue notice when you're actually overdue.
-- achievement unlock posts are a bit cleaner — less repetition, same info.
-- achievement board's "top shelves" section is now called "top collectors".
-- a few embeds had redundant or low-value info trimmed: `/rb9stats` no longer duplicates oldest/newest (those have their own commands), `/rb9totalruntime` drops the raw minute count, and the macguffin card no longer repeats the card name.
+- Embeds across the bot are cleaner and more consistent: titles, field
+  labels, and footers are formatted consistently throughout.
+- Rental return modal labels and the return flow were cleaned up.
+- The recommend field on rental reviews now shows 👍 or 👎 instead of
+  "yes" / "no".
+- Rental status only shows the overdue notice when the rental is overdue.
+- Achievement unlock posts have less repetition.
+- The achievement board's "top shelves" section is now called "top
+  collectors".
+- Removed redundant information from several embeds: `/rb9stats` no longer
+  duplicates oldest/newest, `/rb9totalruntime` drops the raw minute count,
+  and the MacGuffin card no longer repeats the card name.
 
 ## [2.5.8] - 2026-05-30
 
-### added
+### Added
 
-- added a full achievement catalog page on the site, with search and category filters.
+- A full achievement catalog page on the site, with search and category
+  filters.
 
-### changed
+### Changed
 
-- `/achievementcatalog` now posts a tidy link to the site catalog instead of a giant discord embed list.
+- `/achievementcatalog` now posts a link to the site catalog instead of a
+  long embed list.
 
 ## [2.5.7] - 2026-05-30
 
-### added
+### Added
 
-- added more rb9 library achievements, including actor-reference badges, title-theme badges, country/genre badges, and a few new review-style badges.
+- More RB9 library achievements: actor badges, title-theme badges,
+  country and genre badges, and new review badges.
 
 ## [2.5.6] - 2026-05-29
 
-### added
+### Added
 
-- added rb9 library achievements for watching specific directors, actors, franchises, genres, title themes, and extra-long rentals.
+- RB9 library achievements for returning films by specific directors,
+  actors, franchises, genres, title themes, and extra-long runtimes.
 
 ## [2.5.5] - 2026-05-29
 
-### fixed
+### Fixed
 
-- achievement names with roman numerals now display correctly.
-- `/restart` now gives a clearer confirmation message.
+- Achievement names with Roman numerals now display correctly.
+- `/restart` gives a clearer confirmation message.
 
 ## [2.5.4] - 2026-05-29
 
-### added
+### Added
 
-- added a bigger achievement set with more badges for rentals, reviews, games, macguffins, watchlists, tracking, and letterboxd.
-- added an achievement catalog command so admins can post the full earnable badge list in a channel.
+- A larger achievement set with more badges for rentals, reviews, games,
+  MacGuffins, watchlists, tracking, and Letterboxd.
+- An achievement catalog command so admins can post the full badge list in a
+  channel.
 
-### changed
+### Changed
 
-- achievement unlock posts now feel more celebratory, with gold embeds and the badge name featured up top.
-- achievement unlocks are checked more consistently when members use suckling features.
-- admin functionality was expanded.
+- Achievement unlock posts now use gold embeds with the badge name featured
+  at the top.
+- Achievement unlocks are checked more consistently across bot features.
+- Expanded admin functionality.
 
 ## [2.5.3] - 2026-05-28
 
-### added
+### Added
 
-- added the `mutant mommy` achievement for whoever holds the iconic **the suckling** macguffin.
+- The `mutant mommy` achievement for the holder of the iconic **the
+  suckling** MacGuffin.
 
 ## [2.5.2] - 2026-05-28
 
-### changed
+### Changed
 
-- achievement backfills now post new unlocks to the feed channel too.
+- Achievement backfills now post new unlocks to the feed channel.
 
 ## [2.5.1] - 2026-05-28
 
-### changed
+### Changed
 
-- achievement badge roles now look nicer, with a matching emoji and title case, like `🎬 Poster Child`.
+- Achievement badge roles now use a matching emoji and title case, like
+  `🎬 Poster Child`.
 
 ## [2.5.0] - 2026-05-28
 
-### added
+### Added
 
-- achievements are here: earn movie-club badges from rentals, reviews, macguffins, games, watchlists, tracking, and letterboxd linking.
-- watched-movie badges use returned rentals, so `/return` is how suckling knows you watched something from rb9.
-- you can pin up to 3 earned achievements as visible discord badge roles.
-- `/achievements` shows your badge shelf and progress hints, while `/achievementboard` shows recent unlocks and rare badges.
-- admins can set a suckling feed channel where achievement unlocks post.
+- Achievements: members earn badges from rentals, reviews, MacGuffins,
+  games, watchlists, tracking, and Letterboxd linking.
+- Watched-movie badges are based on returned rentals; `/return` is how the
+  bot records that a member watched something from RB9.
+- Members can pin up to 3 earned achievements as visible Discord badge
+  roles.
+- `/achievements` shows a member's badges and progress hints;
+  `/achievementboard` shows recent unlocks and rare badges.
+- Admins can set a feed channel where achievement unlocks post.
 
 ## [2.4.6] - 2026-05-28
 
-### added
+### Added
 
-- `/timezone` lets you set your rental timezone, so rentals are due at 9 pm where you are.
+- `/timezone` sets a member's rental timezone, so rentals are due at 9 pm
+  local time.
 
-### changed
+### Changed
 
-- rentals are now due at 9 pm on the fifth day instead of just counting exactly 5 days from checkout.
-- rb9 library checks should feel quicker after restarts and routine updates, because suckling keeps a smarter local snapshot of the plex library.
-
-- `/lb group` is easier to read now, with each linked member's recent watches split into its own little block.
-- letterboxd activity posts now point to the discord member the account is linked to.
+- Rentals are now due at 9 pm on the fifth day instead of exactly 5 days
+  from checkout.
+- RB9 library checks are faster after restarts and routine updates, using a
+  local snapshot of the Plex library.
+- `/lb group` output is easier to read, with each linked member's recent
+  watches in its own block.
+- Letterboxd activity posts now reference the Discord member the account is
+  linked to.
 
 ## [2.4.5] - 2026-05-26
 
-### fixed
+### Fixed
 
-- letterboxd activity posts should show members' star ratings correctly again.
+- Letterboxd activity posts show members' star ratings correctly again.
 
 ## [2.4.4] - 2026-05-24
 
-### changed
+### Changed
 
-- suckling now has a proper desktop dashboard for running the bot, checking status, viewing logs, and handling updates from one place.
-- the launcher is safer about duplicate bot starts, so accidental double-launches should be less fussy.
+- A desktop dashboard for running the bot, checking status, viewing logs,
+  and handling updates from one place.
+- The launcher guards against duplicate bot starts.
 
 ## [2.4.3] - 2026-05-24
 
-### changed
+### Changed
 
-- letterboxd activity posts are quieter now: if one member has more than 3 new logs at once, suckling rolls them into one compact catch-up post.
+- Letterboxd activity posting: if one member has more than 3 new logs at
+  once, they are combined into one compact post.
 
 ## [2.4.2] - 2026-05-23
 
-### changed
+### Changed
 
-- rentals now last 5 days.
+- Rentals now last 5 days.
 
 ## [2.4.1] - 2026-05-21
 
-### changed
+### Changed
 
-- macguffin drop posts now show the drop type up top and make the item name stand out more.
-- updated one macguffin's flavor text.
+- MacGuffin drop posts now show the drop type at the top and emphasize the
+  item name.
+- Updated one MacGuffin's flavor text.
 
 ## [2.4.0] - 2026-05-21
 
-### added
+### Added
 
-- admins can now run plex cleanup checks to find big, quiet rb9 titles that are easy to stream elsewhere.
-- admins can use `/plexcleanupnow` to preview cleanup candidates or post them to the announcement channel.
-- admins can use `/plexunpopular` to review low-watch titles with lower tmdb scores.
+- Admins can run Plex cleanup checks to find large, rarely watched RB9
+  titles that are widely available on streaming services.
+- `/plexcleanupnow` previews cleanup candidates or posts them to the
+  announcement channel.
+- `/plexunpopular` lists low-watch titles with lower TMDB scores.
 
-### changed
+### Changed
 
-- rental title matching is more forgiving now, so punctuation and spacing should matter less when targeting an active rental.
+- Rental title matching is more forgiving of punctuation and spacing when
+  targeting an active rental.
 
 ## [2.3.2] - 2026-05-20
 
-### added
+### Added
 
-- `/rent` now lets you choose how you want to rent: roll random, pick a movie yourself, or ask an admin for a recommendation.
-- you can now have up to 3 active rentals at once.
-- `/myrental` shows all of your active rentals when you have more than one.
-- admins can use `/setrentalrequests` to choose where rental recommendation requests post.
+- `/rent` now offers a choice of rental method: roll random, pick a movie,
+  or ask an admin for a recommendation.
+- Members can have up to 3 active rentals at once.
+- `/myrental` shows all active rentals when a member has more than one.
+- `/setrentalrequests` lets admins choose where rental recommendation
+  requests post.
 
-### changed
+### Changed
 
-- `/return` and `/extend` can now target a specific rental by id or title when you have multiple rentals active.
-- randomly rolled rentals now have better odds for rare/iconic macguffin drops when you return them.
-- watchlist buttons should be less likely to show discord's "interaction failed" message after old or expired clicks.
-- movie card buttons, like **+ watchlist**, should keep working on newer public posts even after the bot restarts.
+- `/return` and `/extend` can target a specific rental by id or title when
+  multiple rentals are active.
+- Randomly rolled rentals have better odds for rare and iconic MacGuffin
+  drops on return.
+- Watchlist buttons are less likely to show Discord's "interaction failed"
+  message after old or expired clicks.
+- Movie card buttons, like **+ watchlist**, keep working on newer public
+  posts after the bot restarts.
 
 ## [2.3.1] - 2026-05-20
 
-### changed
+### Changed
 
-- housekeeping update: the bot was reorganized behind the scenes so future updates are easier to ship.
-- `/return` no longer needs a rating. you can return a rental with just the recommendation checkbox and optional thoughts.
+- Internal reorganization to make future updates easier to ship.
+- `/return` no longer requires a rating. A rental can be returned with just
+  the recommendation checkbox and optional thoughts.
 
 ## [2.3.0] - 2026-05-19
 
-### added
+### Added
 
-- macguffins are here: collectible movie objects that can drop when members return rentals.
-- `/claimguffin` gives each member one free starter macguffin.
-- `/myguffins` shows your collection privately, with card details.
-- `/giftguffin` lets you give one of your macguffins to another member.
-- admins can use `/adminguffins` to view, add, move, remove, or randomly assign member macguffins.
+- MacGuffins: collectible movie objects that can drop when members return
+  rentals.
+- `/claimguffin` gives each member one starter MacGuffin.
+- `/myguffins` shows a member's collection privately, with card details.
+- `/giftguffin` transfers a MacGuffin to another member.
+- `/adminguffins` lets admins view, add, move, remove, or randomly assign
+  member MacGuffins.
 
 ## [2.2.0] - 2026-05-19
 
-### added
+### Added
 
-- admins can use `/botstatus` for one quick dashboard with bot health, configured channels, feature toggles, rental counts, linked letterboxd count, and setup warnings.
-- admins can use `/lblinked` to see which members have linked letterboxd accounts.
-- letterboxd activity posting now only posts recent activity from the last 60 minutes, so old unseen watches do not flood the channel.
+- `/botstatus` gives admins a dashboard with bot health, configured
+  channels, feature toggles, rental counts, linked Letterboxd count, and
+  setup warnings.
+- `/lblinked` shows which members have linked Letterboxd accounts.
+- Letterboxd activity posting only posts activity from the last 60 minutes,
+  so older watches do not flood the channel.
 
 ## [2.1.0] - 2026-05-19
 
-### added
+### Added
 
-- linked letterboxd accounts can now feed a shared activity channel when members log new watches.
-- admins can use `/setlbactivity` to choose the activity channel. the bot starts from the current feeds, so old watches will not flood the channel.
-- admins can use `/lbactivitynow` to check for new letterboxd activity manually.
+- Linked Letterboxd accounts can feed a shared activity channel when
+  members log new watches.
+- `/setlbactivity` lets admins choose the activity channel. Posting starts
+  from the current feeds, so old watches do not flood the channel.
+- `/lbactivitynow` lets admins check for new Letterboxd activity manually.
 
-### changed
+### Changed
 
-- `/lb tastecheck` now compares any two members or public letterboxd usernames, instead of always comparing from your own account.
+- `/lb tastecheck` now compares any two members or public Letterboxd
+  usernames, instead of always comparing from the caller's account.
 
 ## [2.0.0] - 2026-05-18
 
-### added
+### Added
 
-- added letterboxd linking with `/lb link`, `/lb profile`, `/lb watchlist`, and `/lb group`.
-- added `/lb tastecheck` to compare your recent letterboxd taste against another member or public letterboxd username.
-- added personal bot watchlists with `/watchlist show`, `/watchlist add`, and `/watchlist remove`.
-- movie cards now have a **+ watchlist** button so you can save films from `/suck`, `/roll`, `/rb9`, `/rb9randomscene`, and daily recommendations.
-- films that are in the rb9 library now show a **rent this** button on movie cards.
+- Letterboxd linking with `/lb link`, `/lb profile`, `/lb watchlist`, and
+  `/lb group`.
+- `/lb tastecheck` compares recent Letterboxd taste between two members or
+  public Letterboxd usernames.
+- Personal watchlists with `/watchlist show`, `/watchlist add`, and
+  `/watchlist remove`.
+- Movie cards now have a **+ watchlist** button on `/suck`, `/roll`,
+  `/rb9`, `/rb9randomscene`, and daily recommendations.
+- Films in the RB9 library show a **rent this** button on movie cards.
 
-### changed
+### Changed
 
-- `/watchlist show` displays 10 films per page and includes a roll button for picking from your saved list.
-- `/suck` and `/roll` cards now include the new watchlist/rental buttons when available.
+- `/watchlist show` displays 10 films per page and includes a roll button
+  for picking from the saved list.
+- `/suck` and `/roll` cards include the watchlist and rental buttons when
+  available.
 
 ## [1.9.0] - 2026-05-17
 
-### added
+### Added
 
-- added a desktop launcher for running the bot from the windows tray.
-- the launcher can start, stop, restart, show live logs, and update the bot with one click.
-- the launcher can also be set to start with windows if you want the bot to come back automatically after a reboot.
+- A desktop launcher for running the bot from the Windows tray.
+- The launcher can start, stop, restart, show live logs, and update the bot.
+- The launcher can be set to start with Windows, so the bot comes back
+  automatically after a reboot.
 
-### changed
+### Changed
 
-- stopping or restarting the bot from the launcher is cleaner now, so it should shut down more gracefully.
+- Stopping or restarting the bot from the launcher shuts down more
+  gracefully.
 
 ## [1.8.0] - 2026-05-17
 
-### added
+### Added
 
-- `/extend` lets you add 24 hours to your active rental once per rental.
-- rental reminder DMs now include an **extend 24h** button.
-- admins can now assign a rental to a member directly with `/assignrental`.
+- `/extend` adds 24 hours to an active rental, once per rental.
+- Rental reminder DMs include an **extend 24h** button.
+- `/assignrental` lets admins assign a rental to a member directly.
 
 ## [1.7.0] - 2026-05-16
 
-### added
+### Added
 
-- admins can now restart the bot from discord with `/restart`.
+- `/restart` lets admins restart the bot from Discord.
 
 ## [1.6.2] - 2026-05-15
 
-### changed
+### Changed
 
-- rental buttons now show that the bot is working right away.
-- rental buttons also disable after being clicked, which should prevent accidental double-click weirdness.
+- Rental buttons show that the bot is working immediately.
+- Rental buttons disable after being clicked, preventing double-click
+  issues.
 
 ## [1.6.1] - 2026-05-15
 
-### changed
+### Changed
 
-- update announcements now link back to this changelog page.
+- Update announcements link back to this changelog page.
 
 ## [1.6.0] - 2026-05-15
 
-### added
+### Added
 
-- when a new bot version goes live, the bot can post an update announcement in the configured update channel.
-- normal restarts will not spam the same update again.
+- When a new bot version goes live, the bot posts an update announcement in
+  the configured update channel.
+- Normal restarts do not repeat the same update announcement.
 
 ## [1.5.1] - 2026-05-15
 
-### changed
+### Changed
 
-- the bot should feel faster and more reliable when looking up movies, checking streaming availability, pulling rb9 picks, or running daily scans.
-- the first `/rb9` or `/rent` after a restart should be less sluggish.
-- no command behavior changed in this update.
+- Performance and reliability improvements for movie lookups, streaming
+  availability checks, RB9 picks, and daily scans.
+- The first `/rb9` or `/rent` after a restart is less sluggish.
+- No command behavior changed in this update.
 
 ## [1.5.0] - 2026-05-15
 
-### added
+### Added
 
-- added the rb9 video store rental system.
-- `/rent` picks a random film from the rb9 library and gives you 5 days to watch it.
-- `/return` lets you return your rental with a rating, recommendation, and optional thoughts.
-- rental reviews post to the configured discord forum.
-- `/myrental` shows your current rental, due date, and review thread.
+- The RB9 rental system.
+- `/rent` picks a random film from the RB9 library with 5 days to watch it.
+- `/return` returns a rental with a rating, recommendation, and optional
+  thoughts.
+- Rental reviews post to the configured Discord forum.
+- `/myrental` shows the current rental, due date, and review thread.
 - `/latefees` shows the late fee leaderboard.
-- `/rentalstats` shows rental history and stats for you or another member.
-- admins can use `/setreviews` to choose the review forum.
-- admins can use `/cancelrental` to cancel someone's active rental without charging a late fee.
-- rb9 movie embeds can now show a rent button when the film is available in the library.
-- the bot sends rental reminder DMs before a movie is due and when it goes overdue.
+- `/rentalstats` shows rental history and stats for any member.
+- `/setreviews` lets admins choose the review forum.
+- `/cancelrental` lets admins cancel an active rental without a late fee.
+- RB9 movie embeds show a rent button when the film is in the library.
+- The bot sends rental reminder DMs before a movie is due and when it goes
+  overdue.
 
-### notes
+### Notes
 
-- you can only have one active rental at a time.
-- once you have rented a movie, random `/rent` picks will not give you that same movie again.
-- late fees are $1 per day overdue, calculated when you return the movie.
+- Members can have one active rental at a time.
+- Random `/rent` picks exclude movies the member has already rented.
+- Late fees are $1 per day overdue, calculated at return.
 
 ## [1.4.0] - 2026-05-12
 
-### added
+### Added
 
-- `/info` shows a quick public about card for the bot, including version and uptime.
+- `/info` shows a public about card for the bot, including version and
+  uptime.
 
 ## [1.3.0] - 2026-05-12
 
-### added
+### Added
 
 - `/play` starts trivia roulette.
-- each round randomly picks a clue type like quote, emoji, tagline, or trivia.
-- the first correct guess in chat wins the round.
+- Each round randomly picks a clue type: quote, emoji, tagline, or trivia.
+- The first correct guess in chat wins the round.
 
-### changed
+### Changed
 
-- `/leaderboard` now includes wins from both `/guess` and `/play`.
-- `/giveup` can now end `/play` rounds too.
-- guessing games now avoid overlapping in the same channel.
+- `/leaderboard` includes wins from both `/guess` and `/play`.
+- `/giveup` can end `/play` rounds.
+- Guessing games no longer overlap in the same channel.
 
 ## [1.2.4] - 2026-05-11
 
-### changed
+### Changed
 
-- `/watch` became `/suck`.
-- the movie lookup behavior is the same, just with a name that fits the bot better.
+- `/watch` was renamed to `/suck`. The lookup behavior is unchanged.
 
 ## [1.2.3] - 2026-05-10
 
-### fixed
+### Fixed
 
-- `/roll` is better about respecting runtime filters now.
-- if it cannot find a matching movie, it will say that instead of handing you something outside the filter.
+- `/roll` respects runtime filters correctly. If no matching movie is
+  found, it says so instead of returning one outside the filter.
 
-### changed
+### Changed
 
-- movie lookups and availability checks should be a bit smoother behind the scenes.
+- Internal improvements to movie lookups and availability checks.
 
 ## [1.2.2] - 2026-05-10
 
-### added
+### Added
 
-- `/watch` now shows whether a movie is in the rb9 plex library.
-- if the movie is not in the library, the bot can include a request link.
+- `/watch` shows whether a movie is in the RB9 Plex library.
+- If the movie is not in the library, the bot can include a request link.
 
 ## [1.2.1] - 2026-05-03
 
-### changed
+### Changed
 
-- `/rb9genre` now counts each film by its main genre, making the genre breakdown cleaner.
+- `/rb9genre` counts each film by its main genre for a cleaner genre
+  breakdown.
 
 ## [1.2.0] - 2026-05-03
 
-### added
+### Added
 
 - `/rb9stats` shows overall library stats.
-- `/rb9biggest` and `/rb9shortest` show the longest and shortest movies in the library.
-- `/rb9oldest` and `/rb9newest` show the oldest movie and newest library addition.
-- `/rb9totalruntime` shows how long it would take to watch the whole library.
+- `/rb9biggest` and `/rb9shortest` show the longest and shortest movies in
+  the library.
+- `/rb9oldest` and `/rb9newest` show the oldest movie and newest library
+  addition.
+- `/rb9totalruntime` shows the total runtime of the library.
 - `/rb9decade` shows films by decade.
 - `/rb9genre` shows the top genres in the library.
 - `/rb9randomscene` picks a random film with a backdrop image.
 
-### changed
+### Changed
 
-- `/plex` became `/rb9`.
+- `/plex` was renamed to `/rb9`.
 
 ## [1.1.1] - 2026-05-03
 
-### changed
+### Changed
 
-- `/giveup` now works for both `/guess` and `/six`.
-- `/six` rounds now last 4 minutes instead of 3.
+- `/giveup` works for both `/guess` and `/six`.
+- `/six` rounds last 4 minutes instead of 3.
 
 ## [1.1.0] - 2026-05-03
 
-### added
+### Added
 
 - `/six` starts a six degrees of separation game with two random actors.
 - `/sixleaderboard` shows the leaderboard for that game.
 
-### notes
+### Notes
 
-- players submit actor-to-movie chains in chat.
-- shorter valid chains score more points.
+- Players submit actor-to-movie chains in chat.
+- Shorter valid chains score more points.
 
 ## [1.0.0] - 2026-05-03
 
-### added
+### Added
 
-- first public community version of the bot.
-- `/guess` now has easy and hard modes.
+- First public community version of the bot.
+- `/guess` has easy and hard modes.
 - `/version` shows the bot version.
 
-### changed
+### Changed
 
-- streaming announcements now only fire for first-time digital releases.
-- movies moving between services should no longer create extra announcement noise.
+- Streaming announcements only fire for first-time digital releases.
+- Movies moving between services no longer create extra announcement noise.
 
 ## [0.9.0] - pre-release
 
-### added
+### Added
 
-- added `/plex`, the first version of the random rb9 library picker.
-- streaming announcements became smarter about only announcing new availability.
+- `/plex`, the first version of the random RB9 library picker.
+- Streaming announcements only announce new availability.
 
 ## [0.8.0] - pre-release
 
-### added
+### Added
 
-- admins can use `/toggle` to turn streaming announcements and daily recommendations on or off.
+- `/toggle` lets admins turn streaming announcements and daily
+  recommendations on or off.
 
 ## [0.7.0] - pre-release
 
-### added
+### Added
 
 - `/guess` gained movie stills as another guessing mode.
-- `/guess` can now randomize between poster and still rounds.
+- `/guess` can randomize between poster and still rounds.
 
 ## [0.6.0] - pre-release
 
-### added
+### Added
 
-- added the original `/guess` movie poster game.
-- added `/giveup`.
-- added `/leaderboard`.
+- The original `/guess` movie poster game.
+- `/giveup`.
+- `/leaderboard`.
 
 ## [0.5.0] - pre-release
 
-### added
+### Added
 
-- `/roll` picks a random horror movie, with optional decade and runtime filters.
-- daily horror recommendations can post automatically at noon.
-- admins can use `/setdaily` and `/dailynow` to manage daily recommendations.
+- `/roll` picks a random horror movie, with optional decade and runtime
+  filters.
+- Daily horror recommendations can post automatically at noon.
+- `/setdaily` and `/dailynow` let admins manage daily recommendations.
 
 ## [0.4.0] - pre-release
 
-### added
+### Added
 
-- `/track`, `/untrack`, and `/tracked` let the community manage a watchlist.
-- admins can choose the streaming alert channel.
-- admins can manually run streaming checks.
-- the bot can automatically check each morning for newly available movies.
+- `/track`, `/untrack`, and `/tracked` manage the community watchlist.
+- Admins can choose the streaming alert channel.
+- Admins can run streaming checks manually.
+- The bot checks each morning for newly available movies.
 
 ## [0.3.0] - pre-release
 
-### added
+### Added
 
-- added saved bot data so tracked movies and settings can stick around after restarts.
+- Persistent bot data, so tracked movies and settings survive restarts.
 
 ## [0.2.0] - pre-release
 
-### added
+### Added
 
 - `/watch` shows where a movie is available to watch.
-- ambiguous movie searches now offer a dropdown so you can pick the right title.
+- Ambiguous movie searches offer a dropdown to pick the right title.
 - `/watch` supports a year option for more specific searches.
 
 ## [0.1.0] - pre-release
 
-### added
+### Added
 
-- added the first `/ping` health check.
-- added the first `/watch` movie lookup command.
+- The first `/ping` health check.
+- The first `/watch` movie lookup command.
