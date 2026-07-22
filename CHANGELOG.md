@@ -11,6 +11,14 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.18.2] - 2026-07-23
+
+### Changed
+
+- Renamed 23 badges across the catalog so every badge name works as a member
+  display title. Progress, unlocks, and badge roles are unaffected; only the
+  names changed.
+
 ## [2.18.1] - 2026-07-23
 
 ### Fixed
