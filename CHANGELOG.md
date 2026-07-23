@@ -11,6 +11,14 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.19.0] - 2026-07-23
+
+### Added
+
+- Guest book DMs: when someone signs your guest book on the portal, the bot
+  sends you a short Discord DM with a link to your guest book. You can turn
+  these off in the portal under Settings > Account.
+
 ## [2.18.2] - 2026-07-23
 
 ### Changed
