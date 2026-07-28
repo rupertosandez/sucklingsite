@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.19.2.2] - 2026-07-28
+
+### Fixed
+
+- Bot status on the admin dashboard reported the bot as down while it was
+  running normally.
+
 ## [2.19.2.1] - 2026-07-28
 
 ### Changed
