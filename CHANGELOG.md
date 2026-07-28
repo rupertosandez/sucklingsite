@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.19.3] - 2026-07-28
+
+### Added
+
+- Safeguards so the bot refuses to start against the wrong database, and
+  two copies can never run at once.
+
 ## [2.19.2.2] - 2026-07-28
 
 ### Fixed
