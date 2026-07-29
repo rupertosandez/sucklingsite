@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.19.6] - 2026-07-29
+
+### Added
+
+- Rentals no longer require a title to be on Plex.
+
 ## [2.19.5] - 2026-07-29
 
 ### Added
