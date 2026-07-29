@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.19.4.1] - 2026-07-28
+
+### Added
+
+- Added an internal connection between the bot and the site.
+
 ## [2.19.4] - 2026-07-28
 
 ### Fixed
