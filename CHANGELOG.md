@@ -11,6 +11,19 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.21.0] - 2026-07-30
+
+### Changed
+
+- Rolls draw from the streaming services you set on the portal.
+- The portal roll page became the counter: ask Brent to pick, or narrow it down by decade, runtime and genre.
+
+## [2.20.0] - 2026-07-29
+
+### Added
+
+- A setting for whether previously rented films appear in rolls. On by default.
+
 ## [2.19.6] - 2026-07-29
 
 ### Added

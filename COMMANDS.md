@@ -95,7 +95,7 @@ if you've set `/timezone`, rentals are due at 9 pm in your timezone. otherwise t
 
 the rental menu has three paths:
 
-- **roll random** - get a random film, with up to **2 re-rolls**, then pick your favorite of what you saw
+- **roll random** - get a random film drawn from the services you have set on the portal, with up to **2 re-rolls**, then pick your favorite of what you saw
 - **pick a movie** - choose a specific rb9 title yourself
 - **ask an admin** - post a recommendation request so an admin can assign a pick
 
