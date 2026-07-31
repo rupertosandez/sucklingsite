@@ -11,6 +11,16 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.22.0] - 2026-07-30
+
+### Added
+
+- New members get a welcome message when they join the server.
+
+### Changed
+
+- Picking a title by name in `/rent` searches the whole catalog, not only the films the club hosts.
+
 ## [2.21.1] - 2026-07-30
 
 ### Changed

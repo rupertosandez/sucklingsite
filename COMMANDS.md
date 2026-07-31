@@ -22,7 +22,7 @@ quick about card for the bot.
 ## lookup & discovery
 
 ### `/suck <title> [year]`
-look up a movie. returns a card with the synopsis, director, runtime, where to watch it (theaters, streaming), and whether or not it's available in the RB9 plex library. cards include **+ watchlist**, and show **rent this** when the film is in rb9.
+look up a movie. returns a card with the synopsis, director, runtime, where to watch it (theaters, streaming), and whether or not it's available in the RB9 library. cards include **+ watchlist**, and show **rent this** when the film is in rb9.
 
 - `title` (required): the movie title to search for
 - `year` (optional): filter by release year if multiple matches exist
@@ -50,7 +50,7 @@ examples:
 
 ## return by 9 library
 
-commands that pull from the return by 9 plex library.
+commands that pull from the return by 9 library.
 
 ### `/rb9`
 picks a random movie from the library. returns title, summary, runtime, and poster. includes **+ watchlist** and **rent this**.
@@ -86,10 +86,10 @@ a random film + a random backdrop image from it. includes **+ watchlist** and **
 
 ## video store
 
-rent a film from the RB9 library. the clock starts when you confirm — it's due by 9 pm on the fifth day, and you use `/return` to post your review.
+rent a film. the clock starts when you confirm — it's due by 9 pm on the fifth day, and you use `/return` to post your review.
 
 ### `/rent`
-start a rental from the library. you can have up to **3 active rentals** at once.
+start a rental. you can have up to **3 active rentals** at once. picking a title by name searches the whole catalog, not only what the club hosts.
 
 if you've set `/timezone`, rentals are due at 9 pm in your timezone. otherwise the bot uses the server default timezone.
 
@@ -473,7 +473,7 @@ manually check linked letterboxd activity. by default it reports what it found a
 admin only. run the plex cleanup check manually. by default it only shows a private summary; set `post:True` to post cleanup candidates to the announcement channel.
 
 ### `/plexrefresh`
-admin only. refresh the rb9 plex library cache when new or changed titles are not showing up yet.
+admin only. refresh the rb9 library cache when new or changed titles are not showing up yet.
 
 ### `/plexunpopular`
 admin only. show low-watch rb9 titles with lower tmdb scores, useful when reviewing what should stay in the library.
