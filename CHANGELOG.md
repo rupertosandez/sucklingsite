@@ -11,6 +11,17 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.23.0] - 2026-08-01
+
+### Added
+
+- Explore: the portal's shelves, browsed one at a time. Replaces the Films page; Curation lives on its Community tab.
+- Brent can pick from a shelf. A new door at the counter, and a matching line on every shelf.
+
+### Changed
+
+- Shelf rolls use the standard MacGuffin odds.
+
 ## [2.22.0] - 2026-07-30
 
 ### Added
