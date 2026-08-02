@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.23.0.1] - 2026-08-02
+
+### Removed
+
+- Retired an internal worker that copied shelves to a service no longer in use.
+
 ## [2.23.0] - 2026-08-01
 
 ### Added
