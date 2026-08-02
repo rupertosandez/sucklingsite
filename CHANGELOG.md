@@ -11,6 +11,17 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.24.0] - 2026-08-02
+
+### Changed
+
+- Any film can be rented, whatever you would watch it on. The rent button appears on every film card and film page.
+- Admin rental assignment accepts any film, respects the three-rental limit, and refuses suspended accounts.
+
+### Removed
+
+- The request button on film pages. There is nothing to request now that any film can be rented.
+
 ## [2.23.0.1] - 2026-08-02
 
 ### Removed

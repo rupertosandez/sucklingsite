@@ -22,7 +22,7 @@ quick about card for the bot.
 ## lookup & discovery
 
 ### `/suck <title> [year]`
-look up a movie. returns a card with the synopsis, director, runtime, where to watch it (theaters, streaming), and whether or not it's available in the RB9 library. cards include **+ watchlist**, and show **rent this** when the film is in rb9.
+look up a movie. returns a card with the synopsis, director, runtime, and where to watch it (theaters, streaming). cards include **+ watchlist** and **rent this**.
 
 - `title` (required): the movie title to search for
 - `year` (optional): filter by release year if multiple matches exist
@@ -36,7 +36,7 @@ examples:
 ---
 
 ### `/roll [decade] [runtime]`
-get a random movie recommendation. filters are optional — leave blank for a fully random pick. cards include **+ watchlist**, and show **rent this** when the film is in rb9.
+get a random movie recommendation. filters are optional — leave blank for a fully random pick. cards include **+ watchlist** and **rent this**.
 
 - `decade` (optional): e.g. `1980s`, `2010s`
 - `runtime` (optional): `short` (under 90 min), `medium` (90-120 min), or `long` (over 120 min)
@@ -412,7 +412,7 @@ set the forum channel where rental reviews post. the bot needs create public thr
 cancel a member's active rental with no late fee. edits the forum thread and DMs the member. optionally include a reason.
 
 ### `/assignrental @user <title> [year]`
-assign an rb9 library rental to a member. creates the rental, opens the review thread, and DMs them the due date.
+assign a rental to a member. any film, not only ones the club hosts. creates the rental, opens the review thread, and DMs them the due date. respects the three-rental limit and refuses suspended accounts.
 
 ### `/adminguffins <action> @user [card]`
 view or edit a member's macguffins.
