@@ -11,6 +11,16 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.26.1] - 2026-08-03
+
+### Fixed
+
+- Anything you do in Discord is now filed against your account rather
+  than your Discord login. These are the same thing for almost everyone,
+  and different for a member who made their account on the website with
+  Google and connected Discord afterwards - for them a rental started in
+  Discord would not have shown up on the website at all.
+
 ## [2.26.0] - 2026-08-02
 
 ### Changed
