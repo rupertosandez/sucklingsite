@@ -220,6 +220,24 @@ community achievement board with newest unlocks, top collectors, and rarest badg
 
 ---
 
+## taste
+
+Taste is a shape built from what you rent, log, rate and recommend. It updates on its own as you watch. It is not a score and it is not a ranking.
+
+Six axes place you against the club: deep cuts, old, long, roaming, contrarian, world. 50 is the club middle.
+
+Your taste needs 10 rated or logged films before it appears.
+
+### `/taste [user]`
+see a taste profile.
+
+- leave `user` blank to see your own, privately
+- choose another member to see theirs alongside yours, with how aligned you are
+
+The full version, including the chart, is on your profile on the website.
+
+---
+
 ## tracking
 
 ### `/track <title> [year]`

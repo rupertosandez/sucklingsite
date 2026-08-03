@@ -11,6 +11,15 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.25.0] - 2026-08-02
+
+### Added
+
+- Taste profiles. A shape built from what you rent, log, rate and recommend, updating on its own as you watch. Six axes place you against the club: deep cuts, old, long, roaming, contrarian, world.
+- A taste tab on your profile, with a chart, the facets that make you most distinctive, and who you are closest to. Viewing another member overlays your shape on theirs.
+- `/taste` in Discord shows the same profile, and `/taste @member` compares two.
+- Taste needs 10 rated or logged films before it appears. It is not a score and it is not a ranking.
+
 ## [2.24.0] - 2026-08-02
 
 ### Changed
