@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.27.0] - 2026-08-03
+
+### Changed
+
+- A rental can be returned as watched 24 hours after it was rented.
+  Returning it unwatched is unchanged and available at any time.
+
 ## [2.26.2] - 2026-08-03
 
 ### Fixed

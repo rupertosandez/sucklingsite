@@ -132,6 +132,8 @@ start the private return flow.
 
 choose the rental, pick **watched it** or **didn't watch**, then fill out the popup.
 
+**watched it** becomes available 24 hours after you rent. **didn't watch** is available at any time.
+
 on return, the forum thread is edited in-place: updated with your rating if you gave one and your review, renamed from "checked out" to "reviewed", and the **recommendation** forum tag is added if you checked yes.
 
 if you return it late, a late fee is calculated: **$1 for every day (or part of a day) overdue**. fees are cosmetic — tracked in the ledger but not collected.
