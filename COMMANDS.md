@@ -91,7 +91,7 @@ rent a film. the clock starts when you confirm — it's due by 9 pm on the fifth
 ### `/rent`
 start a rental. you can have up to **3 active rentals** at once. picking a title by name searches the whole catalog, not only what the club hosts.
 
-if you've set `/timezone`, rentals are due at 9 pm in your timezone. otherwise the bot uses the server default timezone.
+rentals are due at 9 pm in your timezone. the website works your timezone out from your browser, so there is usually nothing to set.
 
 the rental menu has three paths:
 
@@ -116,10 +116,14 @@ randomly rolled rentals have better odds for rare/iconic macguffin drops when re
 ### `/timezone [timezone_name] [clear]`
 set your rental timezone so due dates land at 9 pm where you are.
 
-- `timezone_name` (optional): timezone like `America/Los_Angeles`, `America/New_York`, or `Europe/London`
-- `clear` (optional): clear your saved timezone and use the server default
+the website already works this out from your browser and remembers it, so
+most members never need this. use it to choose a different one.
 
-run it with no options to check your current rental timezone.
+- `timezone_name` (optional): timezone like `America/Los_Angeles`, `America/New_York`, or `Europe/London`
+- `clear` (optional): clear your saved timezone and use the club default
+
+run it with no options to check your current rental timezone. you can also
+set it on the website, under settings -> privacy and sync.
 
 ---
 

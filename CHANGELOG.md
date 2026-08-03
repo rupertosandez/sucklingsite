@@ -11,6 +11,19 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.26.0] - 2026-08-02
+
+### Changed
+
+- Dates on the website now read in your own timezone. They were shown in UTC, which put them a day ahead in the evening for anyone west of it.
+- The website works out your timezone from your browser and remembers it, so rentals come due at 9 pm where you are without setting anything. A timezone you chose yourself is never overwritten.
+- Your timezone can be set on the website, under Settings -> Privacy and sync. It was Discord-only before.
+- `/timezone` still works and saves through the website. If the site does not answer, it says so instead of reporting success.
+
+### Fixed
+
+- A timezone set with `/timezone` could be saved somewhere nothing reads it, for members who sign in with Google and linked Discord afterwards. Their rentals came due at 9 pm club time instead.
+
 ## [2.25.1] - 2026-08-02
 
 ### Changed
