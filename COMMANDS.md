@@ -132,7 +132,7 @@ start the private return flow.
 
 choose the rental, pick **watched it** or **didn't watch**, then fill out the popup.
 
-**watched it** becomes available 24 hours after you rent. **didn't watch** is available at any time.
+**watched it** becomes available once the film has had time to play - the wait is the film's runtime. **didn't watch** is available at any time.
 
 on return, the forum thread is edited in-place: updated with your rating if you gave one and your review, renamed from "checked out" to "reviewed", and the **recommendation** forum tag is added if you checked yes.
 
