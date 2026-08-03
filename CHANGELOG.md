@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.25.1] - 2026-08-02
+
+### Changed
+
+- Taste chips are more specific. At most one decade and two genres, so the keywords that actually distinguish you get the space.
+- TMDB bookkeeping keywords no longer appear as chips: credits tags, source tags like "based on novel or book", and a set of mood adjectives. Words that describe a film's register are kept.
+
 ## [2.25.0] - 2026-08-02
 
 ### Added
