@@ -11,6 +11,14 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.27.2] - 2026-08-03
+
+### Fixed
+
+- Letterboxd reviews written with formatting arrive as plain text. A review
+  using a blockquote or bold text used to show its markup. A review that
+  links out keeps the address alongside the text.
+
 ## [2.27.1] - 2026-08-03
 
 ### Changed
