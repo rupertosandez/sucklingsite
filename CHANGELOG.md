@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.27.3] - 2026-08-03
+
+### Fixed
+
+- A Letterboxd watch with no review written no longer posts one. The
+  activity feed showed the watch date as if it were the review.
+
 ## [2.27.2] - 2026-08-03
 
 ### Fixed
