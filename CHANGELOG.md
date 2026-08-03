@@ -11,6 +11,15 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.26.2] - 2026-08-03
+
+### Fixed
+
+- Rentals started from the website are filed under your name. A member
+  who signed up with Google had no Discord account for the bot to read a
+  name from, so their rentals were labelled "member" and a number, which
+  is how they showed up on film pages.
+
 ## [2.26.1] - 2026-08-03
 
 ### Fixed
