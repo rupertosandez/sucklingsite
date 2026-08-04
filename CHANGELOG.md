@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.27.4] - 2026-08-04
+
+### Changed
+
+- Renamed four taste axes for clarity: "old" is now "older", "long" is
+  "longer", "roaming" is "genre range", "world" is "non-English".
+
 ## [2.27.3] - 2026-08-03
 
 ### Fixed

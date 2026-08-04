@@ -230,7 +230,7 @@ community achievement board with newest unlocks, top collectors, and rarest badg
 
 Taste is a shape built from what you rent, log, rate and recommend. It updates on its own as you watch. It is not a score and it is not a ranking.
 
-Six axes place you against the club: deep cuts, old, long, roaming, contrarian, world. 50 is the club middle.
+Six axes place you against the club: deep cuts, older, longer, genre range, contrarian, non-English. 50 is the club middle.
 
 Your taste needs 10 rated or logged films before it appears.
 
