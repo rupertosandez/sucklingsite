@@ -11,6 +11,22 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.28.0] - 2026-08-09
+
+### Added
+
+- Watched return reviews can be edited from the website.
+- Journal entries you wrote can be deleted from the website.
+
+### Changed
+
+- The recommendation on a return is optional.
+- Recommendations display as a thumbs up or down.
+
+### Fixed
+
+- A return with no opinion no longer shows as not recommended.
+
 ## [2.27.4] - 2026-08-04
 
 ### Changed
