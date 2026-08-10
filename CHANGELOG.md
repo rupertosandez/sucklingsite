@@ -11,6 +11,15 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.29.0] - 2026-08-09
+
+### Added
+
+- Returning a tape can drop a word. Words are a new collectible: you
+  find them by using the site, and combine up to three into a title on
+  your profile.
+- `/mywords` lists the words you have found.
+
 ## [2.28.0] - 2026-08-09
 
 ### Added

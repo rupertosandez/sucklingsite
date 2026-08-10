@@ -189,6 +189,9 @@ claim your one free starter macguffin.
 ### `/myguffins`
 view your macguffin collection privately. shows 5 at a time, with a button to open each card.
 
+### `/mywords`
+list the words you have found. words drop as you use the site and when you return a tape; you put them together into a title on the site.
+
 ### `/giftguffin @user <card>`
 gift one of your macguffins to another member. partial names work if the bot can tell which card you mean.
 
