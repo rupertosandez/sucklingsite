@@ -48,42 +48,6 @@ examples:
 
 ---
 
-## return by 9 library
-
-commands that pull from the return by 9 library.
-
-### `/rb9`
-picks a random movie from the library. returns title, summary, runtime, and poster. includes **+ watchlist** and **rent this**.
-
-### `/rb9stats`
-overall library summary: total movie count, total runtime, year range, average rating, and most recently added film.
-
-### `/rb9biggest`
-the longest film in the library by runtime.
-
-### `/rb9shortest`
-the shortest film in the library by runtime (excludes very short entries under 30 minutes).
-
-### `/rb9oldest`
-the oldest film in the library by release year.
-
-### `/rb9newest`
-the most recently added film in the library.
-
-### `/rb9totalruntime`
-fun stats on how long it'd take to watch the entire library back-to-back, including a "8 hours per day" estimate.
-
-### `/rb9decade`
-bar chart breakdown of films per decade in the library.
-
-### `/rb9genre`
-top 10 genres in the library by count.
-
-### `/rb9randomscene`
-a random film + a random backdrop image from it. includes **+ watchlist** and **rent this**.
-
----
-
 ## video store
 
 rent a film. the clock starts when you confirm — it's due by 9 pm on the fifth day, and you use `/return` to post your review.
@@ -96,7 +60,7 @@ rentals are due at 9 pm in your timezone. the website works your timezone out fr
 the rental menu has three paths:
 
 - **roll random** - get a random film drawn from the services you have set on the portal, with up to **2 re-rolls**, then pick your favorite of what you saw
-- **pick a movie** - choose a specific rb9 title yourself
+- **pick a movie** - choose a specific film yourself
 - **ask an admin** - post a recommendation request so an admin can assign a pick
 
 random rolls work like this:
@@ -109,7 +73,7 @@ films you've rented before are never offered again (all-time exclusion, any stat
 
 randomly rolled rentals have better odds for rare/iconic macguffin drops when returned.
 
-> you can also rent a specific film directly from the **rent this** button on `/rb9`, `/rb9randomscene`, `/suck`, `/roll`, and the daily recommendation — no rerolls for those since you're choosing intentionally.
+> you can also rent a specific film directly from the **rent this** button on `/suck`, `/roll`, and the daily recommendation — no rerolls for those since you're choosing intentionally.
 
 ---
 
@@ -415,7 +379,7 @@ the streaming feature only announces films hitting digital for the first time �
 
 - movie titles in `/suck` and `/track` support fuzzy matching, so you don't need exact punctuation or capitalization
 - the dropdown menu that appears for ambiguous titles times out after 60 seconds — just run the command again if it expires
-- film cards can be saved with **+ watchlist**; rb9 films can also be rented with **rent this**
+- film cards can be saved with **+ watchlist** or rented with **rent this**
 - your personal `/watchlist show` command is private
 - both games and tracking are server-wide — anyone can add to the tracked list and play
 - leaderboards are separate for `/guess` and `/six` — winning at one doesn't affect the other

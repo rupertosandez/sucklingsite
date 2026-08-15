@@ -11,6 +11,24 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.0.0] - 2026-08-14
+
+### Removed
+
+- The `/rb9` commands: `/rb9`, `/rb9randomscene`, `/rb9stats`,
+  `/rb9biggest`, `/rb9shortest`, `/rb9oldest`, `/rb9newest`,
+  `/rb9totalruntime`, `/rb9decade`, `/rb9genre`.
+
+### Changed
+
+- The badge category "rb9 library" is now "films". Its badges count any
+  film you return.
+
+### Fixed
+
+- The Japan and South Korea badges only counted films the club hosts. They
+  count any returned film now.
+
 ## [2.29.2] - 2026-08-10
 
 ### Fixed
