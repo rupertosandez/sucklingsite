@@ -11,6 +11,14 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.3.1] - 2026-08-16
+
+### Added
+
+- When a live log starts in a tape's thread rather than the journal
+  channel, a line goes up in the journal channel naming the film and
+  pointing at the thread.
+
 ## [3.3.0] - 2026-08-16
 
 ### Added
