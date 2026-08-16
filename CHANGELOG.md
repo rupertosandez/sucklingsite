@@ -11,6 +11,23 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.3.0] - 2026-08-16
+
+### Added
+
+- A finished live log becomes a journal entry. It appears on the film's
+  page, in your journal and in the feed, and has its own page showing the
+  whole timeline.
+
+- You can nod and reply to a live log the way you can to any other entry.
+
+- You can delete your own live log. Its notes, nods and replies go with it.
+
+### Changed
+
+- A live log and the return of the same tape no longer count as two
+  watches, so returning a film you live logged is not marked a rewatch.
+
 ## [3.2.0] - 2026-08-15
 
 ### Added
