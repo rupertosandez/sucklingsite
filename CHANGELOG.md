@@ -11,7 +11,20 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
-## [3.0.0] - 2026-08-14
+## [3.1.0] - 2026-08-15
+
+### Added
+
+- Live logs. `/live start` begins one for a tape you are about to watch.
+  The bot posts a countdown in that tape's thread, and while the log runs,
+  anything you type there or in the journal channel is recorded as a note
+  and stamped with how far into the film you were.
+
+- `/live pause` and `/live resume` hold and restart the clock. Nothing is
+  recorded while a log is paused.
+
+- `/live finish` ends the log and offers the return, or leaves the tape
+  checked out for later.
 
 ### Removed
 

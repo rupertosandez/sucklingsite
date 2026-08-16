@@ -104,6 +104,27 @@ if you return it late, a late fee is calculated: **$1 for every day (or part of 
 
 ---
 
+### `/live start`
+Start a live log for a tape you are about to watch.
+
+The bot posts a countdown in the tape's forum thread, or in the journal channel for a tape that has no thread. The clock starts when the countdown reaches zero, so press play with it.
+
+While the log is running, anything you type in the journal channel or in that tape's thread is recorded as a note and stamped with how far into the film you were.
+
+---
+
+### `/live pause` and `/live resume`
+Stop and restart the clock. Nothing is recorded while a log is paused.
+
+---
+
+### `/live finish`
+End the live log. Offers the same return choice `/return` does, and a **later** option that leaves the tape checked out.
+
+Sessions left running close themselves a few hours after the film would have ended. A log with no notes in it is discarded.
+
+---
+
 ### `/myrental`
 shows your active rentals, due times, rental ids, and forum thread links. flags anything overdue.
 
