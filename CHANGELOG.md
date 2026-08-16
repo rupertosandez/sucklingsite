@@ -11,6 +11,19 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.2.0] - 2026-08-15
+
+### Added
+
+- Live logs work from the site. Start one from a film you have rented, type
+  your notes there, and pause or finish without opening Discord.
+
+- Notes written on the site appear in that tape's thread as you write them,
+  so people reading along in Discord see the same session.
+
+- Finishing a live log takes you to the return screen. You can leave it and
+  come back to it later.
+
 ## [3.1.0] - 2026-08-15
 
 ### Added
