@@ -11,6 +11,17 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.3.2] - 2026-08-17
+
+### Added
+
+- Three new MacGuffin sets - Ghibli, Hitchcock and Anderson - with 19
+  new cards, plus six new loose cards and 30 new title words.
+
+### Changed
+
+- MacGuffin drop chance on returns adjusted.
+
 ## [3.3.1] - 2026-08-16
 
 ### Added
