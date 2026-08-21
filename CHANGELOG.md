@@ -11,6 +11,14 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.5.0] - 2026-08-21
+
+### Added
+
+- A year in parentheses narrows a film search. `/suck family (1996)`
+  searches only 1996, and it works the same in `/track`,
+  `/watchlist add` and in every search box on the site.
+
 ## [3.4.0] - 2026-08-21
 
 ### Added
