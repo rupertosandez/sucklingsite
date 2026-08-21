@@ -11,6 +11,22 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.4.0] - 2026-08-21
+
+### Added
+
+- Comments on live logs. While someone is live logging a film, any
+  member can comment along - on the live log page or in the tape's
+  thread - and comments appear in the timeline beside the notes. A
+  toggle hides them.
+
+### Changed
+
+- The live log page was rebuilt around the timeline: the film sits in a
+  band at the top, the timeline runs the full width beneath it, and
+  notes written in the same minute share one mark. Finished live logs
+  read the same way.
+
 ## [3.3.2] - 2026-08-17
 
 ### Added
