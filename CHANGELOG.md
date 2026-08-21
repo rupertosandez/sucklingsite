@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### Added
 
 - Comments on live logs. While someone is live logging a film, any
-  member can comment along - on the live log page or in the tape's
+  member can comment along - on the live log page or in the rental's
   thread - and comments appear in the timeline beside the notes. A
   toggle hides them.
 
