@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.6.0] - 2026-08-21
+
+### Added
+
+- A film search can also name a TMDB id, written `tmdb:603` or pasted as
+  a themoviedb.org link. It works anywhere the year does.
+
 ## [3.5.0] - 2026-08-21
 
 ### Added

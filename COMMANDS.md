@@ -400,6 +400,7 @@ the streaming feature only announces films hitting digital for the first time â€
 
 - movie titles in `/suck` and `/track` support fuzzy matching, so you don't need exact punctuation or capitalization
 - Add a year in parentheses to narrow a title search: `/suck family (1996)`. It works in the search boxes on the site too.
+- A search can also name a TMDB id, as `tmdb:603` or a pasted themoviedb.org link.
 - the dropdown menu that appears for ambiguous titles times out after 60 seconds â€” just run the command again if it expires
 - film cards can be saved with **+ watchlist** or rented with **rent this**
 - your personal `/watchlist show` command is private
