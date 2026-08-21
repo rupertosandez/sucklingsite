@@ -11,6 +11,19 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.7.0] - 2026-08-21
+
+### Added
+
+- `/suck`, `/track`, `/watchlist add` and `/assignrental` take a
+  `tmdb_id` option alongside the title. It accepts a bare id or a pasted
+  themoviedb.org link.
+
+### Changed
+
+- The title on those four commands is now optional. Give a title or a
+  TMDB id.
+
 ## [3.6.0] - 2026-08-21
 
 ### Added
