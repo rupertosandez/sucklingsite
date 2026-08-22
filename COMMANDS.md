@@ -21,17 +21,19 @@ quick about card for the bot.
 
 ## lookup & discovery
 
-### `/suck <title> [year]`
+### `/suck [title] [year] [tmdb_id]`
 look up a movie. returns a card with the synopsis, director, runtime, and where to watch it (theaters, streaming). cards include **+ watchlist** and **rent this**.
 
-- `title` (required): the movie title to search for
+- `title`: the movie title to search for
 - `year` (optional): filter by release year if multiple matches exist
+- `tmdb_id` (optional): a TMDB id or link, instead of a title
 
-if multiple films share a title (e.g. "halloween"), a dropdown will appear so you can pick the right one. you can also pre-filter with `year` to skip the dropdown.
+Give a title or a TMDB id. If multiple films share a title (e.g. "halloween"), a dropdown appears so you can pick the right one; `year` and `tmdb_id` both skip it.
 
 examples:
 - `/suck The Substance`
 - `/suck Halloween year:1978`
+- `/suck tmdb_id:603`
 
 ---
 
@@ -234,11 +236,12 @@ The full version, including the chart, is on your profile on the website.
 
 ## tracking
 
-### `/track <title> [year]`
+### `/track [title] [year] [tmdb_id]`
 add a movie to the watchlist. the bot will announce it in the streaming-alerts channel the moment it shows up to rent or buy on a digital store (apple tv, google play, etc.), and again when it later lands on a subscription service like shudder. if the film is *already* available, the bot will tell you immediately and link to where.
 
-- `title` (required): the movie title to track
+- `title`: the movie title to track
 - `year` (optional): filter by year if there are multiple matches
+- `tmdb_id` (optional): a TMDB id or link, instead of a title
 
 example: `/track The Conjuring Last Rites`
 
@@ -302,8 +305,8 @@ a private film queue that lives in the bot.
 ### `/watchlist show`
 shows your watchlist, 10 films per page. includes a remove dropdown and a roll button.
 
-### `/watchlist add <title> [year]`
-adds a film by title. if there are multiple matches, the bot asks you to pick the right one.
+### `/watchlist add [title] [year] [tmdb_id]`
+adds a film by title, or by TMDB id. if there are multiple matches, the bot asks you to pick the right one.
 
 ### `/watchlist remove <title>`
 removes films from your list by partial title match.
@@ -425,7 +428,7 @@ set the forum channel where rental reviews post. the bot needs create public thr
 ### `/cancelrental @user [reason]`
 cancel a member's active rental with no late fee. edits the forum thread and DMs the member. optionally include a reason.
 
-### `/assignrental @user <title> [year]`
+### `/assignrental @user [title] [year] [tmdb_id]`
 assign a rental to a member. any film, not only ones the club hosts. creates the rental, opens the review thread, and DMs them the due date. respects the three-rental limit and refuses suspended accounts.
 
 ### `/adminguffins <action> @user [card]`
