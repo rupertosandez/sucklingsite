@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.7.1] - 2026-08-22
+
+### Changed
+
+- A live log closes on its own ten minutes after the film's runtime.
+  Pausing still holds it open.
+
 ## [3.7.0] - 2026-08-21
 
 ### Added
