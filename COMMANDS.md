@@ -71,6 +71,8 @@ random rolls work like this:
 2. first reroll: bot shows another film: **[ accept rental ]** **[ re-roll (last one) ]**
 3. second reroll: bot shows a third film, then lets you pick any of the films you've been shown from a dropdown and accept it
 
+**seen it** sits next to the re-roll. press it if you've already watched what brent offered, tell him what you thought, and he'll show you another one. it doesn't use up a re-roll, and the film goes to your journal and your taste profile.
+
 films you've already watched are never offered again - anything you've rented, logged, or brought in from letterboxd. you can turn this off in portal settings.
 
 randomly rolled rentals have better odds for rare/iconic macguffin drops when returned.

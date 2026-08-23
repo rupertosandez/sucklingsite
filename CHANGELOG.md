@@ -11,6 +11,14 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.9.0] - 2026-08-23
+
+### Added
+
+- "Seen it." now works in Discord as well as on the site. It sits next
+  to the re-roll when Brent offers you a film: press it, tell him what
+  you thought, and he shows you another one without using up a re-roll.
+
 ## [3.8.0] - 2026-08-23
 
 ### Added
