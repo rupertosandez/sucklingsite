@@ -71,7 +71,7 @@ random rolls work like this:
 2. first reroll: bot shows another film: **[ accept rental ]** **[ re-roll (last one) ]**
 3. second reroll: bot shows a third film, then lets you pick any of the films you've been shown from a dropdown and accept it
 
-films you've rented before are never offered again (all-time exclusion, any status).
+films you've already watched are never offered again - anything you've rented, logged, or brought in from letterboxd. you can turn this off in portal settings.
 
 randomly rolled rentals have better odds for rare/iconic macguffin drops when returned.
 

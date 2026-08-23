@@ -11,6 +11,15 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.7.2] - 2026-08-23
+
+### Fixed
+
+- Rolls skip films you have already watched, not only ones you have
+  rented. Anything logged on the site or brought in from Letterboxd
+  counts. The setting that turns this off is in your settings, under
+  clerk picks.
+
 ## [3.7.1] - 2026-08-22
 
 ### Changed
