@@ -11,6 +11,16 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.8.0] - 2026-08-23
+
+### Added
+
+- "Seen it." is a third answer when Brent offers you a film, next to
+  taking it and asking for another. He follows up with what you thought
+  of it - liked, didn't, or no opinion - and that goes to your taste
+  profile. It costs no reroll, and the film will not be offered to you
+  again.
+
 ## [3.7.2] - 2026-08-23
 
 ### Fixed
