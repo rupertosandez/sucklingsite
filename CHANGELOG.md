@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.9.2] - 2026-08-24
+
+### Removed
+
+- An old request link on film lookups.
+
 ## [3.9.1.1] - 2026-08-24
 
 ### Changed
