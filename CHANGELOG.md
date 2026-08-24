@@ -11,6 +11,16 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.9.1.1] - 2026-08-24
+
+### Changed
+
+- A curated collection's cover is now the first film's poster.
+
+### Fixed
+
+- The rest of the security fix from 3.9.1.
+
 ## [3.9.1] - 2026-08-24
 
 ### Fixed
