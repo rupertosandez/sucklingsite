@@ -11,6 +11,21 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.10.0] - 2026-08-28
+
+### Added
+
+- Nameplates: seven new looks for your name, found the way macguffins and
+  stickers are, plus one to start you off.
+- Settings has a Name tab. Your display name, your nameplate and your
+  title sit together there, under a preview that updates as you choose.
+
+### Changed
+
+- Settings tabs are reorganised. Appearance and Import history are gone;
+  their contents moved to Identity and a new Letterboxd tab, and Privacy
+  and sync is now Preferences.
+
 ## [3.9.3] - 2026-08-24
 
 ### Fixed
