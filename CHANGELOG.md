@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.11.0] - 2026-09-03
+
+### Added
+
+- Strands on the portal: routes of films with a badge at the end. Finishing one earns its badge, and the first to finish some strands takes a macguffin only that strand can give.
+
 ## [3.10.0.1] - 2026-09-03
 
 ### Added
