@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.11.1] - 2026-09-09
+
+### Fixed
+
+- Renting a remake no longer rents the original of the same title.
+
 ## [3.11.0] - 2026-09-03
 
 ### Added
