@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.11.2] - 2026-09-14
+
+### Fixed
+
+- Renting a film the library has re-added under a new key no longer fails.
+
 ## [3.11.1] - 2026-09-09
 
 ### Fixed
