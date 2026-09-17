@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.11.4] - 2026-09-17
+
+### Added
+
+- `/info` credits TMDB and JustWatch.
+
 ## [3.11.3] - 2026-09-16
 
 ### Fixed
