@@ -2852,6 +2852,142 @@
                                             "achievement_name":  "vega"
                                         }
                                     ]
+                       },
+                       {
+                           "id": "halloween-2026-silver-shamrock-mask",
+                           "name": "Silver Shamrock pumpkin mask",
+                           "emoji": "🎃",
+                           "rarity": "iconic",
+                           "source": "Halloween III: Season of the Witch (1982)",
+                           "flavor": "A pumpkin mask with a Silver Shamrock tag.",
+                           "unlock": "event:halloween-2026",
+                           "sets": [
+                               {
+                                   "id": "halloween-2026",
+                                   "label": "Halloween ’26",
+                                   "emoji": "🎃",
+                                   "achievement_name": "halloween '26"
+                               }
+                           ]
+                       },
+                       {
+                           "id": "halloween-2026-stick-figure",
+                           "name": "Blair Witch stick figure",
+                           "emoji": "🪵",
+                           "rarity": "common",
+                           "source": "The Blair Witch Project (1999)",
+                           "flavor": "A figure made from tied branches.",
+                           "unlock": "event:halloween-2026",
+                           "sets": [
+                               {
+                                   "id": "halloween-2026",
+                                   "label": "Halloween ’26",
+                                   "emoji": "🎃",
+                                   "achievement_name": "halloween '26"
+                               }
+                           ]
+                       },
+                       {
+                           "id": "halloween-2026-gold-scissors",
+                           "name": "Gold scissors",
+                           "emoji": "✂️",
+                           "rarity": "common",
+                           "source": "Us (2019)",
+                           "flavor": "The Tethered's gold scissors.",
+                           "unlock": "event:halloween-2026",
+                           "sets": [
+                               {
+                                   "id": "halloween-2026",
+                                   "label": "Halloween ’26",
+                                   "emoji": "🎃",
+                                   "achievement_name": "halloween '26"
+                               }
+                           ]
+                       },
+                       {
+                           "id": "halloween-2026-reagent-syringe",
+                           "name": "Herbert West's reagent syringe",
+                           "emoji": "💉",
+                           "rarity": "rare",
+                           "source": "Re-Animator (1985)",
+                           "flavor": "A syringe filled with green reagent.",
+                           "unlock": "event:halloween-2026",
+                           "sets": [
+                               {
+                                   "id": "halloween-2026",
+                                   "label": "Halloween ’26",
+                                   "emoji": "🎃",
+                                   "achievement_name": "halloween '26"
+                               }
+                           ]
+                       },
+                       {
+                           "id": "halloween-2026-candyman-hook",
+                           "name": "Candyman's hook",
+                           "emoji": "🪝",
+                           "rarity": "rare",
+                           "source": "Candyman (1992)",
+                           "flavor": "Candyman's metal hook.",
+                           "unlock": "event:halloween-2026",
+                           "sets": [
+                               {
+                                   "id": "halloween-2026",
+                                   "label": "Halloween ’26",
+                                   "emoji": "🎃",
+                                   "achievement_name": "halloween '26"
+                               }
+                           ]
+                       },
+                       {
+                           "id": "halloween-2026-lasser-glass",
+                           "name": "The Lasser Glass",
+                           "emoji": "🪞",
+                           "rarity": "rare",
+                           "source": "Oculus (2013)",
+                           "flavor": "An antique mirror in an ornate frame.",
+                           "unlock": "event:halloween-2026",
+                           "sets": [
+                               {
+                                   "id": "halloween-2026",
+                                   "label": "Halloween ’26",
+                                   "emoji": "🎃",
+                                   "achievement_name": "halloween '26"
+                               }
+                           ]
+                       },
+                       {
+                           "id": "halloween-2026-silver-sphere",
+                           "name": "Silver sphere",
+                           "emoji": "⚪",
+                           "rarity": "iconic",
+                           "source": "Phantasm (1979)",
+                           "flavor": "A silver sphere with retractable blades.",
+                           "unlock": "event:halloween-2026",
+                           "sets": [
+                               {
+                                   "id": "halloween-2026",
+                                   "label": "Halloween ’26",
+                                   "emoji": "🎃",
+                                   "achievement_name": "halloween '26"
+                               }
+                           ]
+                       },
+                       {
+                           "id": "halloween-2026-reverse-bear-trap",
+                           "name": "Reverse bear trap",
+                           "emoji": "🪤",
+                           "rarity": "iconic",
+                           "source": "Saw (2004)",
+                           "flavor": "A timed trap fitted around the jaw.",
+                           "unlock": "event:halloween-2026",
+                           "sets": [
+                               {
+                                   "id": "halloween-2026",
+                                   "label": "Halloween ’26",
+                                   "emoji": "🎃",
+                                   "achievement_name": "halloween '26"
+                               }
+                           ]
                        }
                    ],
     "sets":  [
@@ -3272,6 +3408,25 @@
                                            "brides-yellow-suit",
                                            "inglourious-pipe"
                                        ]
+                 },
+                 {
+                     "id": "halloween-2026",
+                     "label": "Halloween ’26",
+                     "achievement_id": "set-halloween-2026",
+                     "achievement_name": "halloween '26",
+                     "description": "Completed the Halloween ’26 MacGuffin set.",
+                     "hint": "Complete the Halloween ’26 MacGuffin set.",
+                     "emoji": "🎃",
+                     "macguffin_ids": [
+                         "halloween-2026-silver-shamrock-mask",
+                         "halloween-2026-stick-figure",
+                         "halloween-2026-gold-scissors",
+                         "halloween-2026-reagent-syringe",
+                         "halloween-2026-candyman-hook",
+                         "halloween-2026-lasser-glass",
+                         "halloween-2026-silver-sphere",
+                         "halloween-2026-reverse-bear-trap"
+                     ]
                  }
              ]
 }

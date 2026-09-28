@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "total": 199,
+  "total": 200,
   "categories": [
     "rentals",
     "films",
@@ -2397,6 +2397,18 @@
       "category": "strands",
       "threshold": 6,
       "emoji": "🥃",
+      "hidden": false
+    },
+    {
+      "id": "set-halloween-2026",
+      "name": "halloween '26",
+      "title_name": "Halloween '26",
+      "display_name": "🎃 Halloween '26",
+      "description": "Completed the Halloween ’26 MacGuffin set.",
+      "hint": "Complete the Halloween ’26 MacGuffin set.",
+      "category": "macguffins",
+      "threshold": 1,
+      "emoji": "🎃",
       "hidden": false
     }
   ]

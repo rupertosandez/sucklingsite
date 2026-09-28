@@ -96,15 +96,17 @@ set it on the website, under settings -> privacy and sync.
 ---
 
 ### `/return`
-start the private return flow.
+Start the private return flow.
 
-choose the rental, pick **watched it** or **didn't watch**, then fill out the popup.
+Choose the rental, pick **watched it** or **didn't watch**, then fill out the popup.
 
-**watched it** becomes available once the film has had time to play - the wait is the film's runtime. **didn't watch** is available at any time.
+**Watched it** becomes available after the film's runtime. **Didn't watch** is available at any time.
 
-on return, the forum thread is edited in-place: updated with your rating if you gave one and your review, renamed from "checked out" to "reviewed", and the **recommendation** forum tag is added if you checked yes.
+Watched horror returns can drop Halloween ’26 MacGuffins from October 1–31, 2026.
 
-if you return it late, a late fee is calculated: **$1 for every day (or part of a day) overdue**. fees are cosmetic — tracked in the ledger but not collected.
+On return, the forum thread is updated with your rating and review, renamed from "checked out" to "reviewed", and tagged with **recommendation** if you checked yes.
+
+Late returns add a cosmetic fee of **$1 per day or part of a day overdue**.
 
 ---
 
@@ -434,12 +436,12 @@ cancel a member's active rental with no late fee. edits the forum thread and DMs
 assign a rental to a member. any film, not only ones the club hosts. creates the rental, opens the review thread, and DMs them the due date. respects the three-rental limit and refuses suspended accounts.
 
 ### `/adminguffins <action> @user [card]`
-view or edit a member's macguffins.
+View or edit a member's MacGuffins.
 
-- `view`: shows the member's current collection
-- `add`: adds a macguffin by name or id; if someone else has it, moves it
-- `remove`: removes a macguffin from that member's collection
-- `random`: assigns the member a random unclaimed macguffin
+- `view`: Shows the member's current collection.
+- `add`: Adds a MacGuffin by name or ID, or transfers an owned card. Event cards can only be transferred.
+- `remove`: Removes a MacGuffin from that member's collection.
+- `random`: Assigns a random unclaimed MacGuffin, excluding event cards.
 
 ### `/setannouncements <channel>`
 set the channel where streaming announcements post. the bot needs send-message and embed-link permissions in the chosen channel.
