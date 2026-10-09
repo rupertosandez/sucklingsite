@@ -2859,7 +2859,7 @@
                            "emoji": "🎃",
                            "rarity": "iconic",
                            "source": "Halloween III: Season of the Witch (1982)",
-                           "flavor": "A pumpkin mask with a Silver Shamrock tag.",
+                           "flavor": "\"It was part of our world... our craft.\"",
                            "unlock": "event:halloween-2026",
                            "sets": [
                                {
@@ -2872,11 +2872,11 @@
                        },
                        {
                            "id": "halloween-2026-stick-figure",
-                           "name": "Blair Witch stick figure",
-                           "emoji": "🪵",
+                           "name": "a Small Cairn",
+                           "emoji": "🪨",
                            "rarity": "common",
                            "source": "The Blair Witch Project (1999)",
-                           "flavor": "A figure made from tied branches.",
+                           "flavor": "\"See, my problem is that I sleep like a fucking rock.\"",
                            "unlock": "event:halloween-2026",
                            "sets": [
                                {
@@ -2889,11 +2889,11 @@
                        },
                        {
                            "id": "halloween-2026-gold-scissors",
-                           "name": "Gold scissors",
-                           "emoji": "✂️",
+                           "name": "Jason's wolf mask",
+                           "emoji": "🐺",
                            "rarity": "common",
                            "source": "Us (2019)",
-                           "flavor": "The Tethered's gold scissors.",
+                           "flavor": "“It's us.”",
                            "unlock": "event:halloween-2026",
                            "sets": [
                                {
@@ -2906,11 +2906,11 @@
                        },
                        {
                            "id": "halloween-2026-reagent-syringe",
-                           "name": "Herbert West's reagent syringe",
-                           "emoji": "💉",
+                           "name": "Herbert West's snapped pencil",
+                           "emoji": "✏️",
                            "rarity": "rare",
                            "source": "Re-Animator (1985)",
-                           "flavor": "A syringe filled with green reagent.",
+                           "flavor": "“Mr. West! I suggest you get yourself a pen!”",
                            "unlock": "event:halloween-2026",
                            "sets": [
                                {
@@ -2927,7 +2927,7 @@
                            "emoji": "🪝",
                            "rarity": "rare",
                            "source": "Candyman (1992)",
-                           "flavor": "Candyman's metal hook.",
+                           "flavor": "\"The pain, I can assure you, will be exquisite.\"",
                            "unlock": "event:halloween-2026",
                            "sets": [
                                {
@@ -2944,7 +2944,7 @@
                            "emoji": "🪞",
                            "rarity": "rare",
                            "source": "Oculus (2013)",
-                           "flavor": "An antique mirror in an ornate frame.",
+                           "flavor": "“Hello again. You must be hungry.”",
                            "unlock": "event:halloween-2026",
                            "sets": [
                                {
@@ -2957,11 +2957,11 @@
                        },
                        {
                            "id": "halloween-2026-silver-sphere",
-                           "name": "Silver sphere",
-                           "emoji": "⚪",
+                           "name": "Fortune-teller's black box",
+                           "emoji": "📦",
                            "rarity": "iconic",
                            "source": "Phantasm (1979)",
-                           "flavor": "A silver sphere with retractable blades.",
+                           "flavor": "“Fear is the killer.”",
                            "unlock": "event:halloween-2026",
                            "sets": [
                                {
@@ -2974,11 +2974,11 @@
                        },
                        {
                            "id": "halloween-2026-reverse-bear-trap",
-                           "name": "Reverse bear trap",
-                           "emoji": "🪤",
+                           "name": "Gordon's hacksaw",
+                           "emoji": "🪚",
                            "rarity": "iconic",
                            "source": "Saw (2004)",
-                           "flavor": "A timed trap fitted around the jaw.",
+                           "flavor": "“He wants us to cut through our feet.”",
                            "unlock": "event:halloween-2026",
                            "sets": [
                                {
