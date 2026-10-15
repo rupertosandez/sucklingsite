@@ -455,6 +455,9 @@ set the channel where new watches from linked letterboxd accounts post. when thi
 ### `/setfeed <channel>`
 set the channel where suckling feed posts go, including achievement unlocks and the weekly recap.
 
+### `/setwatchparties <channel>`
+Set the channel where watch party posts go.
+
 ### `/achievementcatalog <channel>`
 post an achievement catalog embed and website link in the chosen channel.
 
