@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.14.0] - 2026-10-15
+
+### Added
+
+- Watch party posts in Discord.
+
 ## Catalog update - 2026-10-08
 
 - Replaced duplicate Halloween ’26 MacGuffins and updated their movie quotes.
