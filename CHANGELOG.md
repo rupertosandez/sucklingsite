@@ -11,6 +11,13 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.15.0] - 2026-10-25
+
+### Added
+
+- `/live at` sets a live log's clock to where the film is.
+- A live log's clock can be set, and its minute marks moved, on the website.
+
 ## [3.14.1] - 2026-10-15
 
 ### Changed
