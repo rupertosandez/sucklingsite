@@ -124,6 +124,11 @@ Stop and restart the clock. Nothing is recorded while a log is paused.
 
 ---
 
+### `/live at <time>`
+Set the clock to where the film is, as `42`, `42:10` or `1:02:30`. Notes already recorded keep their times.
+
+---
+
 ### `/live finish`
 End the live log. Offers the same return choice `/return` does, and a **later** option that leaves the tape checked out.
 
