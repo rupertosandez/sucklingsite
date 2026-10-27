@@ -21,19 +21,13 @@ quick about card for the bot.
 
 ## lookup & discovery
 
-### `/suck [title] [year] [tmdb_id]`
-look up a movie. returns a card with the synopsis, director, runtime, and where to watch it (theaters, streaming). cards include **+ watchlist** and **rent this**.
+### `/suck`
+Opens a popup to look up a film. Returns a card with the synopsis, director, runtime, and where to watch it (theaters, streaming). Cards include **+ watchlist** and **rent this**.
 
-- `title`: the movie title to search for
-- `year` (optional): filter by release year if multiple matches exist
-- `tmdb_id` (optional): a TMDB id or link, instead of a title
+- **Title or TMDB link**
+- **Year** (optional)
 
-Give a title or a TMDB id. If multiple films share a title (e.g. "halloween"), a dropdown appears so you can pick the right one; `year` and `tmdb_id` both skip it.
-
-examples:
-- `/suck The Substance`
-- `/suck Halloween year:1978`
-- `/suck tmdb_id:603`
+If several films share a title, a dropdown appears to pick one. A year or a TMDB link skips it.
 
 ---
 
@@ -411,7 +405,7 @@ the streaming feature only announces films hitting digital for the first time â€
 ## quick tips
 
 - movie titles in `/suck` and `/track` support fuzzy matching, so you don't need exact punctuation or capitalization
-- Add a year in parentheses to narrow a title search: `/suck family (1996)`. It works in the search boxes on the site too.
+- Add a year in parentheses to narrow a title search, like `family (1996)`. It works in the search boxes on the site too.
 - A search can also name a TMDB id, as `tmdb:603` or a pasted themoviedb.org link.
 - the dropdown menu that appears for ambiguous titles times out after 60 seconds â€” just run the command again if it expires
 - film cards can be saved with **+ watchlist** or rented with **rent this**

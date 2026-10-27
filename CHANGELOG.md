@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.15.1] - 2026-10-27
+
+### Changed
+
+- `/suck` opens a popup.
+
 ## [3.15.0] - 2026-10-25
 
 ### Added
