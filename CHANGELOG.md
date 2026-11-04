@@ -11,6 +11,12 @@ All notable changes to **Suckling** will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [3.16.0] - 2026-11-04
+
+### Changed
+
+- Behind-the-scenes update to returns.
+
 ## [3.15.2] - 2026-10-27
 
 ### Changed
